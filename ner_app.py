@@ -1,5 +1,14 @@
 import streamlit as st
 import spacy
+
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    # If the model is not found, download it
+    from spacy.cli import download
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
+
 from spacy.pipeline import EntityRuler
 import pandas as pd
 from spacy import displacy
@@ -10,7 +19,7 @@ df = pd.read_csv("alt_names_actor_table_111024.csv")
 pax = pd.read_csv("pax_corpus_v8.csv")
 
 # Load spaCy model
-nlp = spacy.load("en_core_web_sm")
+#nlp = spacy.load("en_core_web_sm")
 
 # Initialize the EntityRuler
 ruler = nlp.add_pipe("entity_ruler", before="ner")
