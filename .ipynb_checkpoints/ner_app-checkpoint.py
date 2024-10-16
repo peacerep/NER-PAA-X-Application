@@ -5,12 +5,23 @@ import pandas as pd
 from spacy import displacy
 import plotly.express as px
 
+from pathlib import Path
+
+# Check if the model is already installed, if not, download it
+model_name = "en_core_web_sm"
+model_path = Path(spacy.util.get_package_path(model_name))
+
+if not model_path.exists():
+    # If the model isn't installed, download and install it
+    from spacy.cli import download
+    download(model_name)
+
 # Load the CSVs
 df = pd.read_csv("alt_names_actor_table_111024.csv")
 pax = pd.read_csv("pax_corpus_v8.csv")
 
 # Load spaCy model
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load(model_name)
 
 # Initialize the EntityRuler
 ruler = nlp.add_pipe("entity_ruler", before="ner")
