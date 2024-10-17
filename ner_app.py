@@ -116,6 +116,7 @@ st.markdown(
     <div class="sub-title">
         <p><b>Credits: Sanja Badanjak and Niamh Henry (2024), the Peace Agreement Actor Dataset (PAA-X). PeaceRep, University of Edinburgh</b></p>
         <p>This experimental tool allows you to run spaCy's Named Entity Recognition (NER) that includes rule-based approaches from the Peace Agreement Actor Dataset (PAA-X) on text data that denotes the party and third party signatories to agreements, and the full peace agreement text. For faster processing time, filter by any PA-X metadata by selecting a column, and the values you want to keep. Then click 'Execte NER' to run the model. Select the checkbox to visualise the NER results within the text. Results will be shown after these visualisations in tablular format, that can be exported as a csv file.</p>
+        <p><b>DISCLAIMER:</b> This is an experimental tool, and will not return 100% accurate results, due to the nature of different naming conventions. A mention of an actor in party or third party fields, does not equate to being a signatory. Use the full PAA-X dataset for accurate data on peace agreement signatories. <b>Ensure manual corrections of recognised instances</b>
     </div>
     """,
     unsafe_allow_html=True
