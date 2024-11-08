@@ -5,7 +5,6 @@ import spacy
 from spacy.pipeline import EntityRuler
 from spacy import displacy
 from pathlib import Path
-from bs4 import BeautifulSoup  # For cleaning HTML content
 
 # Load the CSVs
 df = pd.read_csv("alt_names_actor_table_081124.csv")
