@@ -3,14 +3,17 @@ import PyPDF2  # For PDF text extraction
 import pandas as pd
 import spacy
 from spacy.pipeline import EntityRuler
+from spacy import displacy
 from pathlib import Path
+from bs4 import BeautifulSoup  # For cleaning HTML content
 
 # Load the CSVs
-df = pd.read_csv("alt_names_actor_table_111024.csv")
+df = pd.read_csv("alt_names_actor_table_081124.csv")
 pax = pd.read_csv("pax_corpus_v8.csv")
 
 # Load spaCy model
 nlp = spacy.load("en_core_web_sm")
+nlp.max_length = 1000000  # Adjust as needed for safety with large text segments
 
 # Initialize the EntityRuler
 ruler = nlp.add_pipe("entity_ruler", before="ner")
@@ -37,109 +40,192 @@ for _, row in df.iterrows():
 # Add patterns to the EntityRuler
 ruler.add_patterns(patterns)
 
+# Add a custom extension to store metadata in the entity
+spacy.tokens.Span.set_extension('metadata', default=None, force=True)
+
+# Define a function to assign metadata to the matched entities
+@spacy.Language.component("assign_metadata")
+def assign_metadata(doc):
+    for ent in doc.ents:
+        matched_metadata = next((pat['metadata'] for pat in patterns if pat['pattern'] == ent.text), None)
+        if matched_metadata:
+            ent._.metadata = matched_metadata
+    return doc
+
+# Add the metadata assignment function to the pipeline
+nlp.add_pipe("assign_metadata", last=True)
+
 # Define PDF text extraction function
 def extract_text_from_pdf(file):
-    reader = PyPDF2.PdfFileReader(file)
+    reader = PyPDF2.PdfReader(file)
     text = ""
-    for page in range(reader.getNumPages()):
-        text += reader.getPage(page).extractText()
+    for page in reader.pages:
+        text += page.extract_text()
     return text
 
-# Streamlit layout with three columns
-st.set_page_config(layout="wide")
-col1, col2, col3 = st.columns([1, 1, 1])
-
-# Left Column (PA-X filtering)
-with col1:
-    st.header("PA-X Dataset")
-    # Step 1: Allow the user to select multiple filter columns to narrow down the agreements
-    filter_columns = st.multiselect("Select columns to filter agreements:", pax.columns.tolist())
-
-    # Initialize filtered_pax to the full pax dataframe
-    filtered_pax = pax
-
-    # Step 2: For each selected filter column, allow the user to select values to include
-    for filter_column in filter_columns:
-        filter_values = st.multiselect(
-            f"Select values from '{filter_column}' to include in the analysis:",
-            options=pax[filter_column].unique(),
-            key=f"value_selection_{filter_column}"  # Unique key for each multiselect
-        )
-        # Apply filtering based on user selection
-        if filter_values:
-            filtered_pax = filtered_pax[filtered_pax[filter_column].isin(filter_values)]
-
-    # Show how many rows match the filter
-    st.write(f"Found {len(filtered_pax)} agreements matching your filter.")
-
-    # Step 3: Let the user select which text column to use ('Part' or 'ThrdPart')
-    text_column = st.radio("Select the text column to run NER on:", ('Part', 'ThrdPart', 'Agreement text'))
-
-    # Filter the PAX dataframe based on the selected column
-    filtered_data = filtered_pax[['AgtId', text_column]].dropna(subset=[text_column])
-
-# Middle Column (Upload PDF or CSV)
-with col2:
-    st.header("Upload Your Own File")
-    # Option to upload either a PDF or CSV
-    uploaded_file = st.file_uploader("Upload a PDF or CSV file", type=['pdf', 'csv'])
+# Text segmentation function
+def split_text_into_chunks(text, max_length):
+    doc = nlp(text)  # Process to get sentences
+    sentences = [sent.text for sent in doc.sents]
     
-    # Store the extracted text
-    custom_text = ""
+    chunks = []
+    current_chunk = ""
+    for sentence in sentences:
+        if len(current_chunk) + len(sentence) > max_length:
+            chunks.append(current_chunk.strip())
+            current_chunk = sentence
+        else:
+            current_chunk += " " + sentence
+    if current_chunk:
+        chunks.append(current_chunk.strip())
+    return chunks
 
-    # Handle PDF or CSV upload
-    if uploaded_file:
-        if uploaded_file.name.endswith('.pdf'):
-            custom_text = extract_text_from_pdf(uploaded_file)
-            st.write("PDF file uploaded and text extracted successfully.")
-        elif uploaded_file.name.endswith('.csv'):
-            csv_data = pd.read_csv(uploaded_file)
-            st.write(csv_data.head())  # Display the first few rows of the CSV file
-            # Assuming CSV has a text column, allow the user to select the column to run NER on
-            text_column = st.selectbox("Select text column in CSV:", csv_data.columns)
-            custom_text = " ".join(csv_data[text_column].dropna().tolist())
+# Streamlit layout with three columns and grey separators
+st.set_page_config(layout="wide")
+st.markdown(
+    """
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: #091f40;  
+        }
+        
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;  
+            margin-bottom: 20px;
+        }
+        .header-container img {
+            width: 200px;  
+            margin: 0 20px;  
+        }
+        .header-title {
+            text-align: center;
+            flex-grow: 1;  
+            font-size: 3em;  
+            margin: 0;  
+            font-family: 'Montserrat', sans-serif;
+            color: #091f40;  
+        }
+        .sub-title {
+            text-align: center;  
+            font-size: 1.5em;  
+            margin-top: 10px;  
+            font-family: 'Montserrat', sans-serif;
+            color: #091f40;  
+        }
+        
+        .column-container {
+            display: flex;
+            justify-content: space-between;
+        }
 
-# Right Column (Manual Text Entry)
-with col3:
-    st.header("Enter Text Manually")
-    manual_text = st.text_area("Enter or paste your text here:")
+        .vertical-line {
+            border-left: 1px solid grey;
+            height: 300px;
+            position: absolute;
+            left: 33.33%;
+            margin-top: 20px;  /* Adjust the top margin to fit the header */
+        }
+        
+        .vertical-line-2 {
+            border-left: 1px solid grey;
+            height: 300px;
+            position: absolute;
+            left: 66.66%;
+            margin-top: 20px;  /* Adjust the top margin to fit the header */
+        }
 
-# Combine input sources into a single variable
-if custom_text:
-    ner_input_text = custom_text
-elif manual_text:
-    ner_input_text = manual_text
-elif not filtered_data.empty:
-    ner_input_text = " ".join(filtered_data[text_column].dropna().tolist())
-else:
-    ner_input_text = ""
-
-# Step 4: Checkbox for visualization option before executing NER
-visualize_ner = st.checkbox("Visualize results with displacy", value=False)
-
-# Step 5: Select which entity types to visualize
-entity_types = df['actor_type'].unique()
-selected_entity_types = st.multiselect(
-    "Select entity types to visualize:",
-    options=entity_types,
-    default=entity_types.tolist()  # Default to all selected
+        .checkbox-container {
+            margin-bottom: 10px; /* Space between checkboxes */
+        }
+    </style>
+    <div class="header-container">
+        <img src="https://peacerep.github.io/logos/img/PeaceRep_nobg.png" alt="PeaceRep Logo" />
+        <h1 class="header-title">Named Entity Recognition: PA-X Peace Agreements Database</h1>
+        <img src="https://peacerep.github.io/logos/img/Pax_nobg.png" alt="Logo" />
+    </div>
+    <div class="sub-title">
+        <p><b>Credits: Sanja Badanjak and Niamh Henry (2024), the Peace Agreement Actor Dataset (PAA-X). PeaceRep, University of Edinburgh</b></p>
+        <p>This experimental tool allows you to run spaCy's Named Entity Recognition (NER) that includes rule-based approaches from the Peace Agreement Actor Dataset (PAA-X).</p> <p> Find actors who have signed peace agreements in a range of textual fields in PA-X (party, third party or agreements), from your own custom PDFs or csv files or simply paste text into the text box. Then click 'Execte NER' to run the model. Select the checkbox to visualise the NER results within the text. Results will be shown after these overview in tablular format, that can be exported as a csv file.</p>
+        <p><b>DISCLAIMER:</b> This is an experimental tool, and will not return 100% accurate results, due to the nature of different naming conventions. <b>Ensure manual corrections of recognised instances before using to inform work.</b>
+    </div>
+    """, 
+    unsafe_allow_html=True
 )
 
-# Step 6: Button to execute the NER
+# Layout with columns
+col1, col2, col3 = st.columns([1, 1, 1])
+
+# Define checkboxes to select the input source
+use_pax = st.checkbox("Use PA-X Dataset", key="use_pax")
+use_uploaded_file = st.checkbox("Use Uploaded File", key="use_uploaded_file")
+use_manual_text = st.checkbox("Use Manual Text Entry", key="use_manual_text")
+
+# Text input options for each source
+ner_input_text = ""
+if use_pax:
+    st.header("PA-X Dataset")
+    filter_columns = st.multiselect("Select columns to filter agreements:", pax.columns)
+    filtered_pax = pax
+    for filter_column in filter_columns:
+        filter_values = st.multiselect(f"Select values from '{filter_column}' to include:", pax[filter_column].unique())
+        if filter_values:
+            filtered_pax = filtered_pax[filtered_pax[filter_column].isin(filter_values)]
+    st.write(f"Found {len(filtered_pax)} agreements.")
+    text_column = st.radio("Select text column to run NER on:", ['Part', 'ThrdPart', 'Agreement text'])
+    ner_input_text = " ".join(filtered_pax[text_column].dropna().tolist())
+
+if use_uploaded_file:
+    st.header("Upload File")
+    uploaded_file = st.file_uploader("Upload a PDF or CSV", type=['pdf', 'csv'])
+    if uploaded_file:
+        if uploaded_file.name.endswith('.pdf'):
+            ner_input_text = extract_text_from_pdf(uploaded_file)
+        elif uploaded_file.name.endswith('.csv'):
+            csv_data = pd.read_csv(uploaded_file)
+            text_column = st.selectbox("Select text column in CSV:", csv_data.columns)
+            ner_input_text = " ".join(csv_data[text_column].dropna().tolist())
+
+if use_manual_text:
+    st.header("Manual Text Entry")
+    manual_text = st.text_area("Enter text manually:")
+    if manual_text:
+        ner_input_text = manual_text
+
+# Select custom entity types with additional default SpaCy entity types
+default_entities = df['actor_type'].unique().tolist()
+spacy_entities = ['PERSON', 'GPE', 'ORG', 'NORP', 'LOC']
+selected_entity_types = st.multiselect("Select entity types:", options=default_entities + spacy_entities, default=default_entities)
+
+# Run NER
 if st.button("Execute NER"):
     if ner_input_text:
-        # Process the text with spaCy
-        doc = nlp(ner_input_text)
-
-        # If visualization is selected, render the displacy visualization
-        if visualize_ner:
-            st.write("Visualizing NER...")
-            html = displacy.render(doc, style="ent", options={"ents": selected_entity_types})
-            st.write(html, unsafe_allow_html=True)
-
-        # Display NER results
-        st.write("NER Results:")
-        for ent in doc.ents:
-            st.write(f"Entity: {ent.text}, Label: {ent.label_}")
+        chunks = split_text_into_chunks(ner_input_text, nlp.max_length // 2)
+        entities = []
+        
+        for chunk in chunks:
+            doc = nlp(chunk)
+            for ent in doc.ents:
+                if ent.label_ in selected_entity_types:
+                    entities.append({
+                        "Entity": ent.text,
+                        "Label": ent.label_,
+                        **(ent._.metadata or {})  # Include metadata if available
+                    })
+        
+        # Display entities in DataFrame
+        if entities:
+            df_results = pd.DataFrame(entities)
+            st.write(df_results)
+            st.download_button("Download NER Results as CSV", df_results.to_csv(index=False), "ner_results.csv")
+            
+            # Visualize with Displacy
+            if st.checkbox("Visualize results"):
+                html = displacy.render(doc, style="ent", options={"ents": selected_entity_types})
+                st.markdown(html, unsafe_allow_html=True)
     else:
         st.warning("No text provided for NER.")

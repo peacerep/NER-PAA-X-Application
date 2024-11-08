@@ -1,25 +1,27 @@
 import streamlit as st
+import PyPDF2  # For PDF text extraction
+import pandas as pd
 import spacy
 from spacy.pipeline import EntityRuler
-import pandas as pd
 from spacy import displacy
-import plotly.express as px
-
 from pathlib import Path
+from bs4 import BeautifulSoup  # For cleaning HTML content
 
 # Load the CSVs
-df = pd.read_csv("alt_names_actor_table_111024.csv")
+df = pd.read_csv("alt_names_actor_table_081124.csv")
 pax = pd.read_csv("pax_corpus_v8.csv")
 
 # Load spaCy model
 nlp = spacy.load("en_core_web_sm")
+nlp.max_length = 1000000  # Adjust as needed for safety with large text segments
 
 # Initialize the EntityRuler
 ruler = nlp.add_pipe("entity_ruler", before="ner")
 
+# Convert alt_names to strings for processing
 df['alt_names'] = df['alt_names'].astype(str)
 
-# Create patterns with names, alt names, and abbreviations
+# Create patterns for the EntityRuler
 patterns = []
 for _, row in df.iterrows():
     all_names = [row['actor_name']] + row['alt_names'].split('|') + [row['abbreviation']]
@@ -53,24 +55,33 @@ def assign_metadata(doc):
 # Add the metadata assignment function to the pipeline
 nlp.add_pipe("assign_metadata", last=True)
 
-# Define a color scheme for actor types
-color_scheme = {
-    'Intergovernmental Organization': '#2980b9',
-    'Armed Organization': '#d62728',
-    'Civil Society': '#bcbd22',
-    'Political Party': '#9467bd',
-    'State Coalition': '#03a9f4',
-    'Umbrella': '#e377c2',
-    'Country/State': '#198038',
-    'Entity': '#ff7f0e',
-    'Military': '#8c564b',
-    'Other': '#f1c40f'
-}
+# Define PDF text extraction function
+def extract_text_from_pdf(file):
+    reader = PyPDF2.PdfReader(file)
+    text = ""
+    for page in reader.pages:
+        text += page.extract_text()
+    return text
 
-# Streamlit UI
-st.set_page_config(layout="wide")  # Set to wide layout
-# Custom HTML for logo and title
-# Custom HTML for logo and title
+# Text segmentation function
+def split_text_into_chunks(text, max_length):
+    doc = nlp(text)  # Process to get sentences
+    sentences = [sent.text for sent in doc.sents]
+    
+    chunks = []
+    current_chunk = ""
+    for sentence in sentences:
+        if len(current_chunk) + len(sentence) > max_length:
+            chunks.append(current_chunk.strip())
+            current_chunk = sentence
+        else:
+            current_chunk += " " + sentence
+    if current_chunk:
+        chunks.append(current_chunk.strip())
+    return chunks
+
+# Streamlit layout with three columns and grey separators
+st.set_page_config(layout="wide")
 st.markdown(
     """
     <style>
@@ -78,197 +89,143 @@ st.markdown(
         
         body {
             font-family: 'Montserrat', sans-serif;
-            color: #091f40;  /* Set core color for text */
+            color: #091f40;  
         }
         
         .header-container {
             display: flex;
             align-items: center;
-            justify-content: space-between;  /* Distribute space between items */
+            justify-content: space-between;  
             margin-bottom: 20px;
         }
         .header-container img {
-            width: 200px;  /* Adjust height as needed */
-            margin: 0 20px;  /* Space around logos */
+            width: 200px;  
+            margin: 0 20px;  
         }
         .header-title {
             text-align: center;
-            flex-grow: 1;  /* Allow title to grow and take up space between logos */
-            font-size: 3em;  /* Adjust title size */
-            margin: 0;  /* Remove default margin */
+            flex-grow: 1;  
+            font-size: 3em;  
+            margin: 0;  
             font-family: 'Montserrat', sans-serif;
-            color: #091f40;  /* Set core color for text */
+            color: #091f40;  
         }
         .sub-title {
-            text-align: center;  /* Center the subtitle */
-            font-size: 1.5em;  /* Adjust subtitle size */
-            margin-top: 10px;  /* Space above subtitle */
+            text-align: center;  
+            font-size: 1.5em;  
+            margin-top: 10px;  
             font-family: 'Montserrat', sans-serif;
-            color: #091f40;  /* Set core color for text */
+            color: #091f40;  
+        }
+        
+        .column-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .vertical-line {
+            border-left: 1px solid grey;
+            height: 300px;
+            position: absolute;
+            left: 33.33%;
+            margin-top: 20px;  /* Adjust the top margin to fit the header */
+        }
+        
+        .vertical-line-2 {
+            border-left: 1px solid grey;
+            height: 300px;
+            position: absolute;
+            left: 66.66%;
+            margin-top: 20px;  /* Adjust the top margin to fit the header */
+        }
+
+        .checkbox-container {
+            margin-bottom: 10px; /* Space between checkboxes */
         }
     </style>
     <div class="header-container">
         <img src="https://peacerep.github.io/logos/img/PeaceRep_nobg.png" alt="PeaceRep Logo" />
         <h1 class="header-title">Named Entity Recognition: PA-X Peace Agreements Database</h1>
-          <!-- Replace with your second logo URL -->
         <img src="https://peacerep.github.io/logos/img/Pax_nobg.png" alt="Logo" />
     </div>
     <div class="sub-title">
         <p><b>Credits: Sanja Badanjak and Niamh Henry (2024), the Peace Agreement Actor Dataset (PAA-X). PeaceRep, University of Edinburgh</b></p>
-        <p>This experimental tool allows you to run spaCy's Named Entity Recognition (NER) that includes rule-based approaches from the Peace Agreement Actor Dataset (PAA-X) on text data that denotes the party and third party signatories to agreements, and the full peace agreement text. For faster processing time, filter by any PA-X metadata by selecting a column, and the values you want to keep. Then click 'Execte NER' to run the model. Select the checkbox to visualise the NER results within the text. Results will be shown after these visualisations in tablular format, that can be exported as a csv file.</p>
-        <p><b>DISCLAIMER:</b> This is an experimental tool, and will not return 100% accurate results, due to the nature of different naming conventions. A mention of an actor in party or third party fields, does not equate to being a signatory. Use the full PAA-X dataset for accurate data on peace agreement signatories. <b>Ensure manual corrections of recognised instances</b>
+        <p>This experimental tool allows you to run spaCy's Named Entity Recognition (NER) that includes rule-based approaches from the Peace Agreement Actor Dataset (PAA-X).</p> <p> Find actors who have signed peace agreements in a range of textual fields in PA-X (party, third party or agreements), from your own custom PDFs or csv files or simply paste text into the text box. Then click 'Execte NER' to run the model. Select the checkbox to visualise the NER results within the text. Results will be shown after these overview in tablular format, that can be exported as a csv file.</p>
+        <p><b>DISCLAIMER:</b> This is an experimental tool, and will not return 100% accurate results, due to the nature of different naming conventions. <b>Ensure manual corrections of recognised instances before using to inform work.</b>
     </div>
-    """,
+    """, 
     unsafe_allow_html=True
 )
 
-# Step 1: Allow the user to select multiple filter columns to narrow down the agreements
-filter_columns = st.multiselect("Select columns to filter agreements:", pax.columns.tolist())
+# Layout with columns
+col1, col2, col3 = st.columns([1, 1, 1])
 
-# Initialize filtered_pax to the full pax dataframe
-filtered_pax = pax
+# Define checkboxes to select the input source
+use_pax = st.checkbox("Use PA-X Dataset", key="use_pax")
+use_uploaded_file = st.checkbox("Use Uploaded File", key="use_uploaded_file")
+use_manual_text = st.checkbox("Use Manual Text Entry", key="use_manual_text")
 
-# Step 2: For each selected filter column, allow the user to select values to include
-for filter_column in filter_columns:
-    filter_values = st.multiselect(
-        f"Select values from '{filter_column}' to include in the analysis:",
-        options=pax[filter_column].unique(),
-        key=f"value_selection_{filter_column}"  # Unique key for each multiselect
-    )
+# Text input options for each source
+ner_input_text = ""
+if use_pax:
+    st.header("PA-X Dataset")
+    filter_columns = st.multiselect("Select columns to filter agreements:", pax.columns)
+    filtered_pax = pax
+    for filter_column in filter_columns:
+        filter_values = st.multiselect(f"Select values from '{filter_column}' to include:", pax[filter_column].unique())
+        if filter_values:
+            filtered_pax = filtered_pax[filtered_pax[filter_column].isin(filter_values)]
+    st.write(f"Found {len(filtered_pax)} agreements.")
+    text_column = st.radio("Select text column to run NER on:", ['Part', 'ThrdPart', 'Agreement text'])
+    ner_input_text = " ".join(filtered_pax[text_column].dropna().tolist())
 
-    # Apply filtering based on user selection
-    if filter_values:
-        filtered_pax = filtered_pax[filtered_pax[filter_column].isin(filter_values)]
+if use_uploaded_file:
+    st.header("Upload File")
+    uploaded_file = st.file_uploader("Upload a PDF or CSV", type=['pdf', 'csv'])
+    if uploaded_file:
+        if uploaded_file.name.endswith('.pdf'):
+            ner_input_text = extract_text_from_pdf(uploaded_file)
+        elif uploaded_file.name.endswith('.csv'):
+            csv_data = pd.read_csv(uploaded_file)
+            text_column = st.selectbox("Select text column in CSV:", csv_data.columns)
+            ner_input_text = " ".join(csv_data[text_column].dropna().tolist())
 
-# Show how many rows match the filter
-st.write(f"Found {len(filtered_pax)} agreements matching your filter.")
+if use_manual_text:
+    st.header("Manual Text Entry")
+    manual_text = st.text_area("Enter text manually:")
+    if manual_text:
+        ner_input_text = manual_text
 
-# Step 3: Let the user select which text column to use ('Part' or 'ThrdPart')
-text_column = st.radio("Select the text column to run NER on:", ('Part', 'ThrdPart', 'Agreement text'))
+# Select custom entity types with additional default SpaCy entity types
+default_entities = df['actor_type'].unique().tolist()
+spacy_entities = ['PERSON', 'GPE', 'ORG', 'NORP', 'LOC']
+selected_entity_types = st.multiselect("Select entity types:", options=default_entities + spacy_entities, default=default_entities)
 
-# Filter the PAX dataframe based on the selected column
-filtered_data = filtered_pax[['AgtId', text_column]].dropna(subset=[text_column])
-
-# Display a message if there's no applicable text
-if filtered_data.empty:
-    st.warning(f"No applicable text found in the selected '{text_column}' column.")
-else:
-    st.success(f"Found {len(filtered_data)} agreements to run NER on.")
-
-# Step 4: Checkbox for visualization option before executing NER
-visualize_ner = st.checkbox("Visualize results with displacy", value=False)
-
-# Step 5: Select which entity types to visualize
-entity_types = df['actor_type'].unique()
-selected_entity_types = st.multiselect(
-    "Select entity types to visualize:",
-    options=entity_types,
-    default=entity_types.tolist()  # Default to all selected
-)
-
-# Step 6: Button to execute the NER
+# Run NER
 if st.button("Execute NER"):
-
-    # Add "Results" section title
-    st.markdown("## Results")
-    st.markdown("---")
-
-    # Add a loading bar for progress
-    progress_bar = st.progress(0)
-    total_steps = len(filtered_data)  # Total number of agreements to process
-    step_counter = 0
-
-    # Store cleaned entities and metadata in a DataFrame
-    results_df = pd.DataFrame(columns=['AgtId', 'entity', 'actor_name', 'actor_id', 'actor_type', 'conflict', 'date', 'pax_link'])
-
-    # Iterate over the selected text
-    res_list = []
-    for _, row in filtered_data.iterrows():
-        agt_id = row['AgtId']
-        sentence_text = row[text_column]
-
-        # Get the agreement information from the PAX dataframe
-        agt_info = pax[pax['AgtId'] == agt_id]
-        if agt_info.empty:
-            st.warning(f"No agreement found for AgtId: {agt_id}. Skipping.")
-            continue
-
-        # Retrieve relevant agreement info
-        agt_info = agt_info.iloc[0]
-        conflict = agt_info['Con']  # Conflict
-        date = agt_info['Dat']  # Date
-        pax_link = agt_info['PAX_Hyperlink']  # PAX Hyperlink
-
-        # Process the sentence with spaCy's NER pipeline
-        sentence_doc = nlp(sentence_text)
-
-        # If visualization is selected, render the Displacy visualization and agreement details
-        if visualize_ner:
-            # Print agreement information including the PAX hyperlink
-            agreement_info = f"**Agreement ID:** {agt_id} (Conflict: {conflict}, Date: {date}, PAX Hyperlink: {pax_link})"
-            st.markdown(agreement_info, unsafe_allow_html=True)  # Use markdown to style
-
-            # Create custom colors for selected entities
-            options = {
-                "ents": selected_entity_types,
-                "colors": {label: color_scheme.get(label, "lightgray") for label in selected_entity_types}
-            }
-            # Render the Displacy visualization
-            html = displacy.render(sentence_doc, style="ent", options=options)
-            st.write(html, unsafe_allow_html=True)
-
-        # Store recognized entities and their metadata
-        for ent in sentence_doc.ents:
-            if ent._.metadata and ent.text.strip():
-                res_dict = {
-                    'AgtId': agt_id,
-                    'entity': ent.text.strip(),
-                    'actor_name': ent._.metadata['actor_name'],
-                    'actor_id': ent._.metadata['id_paax'],
-                    'actor_type': ent._.metadata['actor_type'],
-                    'conflict': conflict,
-                    'date': date,
-                    'pax_link': pax_link
-                }
-                res_list.append(res_dict)
-
-        # Update the progress bar after processing each agreement
-        step_counter += 1
-        progress_bar.progress(step_counter / total_steps)
-
-        # If visualizing, print a horizontal line between agreements
-        if visualize_ner:
-            st.write("---")  # Add a horizontal line for separation
-
-    # Convert results to a DataFrame
-    results_df = pd.DataFrame(res_list)
-
-    # Display the results in the app before any visualizations
-    st.write("NER Results:")
-    st.dataframe(results_df)
-
-    # Visualizations using Plotly
-    if not results_df.empty:
-        # Bar chart of the number of agreements by actor_name
-        actor_name_count = results_df['actor_name'].value_counts().reset_index()
-        actor_name_count.columns = ['Actor Name', 'Count']
-        fig_bar = px.bar(actor_name_count, x='Actor Name', y='Count', title='Number of Agreements by Actor Name')
-        st.plotly_chart(fig_bar)
-
-        # Pie chart of the main actor types recognized
-        actor_type_count = results_df['actor_type'].value_counts().reset_index()
-        actor_type_count.columns = ['Actor Type', 'Count']
+    if ner_input_text:
+        chunks = split_text_into_chunks(ner_input_text, nlp.max_length // 2)
+        entities = []
         
-        # Map actor types to their colors from the Displacy color scheme
-        actor_type_count['color'] = actor_type_count['Actor Type'].map(color_scheme)
-
-        # Create the pie chart with matching colors
-        fig_pie = px.pie(
-            actor_type_count, 
-            names='Actor Type', 
-            values='Count', 
-            title='Distribution of Actor Types Recognized',
-            color='Actor Type',
-            color_discrete_map=color_scheme  # Match colors to Displacy
-        )
-        st.plotly_chart(fig_pie)
+        for chunk in chunks:
+            doc = nlp(chunk)
+            for ent in doc.ents:
+                if ent.label_ in selected_entity_types:
+                    entities.append({
+                        "Entity": ent.text,
+                        "Label": ent.label_,
+                        **(ent._.metadata or {})  # Include metadata if available
+                    })
+        
+        # Display entities in DataFrame
+        if entities:
+            df_results = pd.DataFrame(entities)
+            st.write(df_results)
+            st.download_button("Download NER Results as CSV", df_results.to_csv(index=False), "ner_results.csv")
+            
+            # Visualize with Displacy
+            if st.checkbox("Visualize results"):
+                html = displacy.render(doc, style="ent", options={"ents": selected_entity_types})
+                st.markdown(html, unsafe_allow_html=True)
+    else:
+        st.warning("No text provided for NER.")

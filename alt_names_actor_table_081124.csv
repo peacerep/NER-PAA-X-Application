@@ -1,0 +1,1254 @@
+id_paax,actor_type,sub_type,cs_type,international,regional,domestic,un_type,iso3c,country_name,actor_id,actor_name,abbreviation,alt_names
+CON_0,Country/State,,,,,,,BIH,Bosnia and Herzegovina,0.0,Bosnia and Herzegovina,BOS,Bosnia-Herzegovina | BOSNIA AND HERZEGOVINA | Bosnia Herzegovina | Republic of Bosnia and Herzegovina | Bosnia | Bosniak | Bosnian Croats | Bosnian Serb Civilian | Federation Bosnia | Federation Bosnia Herzegovina | Federation Bosnia Herzegovina Drago BILANDZIJA | Federation Bosnia Herzegovina : A. IZETBEGOVIC | Republic Bosnia | Republic Bosnia - Herzegovina | Republic Bosnia Herzegovina | Republic Federation Bosnia Herzegovina ] | BIH | Republic of Bosnia and Herzegovina | Bosnia and Herzegovina | Government Republic Bosnia Herzegovina | Herzegovina | Republics Bosnia Herzegovina |
+CON_1,Country/State,,,,,,,HRV,Croatia,1.0,Croatia,CRO,Croatia | CROATIA | Croat | Croatia | Republic Croatia | Republic Croatia : | Republic Croatia DR | Croatia | Defence Government Republic Croatia | : Government Republic Croatia- | Office Government Republic Croatia Transitional Administration | Republika Hrvatska | HRV
+CON_2,Country/State,,,,,,,DEU,Germany,2.0,Germany,GMY,Germany (Prussia) | GERMANY | Federal Republic Germany | Germany | GERMANY | Republic Germany | Federal Republic of Germany | German Foreign Ministry | Bundesrepublik Deutschland
+CON_3,Country/State,,,,,,P5,USA,United States,3.0,United States,USA,United States of America | UNITED STATES | America | AMERICA | U.S. | U.S.A | United States | United States  Islamic Emirate | United States America | UNITED STATES AMERICA ANGOLA  ANDREEV SERGUEI VADIMOVICH  AMBASSADOR | United States Presidential Special Envoy Promotion Democracy | USA | US
+CON_4,Country/State,,,,,,,ESP,Spain,4.0,Spain,SPN,Spain | SPAIN | Kingdom Spain | Spain | SPAIN | Reino de España | España
+IGO_5,Intergovernmental Organization,Regional,,,1.0,,,,,5.0,European Union,EU,EU | The European Union || European Union | EU | EU Admininstrator | EU Monitoring Mission | EU Special Representative | European Union | EUROPEAN UNION | European Union - MAMADOU KANE | European Union Canada Mediator | European Union Delegation European Commission | European Union League Arab States | European Union Representative | European Union Co - Chair | European Union External Action Service | European Union Foreign Affairs | European Union Foreign Affairs Security | European Union High Representative | European Union High Representative Foreign Affairs & Security | European Union Special Negotiator | European Unions | European Union Special Negotiator | EU Presidency | EU Administrator | Local Presidency of the European Union | Union Europeene | EU Monitoring Mission | European External Action Service | EU facilitator | European Union High Representative of the Union for Foreign Affairs and Security Policy | European Union External Action Service | UE | EU Special Envoy  | Presidency of the EU | EU Special Representative for the Great Lakes Region | EU  |  The European Union  |  European Union | EU | European Union | European Union (EU) | European Union  - MAMADOU KANE | EU | European Union | European Union Canada Mediator | European Union League Arab States | European Union Representative
+CON_6,Country/State,,,,,,,CAF,Central African Republic,6.0,Central African Republic,CEN,Central African Republic | CENTRAL AFRICAN REPUBLIC | CAR | CAR Government - Jean WILLYBIRO SAKO | Central African Republic | Central African Republic Basile Ikouebe | Central African Republic Excellency | Central African Republic Head | Central African Republic : | Central African Republic : Excellency Mr Felix - Ange | Republic Central African Republic | Central African Government | Central African Republic  Basile Ikouebe | Central African Republic  Excellency | Central African Republic  Head
+CON_7,Country/State,,,,,,P5,FRA,France,7.0,France,FRN, FRANCE | France | FRANCE | French Republic | French Republic Mr | French Republic : | French Republic Representative | Permanent Representatives France | Republic France | Republic of France | French Republic 
+IGO_8,Intergovernmental Organization,,,1.0,,,United Nations,,,8.0,UN Security Council,UNSC,Un Security Council | United Nations Security Council | UNSC | U.N. Security Council | UN Security Council | UN Security Council Resolution | UN Security General | United Nations Security Council | UNSC | Un Security Council  |  United Nations Security Council  |  UNSC  |  U.N. Security Council
+CON_9,Country/State,,,,,,,ARG,Argentina,9.0,Argentina,ARG,Argentina | ARGENTINA | Argentina | Argentine Delegations | Argentine Republic | Argentine Republic ] | Republic Argentina  Fernando Henrique Cardoso
+CON_10,Country/State,,,,,,,NLD,Netherlands,10.0,Netherlands,NTH,Netherlands | NETHERLANDS | Kingdom Netherlands | Netherlands | NETHERLANDS | Nederland | Holland | PaÃƒÂ­ses Bajos | Royal Kingdom of the Netherlands | Kingdom of the Netherlands
+CON_11,Country/State,,,,,,,CAN,Canada,11.0,Canada,CAN,Canada | CANADA | Canada | CANADA | Canada | Government Canada
+CON_12,Country/State,,,,,,,MYS,Malaysia,12.0,Malaysia,MAL,Malaysia | MALAYSIA | Malaysian Government
+CON_13,Country/State,,,,,,,NAM,Namibia,13.0,Namibia,NAM,Namibia | NAMIBIA | Republic Namibia | Nambia | Government Republic Namibia
+CON_14,Country/State,,,,,,,SVN,Slovenia,14.0,Slovenia,SLV,Slovenia | SLOVENIA | Republic Slovenia | Republic Slovenia : | Slovenia
+CON_15,Country/State,,,,,,,BRA,Brazil,15.0,Brazil,BRA,Brazil | BRAZIL | Federative Republic Brazil | Federal Republic Brazil | Federative Republic Brazil | Federative Republic of Brazil  | BRAZIL
+CON_16,Country/State,,,,,,,GMB,Gambia,16.0,Gambia,GAM,Gambia | GAMBIA | Gambia | GAMBIA | Gambia ] | Republic Gambia | Republic GAMBIA
+CON_17,Country/State,,,,,,,GAB,Gabon,17.0,Gabon,GAB,Gabon | GABON | Republic Gabon | Republic Gabonese Republic | Socialist Union Gabon | Gabonese Republic  | Gabonese Republic | Gabonese Republic  Republic | Gabonese Republic
+CON_18,Country/State,,,,,,,BHR,Bahrain,18.0,Bahrain,BAH,Bahrain | BAHRAIN | Bahrain | Bahrain Chamber Commerce Industry | Kingdom Bahrain
+CON_19,Country/State,,,,,,P5,GBR,United Kingdom,19.0,United Kingdom,UKG,United Kingdom | UNITED KINGDOM | Britain | Great Britain | UK | United Kingdom | UNITED KINGDOM | United Kingdom Great Britain | United Kingdom of Great Britain and Northern Ireland | United Kingdom | British Government | United Kingdom  Government | United Kingdom Government
+CON_20,Country/State,,,,,,P5,CHN,China,20.0,China,CHN,China | CHINA | China | People's Republic China | People's Republic China  Plenipotentiary | People Republic China | China | Ministers Foreign Affairs China | People Ã¢â‚¬â„¢s Republic China | Peoples Republic China | People Ã¢â‚¬â„¢s Republic China  Plenipotentiary
+CON_21,Country/State,,,,,,P5,RUS,Russia,21.0,Russia,RUS,Russia (Soviet Union) | RUSSIAN FEDERATION | Russia | Russian Federation | RUSSIAN FEDERATION | Russian Federation - B. YELTSIN | Russian Federation Plenipotentiary | Russian Federation ( Facilitator | Russian Federation : | Russian Federation : Mikhailov | Russian Federation A. Kozirev | Russian Federation A. Shokhin | RUSSIAN FEDERATION ANGOLA | Russian Federation Federal Assembly | Russian Federation P. S. Grachev | Russian Federation Representative Sergey Viktorovich Lavrov | USSR  | Council of Federation of Russia | Russian Ministry of Foreign Affairs | Union of Soviet Socialist Republics | Soviet Union | Russian | Russia | Governments Russian Federation | Ministry Defence Russian Federation : P | Russian Federation Government | Russian Government | Russian Ministry Foreign Affairs | Russian Federation :  Mikhailov | Russian Federation  Plenipotentiary | Russian Federation V.V.Putin | V. V. Putin
+CON_22,Country/State,,,,,,, ,Yugoslavia,22.0,Yugoslavia,YUG,Yugoslavia | YUGOSLAVIA | Federal Republic Yugoslavia | Medical Service Yugoslav People Ã¢â‚¬â„¢s Army | National Defence Government Socialist Federative Republic Yugoslavia | Socialist Federal Republic Yugoslavia | Socialist Federative Republic Yugoslavia | Yugoslav Army | Yugoslav People Army | Yugoslav Peoples Army | Yugoslav Republic Macedonia | Yugoslavia | SFRY | SFRY republics
+POL_23,Political Party,,,,,,,GAB,Gabon,23.0,Progress Party of Gabon,PGP,
+POL_24,Political Party,,,,,,,GAB,Gabon,24.0,People’s Socialist Emancipation Movement,MESP,
+POL_25,Political Party,,,,,,,GAB,Gabon,25.0,African Forum for Reconstruction,FAR,
+POL_26,Political Party,,,,,,,GAB,Gabon,26.0,National Recovery Movement,MORENA,
+POL_27,Political Party,,,,,,,GAB,Gabon,27.0,Democratic & Republican Alliance,ADERE,
+POL_28,Political Party,,,,,,,GAB,Gabon,28.0,Independent Centre Party of Gabon,PGCI,
+POL_29,Political Party,,,,,,,GAB,Gabon,29.0,Democratic Justice Congress,CDJ,
+POL_30,Political Party,,,,,,,GAB,Gabon,30.0,Democratic Party of Gabon,PDG,
+POL_31,Political Party,,,,,,,GAB,Gabon,31.0,Social Democratic Party,PSD,
+POL_32,Political Party,,,,,,,GAB,Gabon,32.0,United People’s Party,PUP-CRISE,
+POL_33,Political Party,,,,,,,GAB,Gabon,33.0,Liberal Reform Convention,CLR,
+POL_34,Political Party,,,,,,,GAB,Gabon,34.0,National Assembly of Foresters,RNB,
+POL_35,Political Party,,,,,,,GAB,Gabon,35.0,Gabon People’s Union,UPG,
+UMB_36,Umbrella,,,,,,,GAB,Gabon,36.0,Political Groups,,
+POL_37,Political Party,,,,,,,GAB,Gabon,37.0,Radical Independent Republican Party,PARI,
+POL_38,Political Party,,,,,,,GAB,Gabon,38.0,Gabon Association for Socialism,APSG,
+POL_39,Political Party,,,,,,,GAB,Gabon,39.0,Unity People’s Party,PUP,
+POL_40,Political Party,,,,,,,GAB,Gabon,40.0,Socialist Union of Gabon,USG,
+CON_41,Country/State,,,,,,,BEN,Benin,41.0,Benin,BEN,Benin | BENIN | Republic BENIN | Republic Benin | Republic Benin  Mr FranÃƒÆ’Ã‚Â§ois | Republic of Benin | Republic Benin  Mr FranÃƒÂ§ois
+CON_42,Country/State,,,,,,,COG,"Congo, Republic of the",42.0,Congo,CON,"Congo | CONGO, REPUBLIC OF | Republic of the Congo | Republic Congo"
+IGO_43,Intergovernmental Organization,Regional,,,1.0,,,,,43.0,Organization of African Unity,OAU,Organisation De L'UnitÃ© Africaine || Organization Of African Unity || OUA || OAU || Organisation Of African Unity |  Organization Of African Unity  |  OUA  | Organisation Of African Unity | Organization of African Unity | Org for African Unity | Organization for African Unity | Organisation for African Unity | Organization African Unity | Organization African Unity  OFFICE FORUM | Organisation African Unity | OAU Representative
+CON_44,Country/State,,,,,,,GIN,Guinea,44.0,Guinea ,GUI,Guinea | GUINEA | Guinea | Republic Guinea | Republic GUINEA | Republic Guinea - Bissau
+CON_45,Country/State,,,,,,,GEO,Georgia,45.0,Georgia,GRG,Georgia | GEORGIA | Georgia | GEORGIA | Georgia - E. SHEVARDNADZE | Georgia Germany | Georgia I. Menagarishvili | Georgia V. Goguadze | Republic Georgia | Republic Georgia E. A. Shevardnadze | Republic Georgia O. Patsatsia
+ENT_46,Entity,,,,,,,GEO,Georgia,46.0,Abkhazia,,
+ENT_47,Entity,,,,,,,RUS,Russia,47.0,North Caucasian,,
+IGO_48,Intergovernmental Organization,Regional,,,1.0,,,,,48.0,Conference on Security and Cooperation in Europe,CSCE,Helsinki Agreement | Helsinki Declaration | CSCE | Conference on Security and Cooperation in Europe
+IGO_49,Intergovernmental Organization,,,1.0,,,United Nations,,,49.0,United Nations (General),UN,"United Nations || U.N. || UN | United Nations Representative | United Nations | UNITED NATIONS | United nations | United Nations - WILFRID | United Nations Babacar Gaye | United Nations Certified | United Nations H.E. | United Nations H.E. Yoweri | United Nations International Committee Red Cross International Federation Red Cross | UN Organization Chaired | United Nations Representative Organization Security Cooperation | United Nations Signed | United Nations USA Countries | United Nations , Economic Cooperation Organization | United Nations' Multidimensional Integrated Stabilization Mission | UNITED NATIONS COLOMBIA | UN Ad Litem | UN BH COMMAND | UN E. Brunner | UN Peace Monitoring Group Bougainville | United Nations Special Envoy | Untied Nations | The UN | U.N | U.N. | The U.N | UNA | United Nations Office | United Nations Organisation | United Nations Organization | United Nations Peace Forces | United Nations | Office United Nations | UN | UN & EC | United Nations  |  U.N.  |  UN | UN | United Nations | United Nations | Special Rapporteurs of the United Nations | UN & EC | Special Rapporteur Of The United Nations Human Rights Council  |  Special Rapporteur | UN International Police Task Force | United Nations  Babacar Gaye | United Nations  - WILFRID | United Nations Resident Coordinator"
+IGO_50,Intergovernmental Organization,Regional,,1.0,1.0,,,,,50.0,Organization for Security and Cooperation in Europe,OSCE,OSCE | Organization For Security And Cooperation In Europe || Organisation For Security And Cooperation In Europe || Organisation For Security And Co-Operation In Europe || Organization For Security And Co-Operation In Europe |  Organisation For Security And Cooperation In Europe  |  Organisation For Security And Co-Operation In Europe  |  Organization For Security And Co-Operation In Europe | Org. Security Cooperation Europe | Organization for Security and Cooperation in Europe (OSCE) | Organisation Security | Organisation Security Cooperation | Organization Security CoÃƒÂ¢Ã¢â€šÂ¬Ã‚Âoperation | Organization Security Cooperation | OSCE Assistance Group | OSCE Mission | OSCE Mission T. Guldimann | OSCE Support Group
+COA_51,State Coalition,,,1.0,,,,,,51.0,Group of Friends UNSG,,
+CON_52,Country/State,,,,,,,UKR,Ukraine,52.0,Ukraine,UKR,Ukraine | UKRAINE
+IGO_53,Intergovernmental Organization,Regional,,1.0,1.0,,,,,53.0,Commonwealth of Independent States,CIS,Commonwealth Of Independent States | CIS | CIS | Commonwealth of Independent States | Commonwealth of Independent States (CIS) |  Commonwealth Independent States
+CON_54,Country/State,,,,,,,UZB,Uzbekistan,54.0,Uzbekistan,UZB,Uzbekistan | UZBEKISTAN | Republic Uzbekistan | Republic Uzbekistan -  I. KARIMOV | Republic of Uzbekistan
+CON_55,Country/State,,,,,,,KGZ,Kyrgyzstan,55.0,Kyrgyzstan,KYR,Kyrgyz Republic | KYRGYZSTAN | Kyrgyz Republic | Kyrgyz Republic - A. | Kyrgyz Republic : | Kyrgyzstan | Kyrgyztan | Supreme Soviet of Kyrgyzstan
+CON_56,Country/State,,,,,,,KAZ,Kazakhstan,56.0,Kazakhstan,KZK,Kazakhstan | KAZAKHSTAN | Kazakhstan | Kazakshtan | Kazakstan | Republic Kazakhstan | Republic Kazakhstan - N | Republic Kazakstan
+CON_57,Country/State,,,,,,,TKM,Turkmenistan,57.0,Turkmenistan,TKM,Turkmenistan | TURKMENISTAN | Turkmenistan
+CON_58,Country/State,,,,,,,BLR,Belarus,58.0,Belarus,BLR,Belarus (Byelorussia) | BELARUS | Republic Belarus | Byelorussia
+CON_59,Country/State,,,,,,,AZE,Azerbaijan,59.0,Azerbaijan,AZE,Azerbaijan | AZERBAIJAN | Azerbaijan Republic | Azerbaijan Republic : | Azerbaijan Republic : S | Azerbaijani Republic - G. ALIYEV | Azerbaijani Republic : | Azerbaijani Supreme Soviet | Azerbaijan | Azerbaijan Ilham Aliyev | Republic Azerbaijan | Azerbaijan | Ministry Azerbaijan Republic : | Defence Azerbaijan : | Defence Azerbaijan Republic : | High Council Azerbaijan Republic : Jalilov  Acting | Army Azerbaijan Republic
+CON_60,Country/State,,,,,,,MDA,Moldova,60.0,Moldova,MLD,"Moldova | MOLDOVA, REPUBLIC OF | Republic Moldova"
+CON_61,Country/State,,,,,,,ARM,Armenia,61.0,Armenia,ARM,Armenia | ARMENIA | Republic Armenia - R. | Republic Armenia | Republic Azerbaijan I. G. Alityev | Republic Armenia N.V. Pashinyan
+CON_62,Country/State,,,,,,,TJK,Tajikistan,62.0,Tajikistan,TAJ,Tajikistan | TAJIKISTAN | Republic Tajikistan | Tajikistan | Tajikistan | Delegation Government Republic Tajikistan | Government Republic Tajikistan
+IGO_63,Intergovernmental Organization,Regional,,,1.0,,,,,63.0,CIS Peacekeeping Force,CIS-PKF,CPKF | CPKF of CIS | CIS Peace- Keeping Forces | PKF of the CIS
+IGO_64,Intergovernmental Organization,,,1.0,,,United Nations,,,64.0,United Nations Development Programme,UNDP,UNDP | United Nations Development Programme | United Nations Development Programme | United Nations Development Program  |  UNDP  |  UN Development Programme
+IGO_65,Intergovernmental Organization,,,1.0,,,United Nations,,,65.0,High Commission for Refugees,UNHCR,UNHCR | United Nations Commission For Refugees | Un Refugee Agency |U.N. High Commissioner For Refugees | U.N. Commission For Refugees | Un Commission For Refugees |Un High Commissioner For Refugees | United Nations High Commissioner For Refugees | United Nations Refugee Agency | U.N. Refugee Agency | United Nations High Commission Refugees | UNHCR | UNHCR ZENICA |  United Nations Commission For Refugees  |  Un Refugee Agency  |  U.N. High Commissioner For Refugees  |  U.N. Commission For Refugees  |  Un Commission For Refugees  |  Un High Commissioner For Refugees  |  United Nations High Commissioner For Refugees  |  United Nations Refugee Agency  |  U.N. Refugee Agency
+MIL_66,Military,,,,,,,HTI,Haiti,66.0,Haiti Armed Forces,, Armed Forces Haiti
+CON_67,Country/State,,,,,,,HTI,Haiti,67.0,Haiti,HAI,Haiti | HAITI | Haiti | Republic Haiti
+IGO_68,Intergovernmental Organization,Regional,,,1.0,,,,,68.0,Organization of American States,OAS,Organisation Of American States | OAS || OEA || OrganizaciÃ³n De Los Estados Americanos | Organization Of American States |  OAS  |  OEA  |  OrganizaciÃƒÂ³n De Los Estados Americanos  |  Organization Of American States | Pan American Union (OAS) | Pan-Am Union/Org of Am States | Pan American Union (OAS) | Pan American Union | Organization American States
+ENT_69,Entity,,,,,,,IND,India,69.0,Assam,,
+CON_70,Country/State,,,,,,,IND,India,70.0,India,IND,India | INDIA | India | Republic India | India | Government India | Government India Ministry Home Affairs | Government Republic India | Indian
+OTH_71,Other,,,,,1.0,,IND,India,71.0,BPAC,,
+OTH_72,Civil Society,Non-governmental Organization,Youth,,,1.0,,IND,India,72.0,All Bodo Students Union,,ABSU
+ARM_73,Armed Organization,,,,,,,IND,India,73.0,Hmar People's Convention,HPC,
+ENT_74,Entity,,,,,,,IND,India,74.0,Mizoram,,
+CON_75,Country/State,,,,,,,IRQ,Iraq,75.0,Iraq,IRQ,Iraq | IRAQ | Iraq | Republic Iraq | Iraq | Delegation Iraq | Iraqi Governing Council
+CON_76,Country/State,,,,,,,ISR,Israel,76.0,Israel,ISR,Israel | ISRAEL
+CON_77,Country/State,,,,,,,SYR,Syria,77.0,Syrian Arab Republic,SYR,Syria | SYRIAN ARAB REPUBLIC | Syrian Arab Republic | Syria | Syria | Syrian Government
+CON_78,Country/State,,,,,,,JOR,Jordan,78.0,Jordan,JOR,Jordan | JORDAN
+CON_79,Country/State,,,,,,,LBN,Lebanon,79.0,Lebanon,LEB,Lebanon | LEBANON | Lebanese Republic | Lebanon | Lebanon | Lebanese Government
+ARM_80,Armed Organization,,,,,,,PSE,Palestine,80.0,Palestine Liberation Organization ,PLO,Palestine Liberation Organisation | Palestine Liberation Organization | Palestinian Liberation Organisation | Palestinian Liberation Organization | Palestinian Liberation Organization Delegation | PLO | PLO Executive Committee
+CON_81,Country/State,,,,,,,NOR,Norway,81.0,Norway,NOR,Norway | NORWAY | Kingdom Norway | Kingdom Norway  Bolivarian Republic Venezuela | Norway | NORWAY | Norway | Norwegian Government | Royal Norwegian Government | ROYAL NORWEGIAN GOVERNMENT Party Facilitator | ROYAL NORWEIGAN GOVERNMENT | Royal Government of Norway
+CON_82,Country/State,,,,,,,EGY,Egypt,82.0,Egypt,EGY,Egypt | EGYPT | Egypt | EGYPT | Republic Egypt |  the Arab Republic of Egypt | Egypt | Egyptian Government | Arab Republic Egypt
+CON_83,Country/State,,,,,,,LBR,Liberia,83.0,Liberia,LBR,Liberia | LIBERIA | Liberia | LIBERIA | Republic Liberia
+ARM_84,Armed Organization,,,,,,,LBR,Liberia,84.0,National Patriotic Front of Liberia,NPFL,National Patriotic Front of Liberia (Liberia)
+CON_85,Country/State,,,,,,,TGO,Togo,85.0,Togo,TOG,Togo | TOGO | Republic Togo | Togo | Togolese Republic | TOGOLESE Republic | Togolese Republic ( | Togolese Republic Honourable Commandant Facine Toure
+CON_86,Country/State,,,,,,,BFA,Burkina Faso,86.0,Burkina Faso,BFO,"Burkina Faso (Upper Volta) | BURKINA FASO | Burkina Faso | BURKINA FASO | Burkina Faso - Excellency FÃƒÆ’Ã‚Â©lix Houphouet - Boigny | Burkina Faso Excellency FÃƒÆ’Ã‚Â©lix Houphouet - Boigny | Burkina Faso Salif Diallo | Burkina Faso , CÃƒÆ’Ã‚Â´te d'Ivoire | Burkina Faso Facilitator Direct Dialogue"
+IGO_87,Intergovernmental Organization,Regional,,,1.0,,,,,87.0,African Union,AU,African Union | AU | THE AU | AU | Africa Union | African Union Commission | Commission of the African Union | L'Union Africaine | Chairperson of the African Union | Commission de lÃ¢â‚¬â„¢Union Africaine | Troika of the African Union | Secretary-General of the Organization of African Unity | African Union Mission for Mali and the Sahel | MISAHEL | MISMA | African Union High Level Ad-hoc Committee for South Sudan | African Union High-level Implementation Panel for Sudan and South Sudan | AUHIP | African Union Facilitator to the AJOC | African Union High Level Implementation Panel | Chairperson Africa Union | Chairperson African Union Commission  IV | Chairperson Commission African Union  - ( Signed | Chairperson Commission African Union ] | African Union | AFRICAN UNION | African Union ' | African Union - ( Signed | African Union - H.E. Kofi A. Annan | African Union Cc | African Union Excellency | African Union Commission | African Union Facilitator | African Union High | African Union High Level | African Union Mali | African Union Mission Mali | African Union SRCC Francisco Madeira | African Unity | AU | AU - UN | AU & ECOWAS | AU / UN Mediation | AU Commission | AU Headquarters | AUC | AUHIP | African Union  |  AU  |  THE AU | AU | African Union | Organisation African Union | Commission African Union  Excellency Ahmedou Ould ABDALLAH  Special Representative Secretary - General | African Union  Excellency | African Union  - H.E. Kofi A. Annan | African Union High Level Ad - hoc Committee South Sudan | AU High Representative | AU High Representatives | Chairperson African Union Commission | African Union High - Level Implementation Panel | AU Chair
+CON_88,Country/State,,,,,,,CIV,Côte d'Ivoire (Ivory Coast),88.0,Côte d’Ivoire,CDI,Cote DÃ¢â‚¬â„¢Ivoire | COTE D'IVOIRE | Ivory Coast | Republic CÃƒÆ’Ã‚Â´te | Republic CÃƒÆ’Ã‚Â´te d'Ivoire | Republic CÃƒÆ’Ã¢â‚¬ÂTE | Republic CBte d'lvoire | Republic Cote dÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢Ivoire | Republic Cote d'Ivoire | Republic COTE D'IVOIRE | Republic Cote D'Ivoire H.E. Seydou Limana Diarra | Republic of Cote d'Ivoire | CÃƒÂ´te d'Ivoire | Republic Cote dÃ¢â‚¬â„¢Ivoire | Republic CÃƒÂ´te d'Ivoire | Republic CÃƒâ€TE | Republic CÃƒÂ´te d'Ivoire
+IGO_89,Intergovernmental Organization,Regional,,,1.0,,,,,89.0,Economic Community of West African States,ECOWAS,ECOWAS | Economic Community Of West African States | Economic Community West African States | Economic Community of West African States | ECOWAS | CEDEAO | CEDEAO Ministerial Council Mediation Security | Economic Community | Economic Community Central African States | Economic Community West Africa | ECOWAS | ECOWAS Committee | ECOWAS Executive | ECOWAS Group | ECOWAS Group Seven | ECOWAS  |  Economic Community Of West African States | ECOWAS | Economic Community of West African States | Economic Community of West African States (ECOWAS) | Authority Heads State Government ECOWAS
+CON_90,Country/State,,,,,,,NGA,Nigeria,90.0,Nigeria,NIG,Nigeria | NIGERIA | Federal Republic Nigeria | Federal Republic NIGERIA | Federal Republic Nigeria : Olusegun Obasanjo | Federal Republic Nigeria ] Page | Nigeria | Republic Nigeria | Federal Republic of Nigeria | Republic of Nigeria  | Federal Government Nigeria | Federal Republic  Nigeria
+CON_91,Country/State,,,,,,,GNB,Guinea-Bissau,91.0,Guinea-Bissau,GNB,Guinea-Bissau | GUINEA-BISSAU | Republic Guinea - Bissau
+CON_92,Country/State,,,,,,,SEN,Senegal,92.0,Senegal,SEN,Senegal | SENEGAL | Republic SENEGAL | Republic Senegal | Republic Senegal - Honourable | Republic Senegal Excellency Gnassingbe | Republic of Senegal  | Republic Senegal  Excellency Gnassingbe | Republic Senegal  - Honourable
+CON_93,Country/State,,,,,,,MLI,Mali,93.0,Mali,MLI,Mali | MALI | Islamic Republic Mali | Mali | Mali  Mainy Ould Assalik | Republic Mali | Republic MALI | Republic Mali  Gal | Islamic Republic of Mali
+CON_94,Country/State,,,,,,,GHA,Ghana,94.0,Ghana,GHA,Ghana | GHANA | Ghana | Ghana Honourable | Ghana V. INTERNATIONAL PARTNERS | Republic Ghana | Republic GHANA | Republic of Ghana
+NGO_95,Civil Society,Religious,,1.0,,,,,,95.0,Community of Sant’Egidio,,community of sant egidio | Community of Sant'Egidio | Matteo Zuppi | Andrea Riccardi | Sant'Egidio | Paolo Impagliazzo
+NGO_96,Civil Society,Religious,,1.0,,,,,,96.0,Catholic Church,,Cath Church | Miguel Cardinal Obando y Bravo | Abbe Bruno Stephanie KOMGBO
+CON_97,Country/State,,,,,,,MOZ,Mozambique,97.0,Mozambique,MZM,Mozambique | MOZAMBIQUE | People Republic Mozambique | Republic Mozambique | Republic Mozambique Current | GRM | Government of the Republic of Mozambique
+ARM_98,Armed Organization,,,,,,,MOZ,Mozambique,98.0,RENAMO,,Mozambican National Resistance | Resistência Nacional Moçambicana
+CON_99,Country/State,,,,,,,SLE,Sierra Leone,99.0,Sierra Leone,SIE,Sierra Leone | SIERRA LEONE | Republic Sierra Leone | Republic SIERRA LEONE | Republic ofÃ‚Â Sierra Leone | Salone
+ARM_100,Armed Organization,,,,,,,SLE,Sierra Leone,100.0,Revolutionary United Front,RUF,
+OTH_101,Other,,,,,1.0,,ESP,Spain,101.0,GOGOA,,
+NGO_102,Civil Society,Non-governmental Organization,Other,,,1.0,,ESP,Spain,102.0,Amnistiaren Aldeko Batzordeak,,
+NGO_103,Civil Society,Non-governmental Organization,Other,,,1.0,,ESP,Spain,103.0,Senideak,,
+NGO_104,Civil Society,Non-governmental Organization,Other,,,1.0,,ESP,Spain,104.0,Bakea Orain (Peace Now),,
+NGO_105,Civil Society,Non-governmental Organization,Other,,,1.0,,ESP,Spain,105.0,Gernika Batzordea,,
+NGO_106,Civil Society,Non-governmental Organization,Other,,,1.0,,ESP,Spain,106.0,Egizan,,
+NGO_107,Civil Society,Religious,,,,1.0,,ESP,Spain,107.0,Herria 2000 Eliza (aldizkaria),,
+NGO_108,Civil Society,Unions,,,,1.0,,ESP,Spain,108.0,Hiru,,
+NGO_109,Civil Society,Non-governmental Organization,Other,,,1.0,,ESP,Spain,109.0,Auto-Determinazioren Bilzarrak,,
+NGO_110,Civil Society,Non-governmental Organization,Other,,,1.0,,ESP,Spain,110.0,Elkarri,,
+NGO_111,Civil Society,Unions,,,,1.0,,ESP,Spain,111.0,Ezker Sindikalaren Konbergentzia ,,
+NGO_112,Civil Society,Unions,,,,1.0,,ESP,Spain,112.0,STEE-ELIAS,,
+NGO_113,Civil Society,Unions,,,,1.0,,ESP,Spain,113.0,Ezker Sindikalaren Koordinakundea-Coordinadora Unitaria de Izquierda Sindical,,
+POL_114,Political Party,,,,,,,ESP,Spain,114.0,National Unity,AB,
+POL_115,Political Party,,,,,,,ESP,Spain,115.0,Partido Nacionalista Vasco,PNV,
+POL_116,Political Party,,,,,,,ESP,Spain,116.0,Eusko Alkartasuna,EA,Basque Solidarity
+POL_117,Political Party,,,,,,,ESP,Spain,117.0,Izquierda Unida,IU,
+ARM_118,Armed Organization,,,,,,,ESP,Spain,118.0,Herri Batasuna,,
+NGO_119,Civil Society,Unions,,,,1.0,,ESP,Spain,119.0,Eusko Langileen Alkartasuna,,
+NGO_120,Civil Society,Unions,,,,1.0,,ESP,Spain,120.0,Langile Abertzaleen Batzordeak,,
+NGO_121,Civil Society,Unions,,,,1.0,,ESP,Spain,121.0,Euskal Herriko Nekazarien Elkartasuna,,
+POL_122,Political Party,,,,,,,ESP,Spain,122.0,BATZARRE ZUTIK (Batzarre),BATZARRE ZUTIK,
+ARM_123,Armed Organization,,,,,,,SOM,Somalia,123.0,Rahanwein Resistance Army,,
+ARM_124,Armed Organization,,,,,,,SOM,Somalia,124.0,Somali Salvation Democratic Front,SSDF,
+UMB_125,Umbrella,,,,,,,SOM,Somalia,125.0,Somali National Alliance,SNA,
+ARM_126,Armed Organization,,,,,,,SOM,Somalia,126.0,Southern Somali National Movement,SSNM,
+ARM_127,Armed Organization,,,,,,,SOM,Somalia,127.0,United Somali Root,USR,
+ARM_128,Armed Organization,,,,,,,SOM,Somalia,128.0,Somali Patriotic Movement,SPM,Somali Patriotic Movement | Somali Patriotic Movement / Somali National Alliance | Somali Patriotic Movement / Somali Salvation Alliance | SPM | SPM / Nakuru
+ARM_129,Armed Organization,,,,,,,SOM,Somalia,129.0,Upper Jubba,,
+POL_130,Political Party,,,,,,,SOM,Somalia,130.0,United Somali Party,,
+ARM_131,Armed Organization,,,,,,,SOM,Somalia,131.0,United Somali Front,USF,
+ARM_132,Armed Organization,,,,,,,SOM,Somalia,132.0,United Somali Congress,USC,Somali National Alliance | SNA | USC/SNA
+ARM_133,Armed Organization,,,,,,,SOM,Somalia,133.0,Somali Afrikans Muki Organization,SAMO,
+ARM_134,Armed Organization,,,,,,,SOM,Somalia,134.0,Somali National Union,SNU, Somali National Union |  Somali National Union / Somali Salvation Alliance
+ARM_135,Armed Organization,,,,,,,SOM,Somalia,135.0,Somali National Democratic Union,SNDU, Somali National Democratic Union |  Somali National Democratic Union / Somali Salvation Alliance
+ARM_136,Armed Organization,,,,,,,SOM,Somalia,136.0,Somali Democratic Movement,SDM,Somali Democratic Movement | Somali Democratic Movement / Bonkai | Somali Democratic Movement / Rahanwein Resistance Army | Somali Democratic Movement / Somali National Alliance | Somali Democratic Movement / Somali Salvation Alliance
+ARM_137,Armed Organization,,,,,,,SOM,Somalia,137.0,Somali Democratic Alliance,SDA, Somali Democratic Alliance |  Somali Democratic Alliance / Somali Salvation Alliance
+ARM_138,Armed Organization,,,,,,,SOM,Somalia,138.0,Somali Salvation Congress,SSC,
+CON_139,Country/State,,,,,,,ITA,Italy,139.0,Italy,ITA,Italy/Sardinia | ITALY | Italy | ITALY | Republic Italy | Italy | Government Italian Public | Government Italy | Italian Government  Signing | Italian Republic
+ARM_140,Armed Organization,,,,,,,GNB,Guinea-Bissau,140.0,Commander of the Self-Proclaimed Military Junta,,
+MIL_141,Military,,,,,,,NGA,Nigeria,141.0,Nigeria Armed Forces,,Armed Forces Federal Republic Nigeria | Armed Forces Federal Republic Nigeria | Armed Forces Federal Republic NIGERIA | Armed Forces Federal Republic Nigeria Excellency | Armed Forces Federal Republic Nigeria Excellency Maftre Abdoulaye WADE
+CON_142,Country/State,,,,,,,NER,Niger,142.0,Niger,NIR,"Niger | NIGER | Niger | Niger  Yahaya Assoumane | Republic Niger | Republic NIGER | Republic Niger ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ | Republic Niger Excellency Olusegun OBASANJO | Republic Niger MaÃƒÆ’Ã‚Â¯ MaÃƒÆ’Ã‚Â¯ Gana | Republic Niger Mr MAÃƒÆ’Ã‚Â MAÃƒÆ’Ã‚Â | Republic Niger , Current | Republic Niger ISSOFOU OUBANDAWAKI | Republic Niger  Excellency Olusegun OBASANJO"
+ARM_143,Armed Organization,,,,,,,SLB,Solomon Islands,143.0,Malaita Eagle Force,MEF,
+ARM_144,Armed Organization,,,,,,,NPL,Nepal,144.0,Unified Communist Party of Nepal - Maoist,CPN-M,
+POL_145,Political Party,,,,,,,NPL,Nepal,145.0,Communist Party of Nepal (Maoist Centre),CPN (Maoist),
+CON_146,Country/State,,,,,,,NPL,Nepal,146.0,Nepal,NEP,"Nepal | NEPAL | Nepal | Nepal | Government Nepal | Government Nepal , Coordinator : | Government Nepal : Coordinator : | Government Nepal Negotiating Team | Nepali Congress"
+POL_147,Political Party,,,,,,,NPL,Nepal,147.0,Communist Party of Nepal (Unified Marxist–Leninist),CPN (UML),
+POL_148,Political Party,,,,,,,NPL,Nepal,148.0,Nepali Congress,,
+POL_149,Political Party,,,,,,,NPL,Nepal,149.0,Nepal Sadbhavana Party,,
+POL_150,Political Party,,,,,,,NPL,Nepal,150.0,Nepal Majdoor Kisan Party,,
+POL_151,Political Party,,,,,,,NPL,Nepal,151.0,People's Front Nepal,,
+UMB_152,Umbrella,,,,,,,NPL,Nepal,152.0,United Left Front,ULF,
+POL_153,Political Party,,,,,,,NPL,Nepal,153.0,Nepal Socialist Party,,
+POL_154,Political Party,,,,,,,NPL,Nepal,154.0,Nepal Workers' and Peasants' Party,,
+ARM_155,Armed Organization,,,,,,,SDN,Sudan,155.0,Justice and Equality Movement,JEM,JEM ( Justice Equality Movement | Justice and Equality Movement (JEM)
+ARM_156,Armed Organization,,,,,,,SDN,Sudan,156.0,Sudan Liberation Movement/Army,SLM/A,Sudan Liberation Army | Sudan Liberation Movement / Army | Sudan Liberation Movement / Army Minni Arko Minawi | Sudan Liberation Movement / Army ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Transitional Council Dr. | Sudan Liberation Movement / Sudan Liberation Army | SLA / MM | Sudan Liberation Army
+CON_157,Country/State,,,,,,,TCD,Chad,157.0,Chad,CHA,Chad | CHAD | Chad | Republic Chad | Republic Chad  - Moussa Faki MAHAMAT | RÃƒÂ©publique du Tchad
+CON_158,Country/State,,,,,,,SDN,Sudan,158.0,Sudan,SUD,Sudan | SUDAN | Republic Sudan | Republic SUDAN | Republic Sudan H.E. P | Sudan | Sudan : Lino Roll Deng | Sudan | Government Republic Sudan | Sudan Government | SUDAN GOVERNMENT | Sudan Government Delegation | Sudanese Government | Republic Sudan  H.E. P | Transitional Government Negotiation Delegation
+CON_159,Country/State,,,,,,,ETH,Ethiopia,159.0,Ethiopia,ETH,Ethiopia | ETHIOPIA | Democratic Republic Ethiopia | Ethiopia | ETHIOPIA | ETHIOPIAN | Ethopia | Federal Democratic Republic Ethiopia  - Representing Facilitator | Republic Ethiopia | Ethiopia | Ethiopian Government | Federal Democratic Republic Ethiopia | FEDERAL DEMOCRATIC REPUBLIC ETHIOPIA | FDRE
+CON_160,Country/State,,,,,,,PHL,Philippines,160.0,Philippines,PHI,Philippines | PHILIPPINES | Philippines | GOVERNMENT REPUBLIC PHILIPPINES | Government Republic Philippines | Government Republic Philippines Mohagher Iqbal | PHILIPPINES | GRP Panel Chair | GRP Panel Executive | GRP Panel Peace Talks | GRP Panelen ATTY | GRP Peace Panel | GRP Representative | GRP SCCH Chairman | GRP Secretariat Victor I. Erfe | GRP Sub - Committee Cessation Hostilities | GRP Sub - Committee Cessation Hostilities ( CCCH | GRP Sub - Committee Cessation Hostilities Chairperson | GRP Technical Comittee Chairperson | GRP Technical Committee | GRP Technical Committee Acting Chairperson | GRP Technical Committee Chairperson | GRP Technical Working Group | House Representatives GRP | GPH | Government Philippines - Coordinating Committee | GPH - CCCH
+ARM_161,Armed Organization,,,,,,,PHL,Philippines,161.0,National Democratic Front of the Philippines,NDFP,
+CON_162,Country/State,,,,,,,IDN,Indonesia,162.0,Indonesia,INS,Indonesia | INDONESIA | Indonesia | Republic Indonesia | Republic lndonesia | Indonesia  | Indonesian Government
+ARM_163,Armed Organization,,,,,,,IDN,Indonesia,163.0,Free Aceh Movement,GAM,Gerakan Aceh Merdeka
+NGO_164,Civil Society,Non-governmental Organization,Other,1.0,,,,,,164.0,Centre for Humanitarian Dialogue,HD,HD | Henry Dunant Centre for Humanitarian Dialogue | Henry Dunant Center Humanitarian Dialogue
+OTH_165,Other,,,,,1.0,,IDN,Indonesia,165.0,Aceh Police,,
+OTH_166,Other,,,,,1.0,,IDN,Indonesia,166.0,Joint Committee on Humanitarian Action,,
+OTH_167,Other,,,,,1.0,,IDN,Indonesia,167.0,Joint Committee on Security Modalities,,
+UMB_168,Umbrella,,,,,,,CIV,Côte d'Ivoire (Ivory Coast),168.0,Forces Nouvelles de Côte d'Ivoire,FAFN,Forces armÃ©es des forces nouvelles | Forces Nouvelles de Côte d'Ivoire | Armed Forces of the New Forces | FNCI | FN | FAFN | New Forces of Ivory Coast
+CON_169,Country/State,,,,,,,IRL,Ireland,169.0,Ireland,IRE,Ireland | IRELAND | Ireland | Republic of Ireland | Republic Ireland | Ireland | Irish Government | Irish Governments | Republic Ireland Government | Taoiseach
+ENT_170,Entity,,,,,,,GBR,United Kingdom,170.0,Northern Ireland,NI,Northern Ireland Assembly
+CON_171,Country/State,,,,,,,FIN,Finland,171.0,Finland,FIN,FINLAND | Finland | FINLAND | Republic Finland
+CON_172,Country/State,,,,,,,KEN,Kenya,172.0,Kenya,KEN,KENYA | Kenya | Republic Keny | Republic Kenya | Kenya | Government Republic Kenya | Kenya Government Facilitation Team | KENYAN GOVERNMENT REPRESENTATIVES  1 | Kenyua
+CON_173,Country/State,,,,,,,SSD,South Sudan,173.0,South Sudan,SSD,South Sudan | SOUTH SUDAN | Republic South Sudan | Republic South Sudan/ | South Sudan | Souther Sudan | Government South Sudan | Southern Sudan | GRSS
+CON_174,Country/State,,,,,,,TZA,Tanzania,174.0,Tanzania,TAZ,"Tanzania/Tanganyika | TANZANIA, UNITED REPUBLIC OF | Republic Tanzania | Tanzania | Tanzanian Republic  - ABDOU DIOUF | United Republic of Tanzania | United Republic Tanzania"
+ARM_175,Armed Organization,,,,,,,UGA,Uganda,175.0,Lord’s Resistance Army,LRA,LRA/M | Kony
+CON_176,Country/State,,,,,,,UGA,Uganda,176.0,Uganda,UGA,Uganda | UGANDA | Republic Uganda | Republic Uganda  Facilitators/ | Uganda | UGANDA | Uganda National Rescue II | UGANDA NATIONAL RESCUE II | Uganda National Rescue II High Command | Uganda | GOVERNMENT UGANDA | Government Uganda Delegation
+CON_177,Country/State,,,,,,,CHL,Chile,177.0,Chile,CHL,Chile | CHILE | Chile | CHILE | Republic Chile
+CON_178,Country/State,,,,,,,PER,Peru,178.0,Peru,PER,Peru | PERU | PERU | Peru | Republic Peru
+CON_179,Country/State,,,,,,,ECU,Ecuador,179.0,Ecuador,ECU,Ecuador | ECUADOR | ECUADOR | Ecuador | Republic Ecuador
+ARM_180,Armed Organization,,,,,,,COL,Colombia,180.0,FARC,FARC,Fuerzas Armadas Revolucionarias de Colombia |  Revolutionary Armed Forces of Colombia | FARC | FARC - EP | FARC - EP MANUEL MARULANDA VÃƒÆ’Ã¢â‚¬Â°LEZ | FARC - EP : JOAQUÃƒÆ’Ã‚ÂN GÃƒÆ’Ã¢â‚¬Å“MEZ | FARC - EP PABLO CATA TUMBO | FARC GULLERMO ZULUAGA | Revolutionary Armed Forces Colombia | Revolutionary Armed Forces Colombia - People ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s Army
+CON_181,Country/State,,,,,,,COL,Colombia,181.0,Colombia,COL,Colombia | COLOMBIA | Colombia | Republic Colombia | Colombia | Colombian National Government | National Government Colombia
+ARM_182,Armed Organization,,,,,,,COL,Colombia,182.0,United Self-Defence Groups of Colombia,AUC,
+ARM_183,Armed Organization,,,,,,,COL,Colombia,183.0,Militias,,
+NGO_184,Civil Society,Religious,,,,1.0,,COL,Colombia,184.0,Episcopal Conference of Colombia,,
+ARM_185,Armed Organization,,,,,,,COL,Colombia,185.0,Frente Francisco Garnica,FFG,Francisco Garnica Front
+NGO_186,Civil Society,Religious,,,,1.0,,COL,Colombia,186.0,Church Representative,,
+POL_187,Political Party,,,,,,,ESP,Spain,187.0,Spanish Socialist Workers Party,,
+NGO_188,Civil Society,Religious,,,,1.0,,COL,Colombia,188.0,Religious Representatives,,
+ARM_189,Armed Organization,,,,,,,COL,Colombia,189.0,Popular Liberation Army,EPL,Ejército Popular de Liberación
+ARM_190,Armed Organization,,,,,,,COL,Colombia,190.0,Quintin Lame Armed Movement,MAQL,
+POL_191,Political Party,,,,,,,COL,Colombia,191.0,Political Parties,,
+NGO_192,Civil Society,Non-governmental Organization,Other,1.0,,,,,,192.0,World Council of Indigenous Peoples,,
+NGO_193,Civil Society,Non-governmental Organization,Other,,,1.0,,ESP,Spain,193.0,Spanish Human Rights Association,,
+POL_194,Political Party,,,,,,,COL,Colombia,194.0,Revolutionary Worker’s Party,,
+ARM_195,Armed Organization,,,,,,,COL,Colombia,195.0,National Liberation Army,ELN,Ejército de Liberación Nacional
+UMB_196,Umbrella,,,,,,,COL,Colombia,196.0,CGSB,,Coordinadora Guerrillera SimÃ³n BolÃ­var | SIMÃ“N BOLÃVAR GUERRILLA COORDINATING BOARD
+NGO_197,Civil Society,Non-governmental Organization,Other,,,1.0,,,,197.0,Civil Society,,
+NGO_198,Civil Society,Religious,,1.0,,,,COL,Colombia,198.0,Catholic Church,,Catholic Church of Colombia
+OTH_199,Civil Society,Non-governmental Organization,Other,1.0,,,,,,199.0,Socialist International,,
+ARM_200,Armed Organization,,,,,,,COL,Colombia,200.0,M-19,M19,19th of April Movement
+NGO_201,Civil Society,Non-governmental Organization,Other,1.0,,,,,,201.0,International Committee of the Red Cross,,ICRC | Red Cross | ICRC ZENICA | C. Von Flue | International Red Cross | RC
+CON_202,Country/State,,,,,,,CHE,Switzerland,202.0,Switzerland,SWZ,Switzerland | SWITZERLAND | Swiss Confederation | SWISS CONFEDERATION | Switzerland
+CON_203,Country/State,,,,,,,CUB,Cuba,203.0,Cuba,CUB,CUBA | Cuba | Republic Cuba
+ARM_204,Armed Organization,,,,,,,COL,Colombia,204.0,CRS,CRS,la Corriente de Renovacion Socialista
+OTH_206,Other,,,1.0,,,,,,206.0,International Community,,
+ENT_207,Civil Society,Communities and tribes,,,,1.0,,COL,Colombia,207.0,Bolívar South,,
+POL_208,Political Party,,,,,,,ZAF,South Africa,208.0,Solidarity,,
+POL_209,Political Party,,,,,,,ZAF,South Africa,209.0,SA Communist Party,,
+POL_210,Political Party,,,,,,,ZAF,South Africa,210.0,Inkatha Freedom Party,,
+POL_211,Political Party,,,,,,,ZAF,South Africa,211.0,United People's Front,,
+POL_212,Political Party,,,,,,,ZAF,South Africa,212.0,Democratic Party,,
+ENT_213,Entity,,,,,,,ZAF,South Africa,213.0,Bophuthatswana Govt,,
+POL_214,Political Party,,,,,,,ZAF,South Africa,214.0,Ximoko Progressive Party,,
+ENT_215,Entity,,,,,,,ZAF,South Africa,215.0,Venda Govt,,
+ENT_216,Entity,,,,,,,ZAF,South Africa,216.0,Transkei Govt,,
+POL_217,Political Party,,,,,,,ZAF,South Africa,217.0,Dikwankwetla Party,,
+POL_218,Political Party,,,,,,,ZAF,South Africa,218.0,Intando Yesizwe Party,,
+POL_219,Political Party,,,,,,,ZAF,South Africa,219.0,Inyandza National Movement,,
+POL_220,Political Party,,,,,,,ZAF,South Africa,220.0,Labour Party SA,,
+CON_221,Country/State,,,,,,,ZAF,South Africa,221.0,South Africa,SAF,South Africa | SOUTH AFRICA | Republic South Afirca | Republic South Africa | South Africa | SOUTH AFRICA | South Africa | Government Republic South Africa | South African Government & | South African Parliament
+POL_222,Political Party,,,,,,,ZAF,South Africa,222.0,African National Congress,ANC,
+POL_223,Political Party,,,,,,,ZAF,South Africa,223.0,Natal / Tvl Indian Congress,,
+POL_224,Political Party,,,,,,,ZAF,South Africa,224.0,National Party,,
+POL_225,Political Party,,,,,,,ZAF,South Africa,225.0,National People's Party,,
+IGO_226,Intergovernmental Organization,,,,1.0,,,,,226.0,Organisation of Islamic Cooperation,OIC,Organisation Of Islamic Cooperation | Organization Of Islamic Cooperation || Organization Of The Islamic Conference || OIC || Organisation Of The Islamic Conference |  Organization Of Islamic Cooperation  | Organization Of The Islamic Conference  |  OIC  | Organisation Of The Islamic Conference | Organization of the Islamic Conference (OIC) | Org. Islamic Conference | Organization of the Islamic Conference (OIC) | Organization of the Islamic Conference | Org. of the Islamic Conference | OCI | Organization of the Islamic Conference | Organisation de la coopÃ©ration islamique |  l'Organisations de la CoopÃ©ration Islamique | l'OCC | the Organization of the Islamic Conference | Organisation Islamic Cooperation
+ARM_227,Armed Organization,,,,,,,PHL,Philippines,227.0,Moro National Liberation Front,MNLF,
+CON_228,Country/State,,,,,,,MAR,Morocco,228.0,Morocco,MOR,Morocco | MOROCCO | Kingdom Morocco | Morocco &
+ARM_229,Armed Organization,,,,,,, ,Western Sahara,229.0,Polisario Front,,Frente Polisario
+ARM_230,Armed Organization,,,,,,,PHL,Philippines,230.0,Moro Islamic Liberation Front ,MILF,MILF | MILF - CCCH Chairperson | MILF CCCH | MILF CCCH Chairperson | MILF CCCH Member | MILF Cease - Fire Committee | MILF Central Committee | MILF Committee | MILF Committee Cessation Hostilities | MILF Committee Cessation Hostilities Chair | MILF Implementation Panel | MILF Implementing Panel | MILF Islamic Supreme Court | MILF Legal Counsel | MILF Legal Counselor | MILF Negotiating Panel | MILF Panel | MILF Panel Chair | MILF Peace | MILF Political Affairs | MILF Political Affairs Central Committee | MILF SCCH | MILF SCCH Acting | MILF SCCH Member | MILF Secretariat | MILF Secretariat Technical Committee | MILF Sub - Committee Cessation Hostilities | MILF Sub - Committee Cessation Hostilities Acting | MILF Sub - Committee Cessation Hostilities Chairperson | MILF Technical Committee | MILF Technical Committee Acting | MILF Technical Committee Chairperson | MILF Technical Working Group | Moro Islamic Liberation
+OTH_231,Other,,,,,1.0,,LBR,Liberia,231.0,Liberia National Conference,,
+ARM_233,Armed Organization,,,,,,,LBR,Liberia,233.0,Lofa Defence Force,LDF,
+ARM_234,Armed Organization,,,,,,,LBR,Liberia,234.0,United Liberation Movement for Democracy in Liberia,,
+MIL_235,Military,,,,,,,LBR,Liberia,235.0,Liberia Armed Forces,, Armed Forces Liberia |  ARMED FORCES LIBERIA
+POL_236,Political Party,,,,,,,CIV,Côte d'Ivoire (Ivory Coast),236.0,Movement of the Forces of the Future,MFA,
+ARM_237,Armed Organization,,,,,,,CIV,Côte d'Ivoire (Ivory Coast),237.0,Ivorian Popular Front,FPI,
+ARM_238,Armed Organization,,,,,,,CIV,Côte d'Ivoire (Ivory Coast),238.0,Rally of the Republicans,RDR,
+POL_239,Political Party,,,,,,,CIV,Côte d'Ivoire (Ivory Coast),239.0,Ivorian Workers' Party,PIT,
+ARM_240,Armed Organization,,,,,,,CIV,Côte d'Ivoire (Ivory Coast),240.0,Patriotic Movement of Côte d’Ivoire,MPCI,Mouvement patriotique de Côte d’Ivoire
+ARM_241,Armed Organization,,,,,,,CIV,Côte d'Ivoire (Ivory Coast),241.0,Ivorian Popular Movement of the Great West,MPIGO,Mouvement populaire ivoirien du Grand Ouest
+POL_242,Political Party,,,,,,,CIV,Côte d'Ivoire (Ivory Coast),242.0,Union for Democracy and Peace in Ivory Coast,UDCPI,
+POL_243,Political Party,,,,,,,CIV,Côte d'Ivoire (Ivory Coast),243.0,Democratic Party of Ivory Coast – African Democratic Rally,PDCI-RDA,
+ARM_244,Armed Organization,,,,,,,CIV,Côte d'Ivoire (Ivory Coast),244.0,Movement for Justice and Peace,MJP,Mouvement pour la justice et la paix
+POL_245,Political Party,,,,,,,CIV,Côte d'Ivoire (Ivory Coast),245.0,Citizens' Democratic Union,UDCY,
+POL_246,Political Party,,,,,,,KHM,Cambodia,246.0,FUNCINPEC,,"National United Front for an Independent, Neutral, Peaceful and Cooperative Cambodia"
+CON_247,Country/State,,,,,,,KHM,Cambodia,247.0,Cambodia,CAM,Cambodia (Kampuchea) | CAMBODIA | Cambodia | Kingdom of Cambodia | Kingdom Cambodia
+CON_248,Country/State,,,,,,,DJI,Djibouti,248.0,Djibouti,DJI,Djibouti | DJIBOUTI | Djibouti | Djibouti & FRUD ] | Republic Diijbouti | Republic Djibouti
+ARM_249,Armed Organization,,,,,,,DJI,Djibouti,249.0,Front for the Restoration of Unity and Democracy,FRUD,Frontpourlarestaurationdel'unitéetdeladémocratie | Front pour la Restauration de l'Unité et de la Démocratie | Front pour la Restauration de l'Unité et de la Démocratie (FRUD)
+IGO_250,Intergovernmental Organization,,,1.0,,,,,,250.0,World Peace Council,WPC,World Peace Council Africa Area / Congo
+ARM_252,Armed Organization,,,,,,,COG,"Congo, Republic of the",252.0,Self-Defence Forces of Resistance,FADR, FADR
+CON_253,Country/State,,,,,,,BDI,Burundi,253.0,Burundi,BUI,Burundi | BURUNDI | Burundi | Burundi - | Republic Burundi | Republic Burundi - Mr | Republic Burundi Signatory Party | Republic Burundi : | Burundi | Burundi Government Delegation | Burundian National Assembly | Burundi Government Delegation | Republic Burundi  - Mr | Republic Burundi  Signatory Party | Burundi  -
+ARM_254,Armed Organization,,,,,,,NER,Niger,254.0,Coordination of the Armed Resistance,CRA,Coordination de la Résistance Armée | Coordination de la Résistance Armée (CRA)
+CON_255,Country/State,,,,,,,DZA,Algeria,255.0,Algeria,ALG,Algeria | ALGERIA | People's Democratic Republic Algeria | People's Democratic Republic Algeria  ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ | People's Democratic Republic Algeria :  ( Signed ) Ramtane Lamamra | People's Democratic Republic of Algeria | Democratic and Popular Republic of Algeria | RÃƒÂ©publique AlgÃƒÂ©rinne DÃƒÂ©mocratique et Populaire | People Ã¢â‚¬â„¢s Democratic Republic Algeria | Popular Republic Algeria | People Ã¢â‚¬â„¢s Democratic Republic Algeria | People Ã¢â‚¬â„¢s Democratic Republic Algeria  Ã¢â‚¬Â¢ | People Ã¢â‚¬â„¢s Democratic Republic Algeria :  ( Signed ) Ramtane Lamamra
+ARM_256,Armed Organization,,,,,,,NER,Niger,256.0,Organisation of the Armed Resistance,,
+ARM_257,Armed Organization,,,,,,,MLI,Mali,257.0,Arab Movement of Azawad ,MAA,Mouvement Arabe de l'Azawad
+ARM_258,Armed Organization,,,,,,,AGO,Angola,258.0,National Union for the Total Independence of Angola,UNITA,União Nacional para a Independência Total de Angola (UNITA) | União Nacional para a Independência Total de Angola
+CON_259,Country/State,,,,,,,PRT,Portugal,259.0,Portugal,POR,Portugal | PORTUGAL | Portuguese Republic | Portugal | Portuguese Government
+CON_260,Country/State,,,,,,,AGO,Angola,260.0,Angola,ANG,Angola | ANGOLA | Angol | Angola | Republic Angola | International Relations Republic Angola
+OTH_261,Armed Organization,,,,,,,LBR,Liberia,261.0,Liberian Peace Council,,
+ARM_262,Armed Organization,,,,,,,LBR,Liberia,262.0,National Patriotic Front of Liberia - Central Revolutionary Council,NPFL-CRC,
+UMB_263,Umbrella,,,,,,,TJK,Tajikistan,263.0,United Tajik Opposition,,
+CON_264,Country/State,,,,,,,COD,"Congo, Democratic Republic of the",264.0,"Congo, Democratic Republic of the",DRC,"Congo, Democratic Republic of (Zaire) | CONGO, THE DEMOCRATIC REPUBLIC OF | Democratic Republic | Democratic Republic Congo | Republic Democratic Republic Congo"
+ARM_265,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",265.0,Movement for the Liberation of Congo,MLC,Mouvement de Libération du Congo
+ARM_266,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",266.0,Rally for Congolese Democracy,RCD,Rassemblement congolais pour la démocratie | Pour le Rassemblement Congolais pour La DÃ©mocratie-National | Congolese Rally for Democracy | Rassemblement Congolais pour la Démocratie
+CON_267,Country/State,,,,,,,BWA,Botswana,267.0,Botswana,BOT,Botswana | BOTSWANA
+CON_268,Country/State,,,,,,,MEX,Mexico,268.0,Mexico,MEX,Mexico | MEXICO | MEXICO | Mexico | United Mexican States | Mexico | Mexican Foreign Ministry | Mexican Government
+ARM_269,Armed Organization,,,,,,,MEX,Mexico,269.0,Zapatista Army of National Liberation,EZLN,Ejército Zapatista de Liberación Nacional
+NGO_270,Civil Society,Religious,,,,1.0,,NIC,Nicaragua,270.0,Cardinal Miguel Obando Bravo,,
+UMB_271,Umbrella,,,,,,,NIC,Nicaragua,271.0,Nicaraguan Resistance,NR,
+CON_272,Country/State,,,,,,,ERI,Eritrea,272.0,Eritrea,ERI,Eritrea | ERITREA | Eritrea | Eritrea | Eritrean Government
+CON_273,Country/State,,,,,,,PRK,"Korea, North",273.0,North Korea,PRK,"Korea, People's Republic of | KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF | Democratic People's Republic | Democratic People Republic Korea"
+IGO_274,Intergovernmental Organization,,,1.0,,,UN Mission,,,274.0,UNOMB,UNOMB,UN Observer Mission in Bougainville 
+ENT_275,Entity,,,,,,,RUS,Russia,275.0,Chechen Republic,,
+CON_276,Country/State,,,,,,,NZL,New Zealand,276.0,New Zealand,NEW,New Zealand | NEW ZEALAND | New Zealand | NEW ZEALAND
+CON_277,Country/State,,,,,,,AUS,Australia,277.0,Australia,AUL,Australia | AUSTRALIA | Australia |  Commonwealth of Australia
+CON_278,Country/State,,,,,,,VUT,Vanuatu,278.0,Vanuatu,,Vanuatu | VANUATU
+CON_279,Country/State,,,,,,,SLB,Solomon Islands,279.0,Solomon Islands,SOL,Solomon Islands | SOLOMON ISLANDS | Solomon Islands | Solomon Islands | Solomon Islands Government
+CON_280,Country/State,,,,,,,TON,Tonga,280.0,Tonga,,Tonga | TONGA
+CON_281,Country/State,,,,,,,FJI,Fiji,281.0,Fiji,FJI,Fiji | FIJI | Fiji
+CON_282,Country/State,,,,,,,PNG,Papua New Guinea,282.0,Papua New Guinea,PNG,Papua New Guinea | PAPUA NEW GUINEA | Papua New Guinea | Papua New Guinea | NATIONAL GOVERNMENT PAPUA NEW GUINEA | Bougainville Interim Government | Bougainville Interim Government Spokesmen | Bougainville Interim Provincial Government | Bougainville Transitional Government | BOUGAINVILLE TRANSITIONAL GOVERNMENT | Papua New Guinea Government
+ARM_283,Armed Organization,,,,,,,SDN,Sudan,283.0,Sudan People's Liberation Movement/Army ,SPLM/A,Sudan People's Liberation Movement | Sudan People Liberation Army | Sudan People Liberation Movement | Sudan People Liberation Movement / Army | Sudan People Liberation Movement / Army - North | Sudan People Liberation Movement / Sudan People Liberation Army | Sudan People Liberation Movement/ Army | Sudan Peoples ' Liberation Movement Ross Mountain United Nations | Sudan Peoples Liberation Movement | SPLM - Detainees | SPLM - FDs | SPLM - IG | SPLM - United | SPLM / | SPLM / - N | SPLM / NUBA | SPLM / SPLA | SPLM County
+OTH_284,Other,Government agency,,1.0,,,,USA,United States,284.0,USAID,,
+CON_285,Country/State,,,,,,,LBY,Libya,285.0,Libya,LIB,Libya | LIBYAN ARAB JAMAHIRIYA | Libya | Libyan Arab Jamahiriya | Great Socialist People's Libyan Arab Jamahiriya
+ENT_286,Entity,,,,,,,BGD,Bangladesh,286.0,Chittagong Hill Tracts,,
+CON_287,Country/State,,,,,,,BGD,Bangladesh,287.0,Bangladesh,BNG,Bangladesh | BANGLADESH | People's Republic Bangladesh | Peoples  Republic Bangladesh  SD/- | People's Republic of Bangladesh | People Ã¢â‚¬â„¢s Republic Bangladesh
+CON_288,Country/State,,,,,,,AFG,Afghanistan,288.0,Afghanistan,AFG,Afghanistan | AFGHANISTAN | Islamic Republic of Afghanistan | Islamic Republic Afghanistan | Islamic Republic Afghanistan | Afghan Government | Afghan Government | Afghan Interim Administration
+CON_289,Country/State,,,,,,,IRN,Iran,289.0,Iran (Islamic Republic of),IRN,"Iran (Persia) | IRAN, ISLAMIC REPUBLIC OF | Iran | Islamic Republic Iran"
+CON_290,Country/State,,,,,,,CMR,Cameroon,290.0,Cameroon,CAO,Cameroon | CAMEROON | Cameroon | Republic Cameroon | Republic Cameroon :
+MIL_291,Military,,,,,,,PHL,Philippines,291.0,Armed Forces of the Philippines,,AFP
+CON_292,Country/State,,,,,,,BRN,Brunei,292.0,Brunei,BRU,Brunei | BRUNEI DARUSSALAM
+ARM_293,Armed Organization,,,,,,,KHM,Cambodia,293.0,Khmer People’s National Liberation Front,KPNLF,
+CON_294,Country/State,,,,,,,JPN,Japan,294.0,Japan,JPN,Japan | JAPAN | JAPAN
+CON_295,Country/State,,,,,,,THA,Thailand,295.0,Thailand,THI,Thailand | THAILAND | Kingdom Thailand | Thailand
+CON_296,Country/State,,,,,,,SGP,Singapore,296.0,Singapore,SIN,Singapore | SINGAPORE | Republic Singapore | Singapore | Republic of Singapore
+CON_297,Country/State,,,,,,,VNM,Vietnam,297.0,Vietnam,RVN,"Vietnam, Republic of | VIETNAM | Socialist Republic of Vietnam | Socialist Republic Viet Nam | Socialist Republic Vietnam | Socialist Republic of Vietnam"
+CON_298,Country/State,,,,,,,LAO,Laos,298.0,Laos,LAO,Laos | LAO PEOPLE'S DEMOCRATIC REPUBLIC
+ARM_299,Armed Organization,,,,,,,SLV,El Salvador,299.0,Farabundo Martí National Liberation Front,FMLN,Frente Farabundo Martí para la Liberación Nacional
+CON_300,Country/State,,,,,,,SLV,El Salvador,300.0,El Salvador,SAL,El Salvador | EL SALVADOR | El Salvador | El Salvadort | Republic El Salvador
+CON_301,Country/State,,,,,,,LKA,Sri Lanka,301.0,Sri Lanka,SRI,Sri Lanka (Ceylon) | SRI LANKA | Sri Lanka | Sri Lanka | Government Sri Lanka | Sri Lankan Government
+ARM_302,Armed Organization,,,,,,,LKA,Sri Lanka,302.0,Liberation Tigers of Tamil Eelam,LTTE, Liberation Tigers
+OTH_303,Other,,,,,1.0,,YEM,Yemen,303.0,Presidential Council,,
+CON_304,Country/State,,,,,,,YEM,Yemen,304.0,Yemen,YEM,Yemen (Arab Republic of Yemen) | YEMEN | Republic Yemen | Yemen | Republic of Yemen | Yemen | Government Yemen | Yemeni Government
+POL_305,Political Party,,,,,,,KHM,Cambodia,305.0,Democratic Kampuchea,,Khmer Rouge
+CON_306,Country/State,,,,,,,GTM,Guatemala,306.0,Guatemala ,GUA,Guatemala | GUATEMALA | Republic Guatemala | Republic Guatimala  Rafael Leonardo CALLEJAS | Guatemalan Government :
+ARM_307,Armed Organization,,,,,,,GTM,Guatemala,307.0,Guatemalan National Revolutionary Unity,URNG,Unidad Revolucionaria Nacional Guatemalteca
+ARM_308,Armed Organization,,,,,,,LBR,Liberia,308.0,Movement for Democracy in Liberia,MODEL,
+ARM_309,Armed Organization,,,,,,,LBR,Liberia,309.0,Liberians United for Reconciliation and Democracy,LURD,
+POL_310,Political Party,,,,,,,YEM,Yemen,310.0,Yemeni Socialist Party,YSP,
+POL_311,Political Party,,,,,,,YEM,Yemen,311.0,General People's Congress,GPC,
+IGO_312,Intergovernmental Organization,Regional,,,1.0,,,,,312.0,Intergovernmental Authority on Development,IGAD,"Intergovernmental Authority On Development | IGAD | Inter-Governmental Authority On Development | Intergovernmental Authority on Development | IGAD | IGAD - South Sudan Office Representative Facilitator | IGAD & AU | IGAD African Union | IGAD Assembly | IGAD Chair | IGAD Council Ministers | IGAD Council Ministers H.E. Tedros Adhanom | IGAD Envoys | IGAD Ministerial Sub - Committee | IGAD Partners | IGAD Partners Forum | IGAD Partners Forum Representatives | IGAD Special | IGAD Special Envoy Somalia | IGAD Special Envoys | IGAD Sub - Committee | Intergovernmental Authority Development | Intergovernmental Authority Development ( IGAD ) | Special Envoy IGAD Sudan | IGAD Partners Forum | IPF  | Chair IGAD | Chair IGAD  Republic Uganda  Republic Sudan  Republic Djibouti  Republic Somalia  Republic Kenya  B | Chairperson IGAD | Intergovernmental Authority On Development  |  IGAD  |  Inter-Governmental Authority On Development | Inter - Governmental Authority Development , League Arab States | Intergovernmental Authority Development | Intergovernmental Authority Development ( IGAD ) | Intergovernmental Authority on Development (IGAD)/Inter-Governmental Authority o | Inter-Gov Authority on Drought Protection | Intergovernmental Authority on Development (IGAD)/Inter-Governmental Authority o | Chairperson IGAD | IGAD | IGAD - South Sudan Office Representative Facilitator | IGAD Council Ministers | IGAD Partners | IGAD Partners Forum | IGAD Partners Forum Representatives | Inter - Governmental Authority Development , League Arab States"
+ARM_313,Armed Organization,,,,,,,BIH,Bosnia and Herzegovina,313.0,Republika Srpska,,Army Republika Srpska | Army of Republika Srpska | Republic Srpska | REPUBLIC SRPSKA Dr Radovan Karadzic | Republika Srpska | REPUBLIKA SRPSKA
+ARM_314,Armed Organization,,,,,,,LBR,Liberia,314.0,United Liberation Movement of Liberia for Democracy,ULIMO,
+IGO_315,Intergovernmental Organization,,,1.0,,,United Nations,,,315.0,UN General Assembly,UNGA,United Nations General Assembly || UNGA || General Assembly || Un General Assembly |  General Assembly  |  Un General Assembly
+CON_316,Country/State,,,,,,,VEN,Venezuela,316.0,Venezuela,VEN,"Venezuela | VENEZUELA, BOLIVARIAN REPUBLIC OF | VENEZUELA | Venezuela | Bolivarian Republic Venezuela"
+ARM_317,Armed Organization,,,,,,,PNG,Papua New Guinea,317.0,Bougainville Revolutionary Army,BRA,Bougainville Republican Army
+POL_318,Political Party,,,,,,,AGO,Angola,318.0,UNITA,,National Union for the Total Independence of Angola
+POL_319,Political Party,,,,,,,BDI,Burundi,319.0,Independent Labor Party,PIT,Parti IndÃ©pendant des Travailleurs
+POL_320,Political Party,,,,,,,BDI,Burundi,320.0,Union for National Progress,UPRONA,Union pour le ProgrÃ¨s national
+POL_321,Political Party,,,,,,,BDI,Burundi,321.0,Front for Democracy in Burundi,FRODEBU,Front pour la DÃ©mocratie auÂ Burundi
+POL_322,Political Party,,,,,,,BDI,Burundi,322.0,Rally for the People of Burundi,RPB,Rassemblement du peuple Burundais
+POL_323,Political Party,,,,,,,BDI,Burundi,323.0,National Alliance for Law and Economic Development,ANADDE, Alliance Nationale pour le Droit et le DÃ©veloppement
+POL_324,Political Party,,,,,,,BDI,Burundi,324.0,Social Democratic Party,PSD,Parti Social-DÃ©mocrate
+POL_325,Political Party,,,,,,,BDI,Burundi,325.0,Pan Africanist Socialist Movement-Inkinzo,Inkinzo,Parti Socialiste et Panafricaniste
+POL_326,Political Party,,,,,,,BDI,Burundi,326.0,People's Party,PP,Parti du Peuple
+POL_327,Political Party,,,,,,,BDI,Burundi,327.0,Liberal Party,PL,Parti Liberal
+POL_328,Political Party,,,,,,,BDI,Burundi,328.0,Rally for Democracy and Economic and Social Development,RADDES,Ralliement pour la DÃ©mocratie et le DÃ©veloppement Ã‰conomique et Social
+POL_329,Political Party,,,,,,,BDI,Burundi,329.0,Alliance of the Valiant,AV-INTWARI,Alliance des Vaillants
+POL_330,Political Party,,,,,,,BDI,Burundi,330.0,Palipehutu,,
+POL_331,Political Party,,,,,,,BDI,Burundi,331.0,People's Reconciliation Party,PRP,Parti de la RÃ©conciliation des Personnes
+POL_332,Political Party,,,,,,,BDI,Burundi,332.0,Party for National Recovery,PARENA,Parti pour le Redressement National
+ARM_333,Armed Organization,,,,,,,BDI,Burundi,333.0,National Liberation Front,FROLINA,Front pour la libÃ©ration nationale
+POL_334,Political Party,,,,,,,BDI,Burundi,334.0,Burundo-African Alliance for Salvation,ABASA,Alliance Burundo-Africaine pour le Salut
+CON_335,Country/State,,,,,,,ZMB,Zambia,335.0,Zambia,ZAM,Zambia | ZAMBIA | Republic Zambia | Republic of Zambia
+ARM_336,Armed Organization,,,,,,,BDI,Burundi,336.0,National Council for the Defense of Democracy,CNDD,Conseil national pour la dÃ©fense de la dÃ©mocratie
+OTH_337,Civil Society,Non-governmental Organization,Other,1.0,,1.0,,,,337.0,Mwalimu Nyerere Foundation,,
+IGO_338,Intergovernmental Organization,,,1.0,,,,,,338.0,La Francophonie,OIF,Organisation Internationale De La Francophonie || La Francophonie || OIF || International Organization Of The Francophonie |  La Francophonie  | Organisation internationale de la Francophonie |  International Organization Of The Francophonie | Francophonie | International Organisation la Francophonie | International Organization Francophonie | International Organization Francophonie - PIERRE | International Organization la Francophonie | International Organization La Francophonie | Madagascar Pour l'Organisation Internationale de la Francophonie Edem Kodjo Pour | International Organisation La Francophonie
+CON_339,Country/State,,,,,,,RWA,Rwanda,339.0,Rwanda,RWA,Rwanda | RWANDA | Republic Rawanda | Republic Rwanda | Rwanda | Rwanda | Government Republic Rwanda
+OTH_340,Other,,,,,1.0,,GTM,Guatemala,340.0,National Reconciliation Commission,,
+ENT_341,Entity,,,,,,,PNG,Papua New Guinea,341.0,Bougainville Interim Provincial Government,,
+POL_342,Entity,,,,,,,PNG,Papua New Guinea,342.0,Bougainville Peoples Congress,,
+OTH_343,Armed Organization,,,,,,,PNG,Papua New Guinea,343.0,Bougainville Resistance Forces,,
+NGO_344,Civil Society,Non-governmental Organization,Women,,,1.0,,PNG,Papua New Guinea,344.0,Bougainville Women,,
+ENT_345,Entity,,,,,,,PNG,Papua New Guinea,345.0,Bougainville Transitional Government,,
+IGO_346,Intergovernmental Organization,Regional,,,1.0,,,,,346.0,League of Arab States,LOAS,League Of Arab States || Arab League | League of Arab States | League of Arab States | League Arab States | League Arab States
+IGO_347,Intergovernmental Organization,,,1.0,,,,,,347.0,Nonaligned Movement,NAM,Non-Aligned Movement || Nonaligned Movement || NAM |  Nonaligned Movement  | Non-Aligned Movement (NAM) | Movement of Non-Aligned Countries | Movement Non-Aligned Countries
+CON_348,Country/State,,,,,,,SRB,Serbia,348.0,Serbia,SER,Serbia | SERBIA | Post Serbia | Republic Serbia | REPUBLIC SERBIA | Serbia | Serbian Representatives | Serbian Republic Bosnia Herzegovina
+IGO_349,Intergovernmental Organization,Regional,,,1.0,,,,,349.0,Southern African Development Community,SADC,Southern African Development Community || SADC |  SADC | Southern African Dev. Community | Southern African Development Community (SADC) | SADC Faciliatator
+CON_350,Country/State,,,,,,,ZWE,Zimbabwe,350.0,Zimbabwe,ZIM,Zimbabwe (Rhodesia) | ZIMBABWE | Republic Zimbabwe | Zimbabwe | Parliament Zimbabwe
+ARM_351,Armed Organization,,,,,,,BDI,Burundi,351.0,National Council for the Defense of Democracy–Forces for the Defense of Democracy,CNDD-FDD,Conseil national pour la dÃ©fense de la dÃ©mocratie - Forces pour la dÃ©fense de la dÃ©mocratie
+IGO_352,Intergovernmental Organization,,,,1.0,,,,,352.0,Community of Portuguese-Speaking Countries,CPLP,Comunidade dos PaÃ­ses de LÃ­ngua Portuguesa || Lusophone Commonwealth | Comm Portugese Speaking Countries | Community of Portuguese-Speaking Countries
+CON_353,Country/State,,,,,,,STP,Sao Tome and Principe,353.0,São Tomé and Príncipe,,SÃƒÂ£o TomÃƒÂ© and PrÃƒÂ­ncipe | SAO TOME AND PRINCIPE
+CON_354,Country/State,,,,,,,CPV,Cabo Verde,354.0,Cape Verde,CAP,"Cape Verde | CAPE VERDE | Cape Verde | Cape Verde , Cote d'Ivoire | Republic Cape | Republic Cape Verde"
+IGO_355,Intergovernmental Organization,,,1.0,,,UN Mission,,,355.0,UNPROFOR,UNPROFOR,United Nations Protection Force
+ENT_356,Entity,,,,,,,PNG,Papua New Guinea,356.0,Bougainville,,
+ARM_357,Armed Organization,,,,,,,SLE,Sierra Leone,357.0,Armed Forces Revolutionary Council,AFRC,
+CON_358,Country/State,,,,,,,SOM,Somalia,358.0,Somalia,SOM,Somalia | SOMALIA | Federal Republic Somalia | Republic Somalia | Somali | Somali Republic | Somalia | Somali Regional State | Somalia | Somali Federal Government | Somali Government | Federal Government Somalia | Federal Government of Somalia | FGS
+ARM_359,Armed Organization,,,,,,,SOM,Somalia,359.0,Islamic Courts Union,ICU,
+OTH_360,Other,,,,,1.0,,GTM,Guatemala,360.0,Political and Diplomatic Commission,,
+ARM_361,Armed Organization,,,,,,,BDI,Burundi,361.0,Palipehutu-FNL,FNL,Party for the Liberation of the Hutu Peopleâ€“National Forces of Liberation | Parti pour la libÃ©ration du peuple hutuâ€“Forces nationalesde liberation | National Forces of Liberation | Forces nationales de libÃ©ration | National Forces of Liberation
+POL_362,Political Party,,,,,,,LBR,Liberia,362.0,Liberia National Union,,
+POL_363,Political Party,,,,,,,LBR,Liberia,363.0,Equal Rights Party,,
+POL_364,Political Party,,,,,,,LBR,Liberia,364.0,United People's Party,,
+POL_365,Political Party,,,,,,,LBR,Liberia,365.0,True Whig Party,,
+POL_366,Political Party,,,,,,,LBR,Liberia,366.0,All-Liberian Coalition Party,,
+POL_367,Political Party,,,,,,,LBR,Liberia,367.0,Reformation Alliance Party,,
+POL_368,Political Party,,,,,,,LBR,Liberia,368.0,Progressive Peoples Party,,
+POL_369,Political Party,,,,,,,LBR,Liberia,369.0,National Reform Party,,
+POL_370,Political Party,,,,,,,LBR,Liberia,370.0,Free Democracy Party,,
+OTH_371,Civil Society,Religious,,,,1.0,,LBR,Liberia,371.0,Inter-religious Council for Liberia,,
+OTH_372,Civil Society,Non-governmental Organization,Women,,,1.0,,LBR,Liberia,372.0,Mano River Women Peace Network,,
+POL_373,Political Party,,,,,,,LBR,Liberia,373.0,New Deal Movement,,
+POL_374,Political Party,,,,,,,LBR,Liberia,374.0,National Democratic Party,,
+OTH_375,Other,,,,,1.0,,LBR,Liberia,375.0,Liberia Leadership Forum,,
+POL_376,Political Party,,,,,,,LBR,Liberia,376.0,Liberian Action Party,,
+NGO_377,Civil Society,Non-governmental Organization,Other,,,1.0,,LBR,Liberia,377.0,Civil Society,,
+POL_378,Political Party,,,,,,,LBR,Liberia,378.0,People's Democratic Party,,
+POL_379,Political Party,,,,,,,LBR,Liberia,379.0,National Patriotic Party,,
+POL_380,Political Party,,,,,,,LBR,Liberia,380.0,Unity Party,,
+POL_381,Political Party,,,,,,,LBR,Liberia,381.0,Liberians People's Party,,
+POL_382,Political Party,,,,,,,LBR,Liberia,382.0,Labor Party,,
+POL_383,Political Party,,,,,,,LBR,Liberia,383.0,Liberia Unification Party,,
+OTH_384,Civil Society,Non-governmental Organization,Other,,,1.0,,LBR,Liberia,384.0,Liberian Bar Association,,
+OTH_385,Civil Society,Non-governmental Organization,Other,1.0,,1.0,,LBR,Liberia,385.0,Liberians in Diaspora,,
+IGO_386,Intergovernmental Organization,,,1.0,,,United Nations,,,386.0,UN Secretary General,UNSG,António Guterres | United Nations SecretaryÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂGeneral | UNSG | UNSRSG | UNSRSG Special Representative | UN Special Representative | United Nations General | United Nations SecretaryÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂGeneral | United Nations Special Envoy | UNSG | UNSRSG Special Representative | UNSRSG | Special Representative Secretary - General | Group Friends UNSG | United Nations SecretaryÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂGeneral | Antonio Guterres
+CON_387,Country/State,,,,,,,MRT,Mauritania,387.0,Mauritania,MAA,Mauritania | MAURITANIA | Mauritania | Republic Mauritania
+NGO_388,Civil Society,Communities and tribes,,,,1.0,, ,Kurdistan,388.0,Shi'a,,
+NGO_389,Civil Society,Communities and tribes,,,,1.0,, ,Kurdistan,389.0,Sunni,,
+NGO_390,Civil Society,Communities and tribes,,,,1.0,, ,Kurdistan,390.0,Turkmen,,
+IGO_391,Intergovernmental Organization,,,1.0,,,United Nations,,,391.0,United Nations Secretariat,UN Secretariat,United Nations Secretariat || Secretariat Of The United Nations || U.N. Secretariat || Un Secretariat | United Nations Secretariat | United Nations Secretariat United Nations Human Settlement Programme United Nations Development Programme | United Nations Secretariat  |  Secretariat Of The United Nations  |  U.N. Secretariat  |  Un Secretariat
+CON_392,Country/State,,,,,,,MWI,Malawi,392.0,Malawi,MAW,Malawi | MALAWI | Republic Malawi
+ARM_393,Armed Organization,,,,,,,SOM,Somalia,393.0,Somalia Reconciliation and Restoration Council,SRRC,
+CON_394,Country/State,,,,,,,ROU,Romania,394.0,Romania,,Romania | ROMANIA
+CON_395,Country/State,,,,,,,PAK,Pakistan,395.0,Pakistan,PAK,Pakistan | PAKISTAN | Islamic Republic Pakistan | Pakistan | Pakistan | Government Islamic Republic | Government Islamic Republic Pakistan | Pakistani Government | Pakistani
+POL_396,Political Party,,,,,,,CIV,Côte d'Ivoire (Ivory Coast),396.0,Democratic Party of Ivory Coast,PDCI,
+CON_397,Country/State,,,,,,,NIC,Nicaragua,397.0,Nicaragua,NIC,Nicaragua | NICARAGUA | Nicaragua | Republic Nicaragua | Nicaragua | Nicaraguan Govt General
+OTH_398,Other,,,,,1.0,,TLS,Timor-Leste,398.0,East Timor Police Force,,
+CON_399,Country/State,,,,,,,TLS,Timor-Leste,399.0,East Timor,ETM,East Timor | TIMOR-LESTE | East Timor
+ARM_400,Armed Organization,,,,,,,TLS,Timor-Leste,400.0,National Congress for Timorese Reconstruction,CRNT,Congresso Nacional de ReconstruÃ§Ã£o de Timor
+POL_401,Political Party,,,,,,,TLS,Timor-Leste,401.0,Pro-Integration Party,,
+ARM_402,Armed Organization,,,,,,,SDN,Sudan,402.0,Eastern Front,,
+POL_403,Political Party,,,,,,,ALB,Albania,403.0,Democratic Party of Albanians,,
+POL_404,Political Party,,,,,,,MKD,North Macedonia,404.0,Social Democratic Union of Macedonia,,
+IGO_405,Intergovernmental Organization,,,1.0,,,UN Mission,,,405.0,UNMIBH,UNMIBH,United Nations Mission in Bosnia and Herzegovina
+IGO_406,Intergovernmental Organization,,,1.0,,,,,,406.0,North Atlantic Treaty Organization,NATO,North Atlantic Treaty Organization || NATO || North Atlantic Treaty Organisation | NATO | North Atlantic Treaty Organization | North Atlantic Treaty Organisation | North Atlantic Treaty Organization | North Atlantic Treaty Organization Alija | North Atlantic Treaty Organization  |  NATO  |  North Atlantic Treaty Organisation | North Atlantic Treaty Org | North Atlantic Treaty Organization (NATO) | North Atlantic Treaty Organization  Alija
+ARM_407,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",407.0,Mai Mai,,Mai-Mai | the Mai-Mai | Mayi Mayi
+ARM_408,Armed Organization,,,,,,,UGA,Uganda,408.0,National Resistance Army,NRA,
+ENT_409,Entity,,,,,,,SLB,Solomon Islands,409.0,Guadalcanal Province,,
+IGO_410,Intergovernmental Organization,,,1.0,,,,,,410.0,Commonwealth of Nations,Commonwealth,The British Commonwealth | British Commonwealth | Commonwealth Of Nations | the Commonwealth |  British Commonwealth  |  Commonwealth Of Nations | Commonwealth | Commonwealth Nations | Commonwealth Organization
+ENT_411,Entity,,,,,,,SLB,Solomon Islands,411.0,Choiseul Province,,
+ENT_412,Entity,,,,,,,SLB,Solomon Islands,412.0,Central Islands Province,,
+ENT_413,Entity,,,,,,,SLB,Solomon Islands,413.0,Malaita Province,,
+ARM_414,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",414.0,Congolese Rally for Democracy-Liberation Movement,RCD-ML,
+ARM_415,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",415.0,Congolese Rally for Democracy-National,RCD-N,
+NGO_416,Civil Society,Non-governmental Organization,Other,,,1.0,,COD,"Congo, Democratic Republic of the",416.0,Forces Vives of the Nation ,,
+ENT_418,Entity,,,,,,, ,Kosovo,418.0,Kosovo,,
+CON_419,Country/State,,,,,,,SAU,Saudi Arabia,419.0,Saudi Arabia,SAU,Saudi Arabia | SAUDI ARABIA | Kingdom Saudi Arabia | Kingdom Saudi Arabia :
+MIL_420,Military,,,,,,,CIV,Côte d'Ivoire (Ivory Coast),420.0,Armed Forces of Côte d’Ivoire,,Defence and Security Forces of Côte d’Ivoire | COIA
+IGO_421,Intergovernmental Organization,,,,1.0,,,,,421.0,European Community,EC,European Economic Community | European Community | European Community Monitoring Mission | ECMM | E.C.M.M | Mission of the European Community  | European Community | EUROPEAAN COMMUNITY MONITOR MISSION | PMEZ | Promatracka misija europske zajednice | E.C.M.M
+POL_422,Political Party,,,,,,,CAF,Central African Republic,422.0,Movement for the Liberation of the Central African People,MLPC,Mouvement pour la Libération du Peuple Centrafricain
+NGO_423,Civil Society,Non-governmental Organization,Women,,,1.0,,CAF,Central African Republic,423.0,OFCA,,Organisation des femmes centrafricaines | Organisation des Femmes de Centrafrique | Central African Women's Organization
+POL_424,Political Party,,,,,,,CAF,Central African Republic,424.0,Movement for Democracy and Development,,
+NGO_425,Civil Society,Unions,,,,1.0,,CAF,Central African Republic,425.0,Trade Unions,,
+POL_426,Political Party,,,,,,,CAF,Central African Republic,426.0,Alliance for Democracy and Progress,,
+POL_427,Political Party,,,,,,,CAF,Central African Republic,427.0,Civic Forum,,
+NGO_428,Civil Society,Non-governmental Organization,Other,,,1.0,,CAF,Central African Republic,428.0,FNEC,,Fédération Nationale des Éleveurs Centrafricains | National Federation of Central African Breeders
+NGO_429,Civil Society,Non-governmental Organization,Other,,,1.0,,CAF,Central African Republic,429.0,KOLI-OUALI GALA,,
+MIL_430,Military,,,,,,,CAF,Central African Republic,430.0,Armed Forces of Central African Republic,,
+POL_431,Political Party,,,,,,,CAF,Central African Republic,431.0,Political Parties,,
+POL_432,Political Party,,,,,,,CAF,Central African Republic,432.0,Patritotic Front for Progress,,
+NGO_433,Civil Society,Religious,,,1.0,,,,,433.0,Central African Islamic community,,
+NGO_434,Civil Society,Religious,,,,1.0,,CAF,Central African Republic,434.0,Evangelical Baptist Church in the Central African Republic,,
+ARM_435,Armed Organization,,,,,,,RWA,Rwanda,435.0,Rwandan Patriotic Front,FPR,Front patriotique rwandais | RPFâ€“Inkotanyi
+IGO_436,Intergovernmental Organization,,,,1.0,,,,,436.0,European Commission,EU Commission,European Commission | European Commission | EUROPEAN COMMISSION | EU Commission | European Commission | Commission European Union | European Union  Delegation European Commission | Delegation of the European Commission
+IGO_437,Intergovernmental Organization,,,1.0,,,,,,437.0,World Bank,WB,World Bank | World Bank | World Bank Group | WB | World Bank | IBRD | World Bank | International Bank for Reconstruction and Development (World Bank)
+IGO_438,Intergovernmental Organization,,,1.0,,,,,,438.0,International Monetary Fund,IMF,International Monetary Fund |  IMF | Intl Monetary Fund | International Monetary Fund | Red Crescent Societies  International Fund Agricultural Development  International Labor Organization  International Monetary Fund  International Organization Migration  Multilateral Investment Guarantee Agency
+IGO_439,Intergovernmental Organization,,,,1.0,,,,,439.0,African Development Bank,AFDB,African Development Bank || AFDB || Banco Africano De Desenvolvimento || BAD || Banque Africaine De DÃ©veloppement |  AFDB  |  Banco Africano De Desenvolvimento  |  BAD  |  Banque Africaine De DÃƒÂ©veloppement | AfDB | African Development Bank | African Development Bank
+IGO_440,Intergovernmental Organization,,,1.0,,,United Nations,,,440.0,United Nations Human Rights Council,UNHRC,UNHRC | UNCHR || United Nations Human Rights Council || United Nations Commission On Human Rights || U.N. Human Rights Council || Un Human Rights Council | United Nations Human Rights Council | United Nations Human Rights Council (UNHRC) | UNHRC | UNHRC  |  UNCHR  |  United Nations Human Rights Council  |  United Nations Commission On Human Rights  |  U.N. Human Rights Council  |  Un Human Rights Council
+CON_441,Country/State,,,,,,,BEL,Belgium,441.0,Belgium,BEL,Belgium | BELGIUM | Belgium | BELGIUM | Belgium United States America | Kingdom Belgium | Kingdom of Belgium 
+POL_442,Political Party,,,,,,,AFG,Afghanistan,442.0,Harkat-e-Inquilab-e-Islami,,Islamic Revolution Movement | Islamic and National Revolution Movement of Afghanistan
+POL_443,Political Party,,,,,,,AFG,Afghanistan,443.0,Hezbe Wahdat,,the Unity Party | Hezb-e Wahdat-e Islami Afghanistan | Islamic Unity Party of Afghanistan
+POL_444,Political Party,,,,,,,AFG,Afghanistan,444.0,Etelaf-e Milli,,National Coalition of Afghanistan | Coalition for Change and Hope
+POL_445,Political Party,,,,,,,AFG,Afghanistan,445.0,Jamayat-E-Islami,Jamiat,Islamic Society | Jamiat-e-Islami | Jamiati Islami
+POL_446,Political Party,,,,,,,AFG,Afghanistan,446.0,Ittehad-e-Islami,,Islamic Union for the Liberation of Afghanistan | Islamic Dawah Organization of Afghanistan | Ittehad-e Islami bara-ye Azadi-ye Afghanistan | Tanzim-e Dahwat-e Islami-ye Afghanistan
+ARM_447,Armed Organization,,,,,,,AFG,Afghanistan,447.0,Hezb-e-Islami,,
+POL_448,Political Party,,,,,,,AFG,Afghanistan,448.0,National Islamic Front of Afghanistan,,Mahaz-e Milli-ye Islami-ye Afghanistan | Mahaz-i Milli-yi Islami-yi Afghanistan
+POL_449,Political Party,,,,,,,CAF,Central African Republic,449.0,Central African Democratic Rally,RDC,
+NGO_450,Civil Society,Non-governmental Organization,Other,,1.0,1.0,,CAF,Central African Republic,450.0,"Human rights, justice and democracy groups",,
+NGO_451,Civil Society,Religious,,,,1.0,,CAF,Central African Republic,451.0,Religious Denominations,,
+ARM_452,Armed Organization,,,,,,,RUS,Russia,452.0,Armed Forces of the Chechen Republic of Ichkeria,,Armed Forces CRI | Armed Forces of the CRI
+NGO_453,Civil Society,Non-governmental Organization,Other,1.0,,,,,,453.0,Aga Khan Foundation,,
+IGO_454,Intergovernmental Organization,,,1.0,,,UN Mission,,,454.0,UNMOT,UNMOT,United Nations Mission of Observers in Tajikistan
+ARM_455,Armed Organization,,,,,,,NER,Niger,455.0,Revolutionary Armed Forces of the Sahara,FARS,Forces armÃ©es rÃ©volutionnaires du Sahara
+ARM_456,Armed Organization,,,,,,,NER,Niger,456.0,Union of Forces of Armed Resistance,UFRA,Union des forces de la rÃ©sistance armÃ©e
+NGO_457,Civil Society,Non-governmental Organization,Other,,,1.0,,MEX,Mexico,457.0,San Miguel Community,,
+CON_458,Country/State,,,,,,,KOR,"Korea, South",458.0,South Korea,ROK,"Korea, Republic of | KOREA, REPUBLIC OF | Korea | Republic Korea"
+IGO_459,Intergovernmental Organization,,,1.0,,,United Nations,,,459.0,United Nations Children's Fund,UNICEF,UNICEF |United Nations Children'S Fund || U.N. Children Fund || United Nations Children Fund || U.N. Children'S Fund || Un Children'S Fund | UNICEF | UNICEF Philippines | UNICEF  |  United Nations Children'S Fund  |  U.N. Children Fund  |  United Nations Children Fund  |  U.N. Children'S Fund  |  Un Children'S Fund
+ARM_460,Armed Organization,,,,,,,BIH,Bosnia and Herzegovina,460.0,Croatian Republic of Herzeg-Bosnia,, Croatian Republic Herceg Bosnia Mate Boban | Croatian Republic Herzeg - Bosnia | Mate Boban | M. BOBAN
+ARM_461,Armed Organization,,,,,,,SDN,Sudan,461.0,Equatoria Defence Force,EDF,
+UMB_462,Umbrella,,,,,,,SDN,Sudan,462.0,Union of Sudanese African Parties,USAP,
+OTH_463,Other,,,,,1.0,,SSD,South Sudan,463.0,South Sudan Independents Group,,
+POL_464,Political Party,,,,,,,SSD,South Sudan,464.0,South Sudan United Democratic Front,UDSF,
+ARM_465,Armed Organization,,,,,,,SSD,South Sudan,465.0,South Sudan Independence Movement/Army,SSIM/A, South Sudan Independence Movement / Army
+OTH_466,Other,,,,,1.0,,LBR,Liberia,466.0,Liberia Council,,
+POL_467,Political Party,,,,,,, ,Northern Ireland,467.0,Social Democratic Labour Party,SDLP,
+POL_468,Political Party,,,,,,, ,Northern Ireland,468.0,Progressive Unionist Party,PUP,
+POL_469,Political Party,,,,,,, ,Northern Ireland,469.0,Ulster Democratic Party,UDP,
+POL_470,Political Party,,,,,,, ,Northern Ireland,470.0,Ulster Unionist Party,UUP,
+POL_471,Political Party,,,,,,, ,Northern Ireland,471.0,NI Labour Coalition,,
+POL_472,Political Party,,,,,,, ,Northern Ireland,472.0,Sinn Fein,SF,
+POL_473,Political Party,,,,,,, ,Northern Ireland,473.0,The Alliance Party of Northern Ireland,AP,
+OTH_474,Civil Society,Non-governmental Organization,Other,,,1.0,,PHL,Philippines,474.0,Philippine Peace Center,,
+OTH_475,Civil Society,Non-governmental Organization,Other,1.0,,,,,,475.0,International Negotiations Network (INN),,
+ARM_476,Armed Organization,,,,,,,SOM,Somalia,476.0,Somali National Front,SNF,
+OTH_477,Other,,,1.0,,,,CAF,Central African Republic,477.0,International Monitoring Committee,,
+OTH_478,Other,,,,,1.0,,CAF,Central African Republic,478.0,Officers,,
+ARM_479,Armed Organization,,,,,,,SRB,Serbia,479.0,Kosovo Liberation Army,UCK,Ushtria Clirimtare e KosovÃ«s
+IGO_480,Intergovernmental Organization,,,1.0,,,UN Mission,,,480.0,UNOMIG,UNOMIG,United Nations Observer Mission in Georgia
+CON_481,Country/State,,,,,,,MDG,Madagascar,481.0,Madagascar,MAG,Madagascar (Malagasy) | MADAGASCAR | Madagascar | Madagascar Page 1 | Madagascar Pour l'Organisation Internationale de la Francophonie Edem Kodjo Pour | Madagascar Republic - ABDULKADER | Republic Madagascar
+CON_482,Country/State,,,,,,,MUS,Mauritius,482.0,Mauritius,MAS,Mauritius | MAURITIUS | Mauritius
+IGO_483,Intergovernmental Organization,,,,1.0,,,,,483.0,Indian Ocean Commission,COI,Indian Ocean Commission || The Indian Ocean Commission || Commission De L'OcÃ©an Indien || COI |  The Indian Ocean Commission  |  Commission De L'OcÃƒÂ©an Indien 
+ENT_484,Entity,,,,,,,COM,Comoros,484.0,Anjouan,,
+CON_485,Country/State,,,,,,,COM,Comoros,485.0,Comoros,COM,Comoros | COMOROS | Comoros
+CON_486,Country/State,,,,,,,QAT,Qatar,486.0,Qatar,QAT,Qatar | QATAR | State Qatar
+ENT_487,Entity,,,,,,,IND,India,487.0,Tripura,,
+ARM_488,Armed Organization,,,,,,,IND,India,488.0,All Tripura Tiger Force,ATTF,
+ARM_489,Armed Organization,,,,,,,LBR,Liberia,489.0,Independent National Patriotic Front of Liberia,INPFL,
+ARM_490,Armed Organization,,,,,,,UGA,Uganda,490.0,Uganda National Rescue Front II,UNRF II,
+IGO_491,Intergovernmental Organization,,,,1.0,,,,,491.0,Economic and Monetary Community of Central Africa,CEMAC,Economic And Monetary Community Of Central Africa || CommunautÃ© Ã‰conomique Et MonÃ©taire De L'Afrique Centrale || CEMAC |  CommunautÃƒÂ© Ãƒâ€°conomique Et MonÃƒÂ©taire De L'Afrique Centrale  |  CEMAC | CommunautÃƒÂ© ÃƒÂ©conomique et monÃƒÂ©taire d'Afrique centrale (CEMAC) | Central African Economic & Monetary Union | CommunautÃƒÂ© ÃƒÂ©conomique et monÃƒÂ©taire d'Afrique centrale (CEMAC)
+ARM_492,Armed Organization,,,,,,,CAF,Central African Republic,492.0,Popular Army for the Restoration of the Republic and Democracy,APRD,
+IGO_493,Intergovernmental Organization,,,1.0,,,,,,493.0,International Conference on the Great Lakes Region,ICGLR,ICGLR Verification Mechanism | ConfÃ©rence Internationale sur la RÃ©gion des Grands Lacs | CIRGL
+ARM_494,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",494.0,National Congress for the Defence of the People,CNDP,CongrÃ¨s national pour la dÃ©fense du peuple
+ARM_495,Armed Organization,,,,,,,CAF,Central African Republic,495.0,Democratic Front for the People of Central Africa,FDPC,Front dÃ©mocratique du peuple Centrafricain
+ARM_496,Armed Organization,,,,,,,CAF,Central African Republic,496.0,Union of Democratic Forces for Unity,UFDR,Union des Forces dÃ©mocratiques pour le rassemblement
+ENT_497,Entity,,,,,,, ,Kurdistan,497.0,Kurdistan,,
+ARM_498,Armed Organization,,,,,,,SOM,Somalia,498.0,Alliance for the Re-liberation of Somalia/Union of Islamic Courts,ARS/UIC,Alliance for the Re-liberation of Somalia/Union of Islamic Courts | Union of Islamic Courts | Alliance for the Re-liberation of Somalia | Islamic Courts Union
+POL_499,Political Party,,,,,,,KEN,Kenya,499.0,Orange Democratic Movement,,
+POL_500,Political Party,,,,,,,KEN,Kenya,500.0,Party of National Unity,,
+POL_501,Political Party,,,,,,,GTM,Guatemala,501.0,National Advancement Front Party,FAN,
+NGO_502,Civil Society,Religious,,,,1.0,,GTM,Guatemala,502.0,Episcopal Conference of Guatemala,,
+OTH_503,Other,,,,,1.0,,GTM,Guatemala,503.0,National Reconciliation Commission (CNR),,
+POL_504,Political Party,,,,,,,GTM,Guatemala,504.0,Solidarity Action Movement,MAS,
+POL_505,Political Party,,,,,,,GTM,Guatemala,505.0,National Liberation Movement,MLN,
+POL_506,Political Party,,,,,,,GTM,Guatemala,506.0,National Renewal Party,PNR,
+POL_507,Political Party,,,,,,,GTM,Guatemala,507.0,Socialist Party,PSD,
+NGO_508,Civil Society,Non-governmental Organization,Other,,,1.0,,AFG,Afghanistan,508.0,Afghan Refugees,,
+NGO_509,Civil Society,Religious,,,,1.0,,,,509.0,Religious Scholars,,
+OTH_510,Other,,,,,1.0,,AFG,Afghanistan,510.0,National Consultative Peace Jirga (NCPJ),,
+NGO_511,Civil Society,Non-governmental Organization,Other,,,1.0,,AFG,Afghanistan,511.0,Civil Society,,
+ARM_512,Armed Organization,,,,,,,IRQ,Iraq,512.0,Islamic State of Iraq and Levant,ISIS,ISIL | IS
+OTH_514,Other,,,,,1.0,,LBY,Libya,514.0,Interim Transitional National Council,,
+POL_515,Political Party,,,,,,,LBN,Lebanon,515.0,The Future Movement,,
+ARM_516,Armed Organization,,,,,,,LBN,Lebanon,516.0,Hezbollah,,Party of God
+POL_517,Political Party,,,,,,,LBN,Lebanon,517.0,Progressive Socialist Party,,
+POL_518,Political Party,,,,,,,SYR,Syria,518.0,Syrian Social Nationalist Party,,
+POL_519,Political Party,,,,,,,LBN,Lebanon,519.0,Lebanese Democrat Party,,
+POL_520,Political Party,,,,,,,LBN,Lebanon,520.0,Amal Movement,,
+CON_521,Country/State,,,,,,,LSO,Lesotho,521.0,Lesotho,LES,Lesotho | LESOTHO
+POL_522,Political Party,,,,,,,LSO,Lesotho,522.0,Marematlou Freedom Party,,
+POL_523,Political Party,,,,,,,LSO,Lesotho,523.0,Lesotho Workers Party,,
+POL_524,Political Party,,,,,,,LSO,Lesotho,524.0,All Basotho Convention,,
+POL_525,Political Party,,,,,,,LSO,Lesotho,525.0,Lesotho People's Congress,,
+POL_526,Political Party,,,,,,,LSO,Lesotho,526.0,Batotho National Party,,
+POL_527,Political Party,,,,,,,LSO,Lesotho,527.0,Popular Front for Democracy,,
+POL_528,Political Party,,,,,,,LSO,Lesotho,528.0,Basotho Democratic National Party,,
+OTH_529,Other,,,,,1.0,,LSO,Lesotho,529.0,National Independent,,
+POL_530,Political Party,,,,,,,LSO,Lesotho,530.0,Basotho Batho Democratic Party,,
+POL_531,Political Party,,,,,,,NPL,Nepal,531.0,Unified Communist Party of Nepal,,
+ARM_533,Armed Organization,,,,,,,SOM,Somalia,533.0,Ahlu Sunna Waljama'a,ASWJ,Ahlu Suna Waljamaaca | Ahlu Sunnah Wal Jamaa
+ENT_534,Entity,,,,,,,SOM,Somalia,534.0,Puntland,,
+IGO_535,Intergovernmental Organization,,,,1.0,,,,,535.0,East African Community,EAC,East African Community | East African Community 
+IGO_536,Intergovernmental Organization,,,1.0,1.0,,UN Mission,,,536.0,UNPOS,UNPOS,UN Political Office for Somalia 
+ARM_537,Armed Organization,,,,,,,SDN,Sudan,537.0,Liberation and Justice Movement,LJM,
+POL_538,Political Party,,,,,,,SDN,Sudan,538.0,National Congress Party,,
+OTH_539,Other,,,,,1.0,,YEM,Yemen,539.0,National Council,,
+IGO_540,Intergovernmental Organization,,,,1.0,,,,,540.0,Gulf Cooperation Council,GCC,GCC | Cooperation Council For The Arab States Of The Gulf | CCASG | Gulf Cooperation Council | Gulf Cooperation Council | GCC | Ministerial Council Gulf Cooperation Council | GCC  |  Cooperation Council For The Arab States Of The Gulf  |  CCASG  |  Gulf Cooperation Council | GCC | Gulf Cooperation Council | Gulf Cooperation Council (GCC)
+ARM_541,Armed Organization,,,,,,,CAF,Central African Republic,541.0,Convention of Patriots for Justice and Peace ,CPJP,Convention des patriotes pour la justice et la paix
+IGO_542,Intergovernmental Organization,,,,1.0,,,,,542.0,Community of Sahel-Saharan States,,
+ARM_543,Armed Organization,,,,,,,TCD,Chad,543.0,National Chadian Concord,CNT,Concorde Nationale Tchadienne
+ARM_544,Armed Organization,,,,,,,TCD,Chad,544.0,Union of Forces for Democracy and Basic Development,UFDDF,Union des Forces pour le la DÃ©mocratie et le DÃ©veloppement Fondamentale | Union Forces Development Fundamental Democracy | UFDD - F 
+ARM_545,Armed Organization,,,,,,,TCD,Chad,545.0,Union of Forces for Development and Democracy,UFDD,Union des Forces pour le DÃ©veloppement et la DÃ©mocratie | Forces Development Democracy  UFDD
+ARM_546,Armed Organization,,,,,,,TCD,Chad,546.0,Rally of Forces for Change,RFC,Rassemblement des Forces pour le Changement
+POL_547,Political Party,,,,,,,TCD,Chad,547.0,National Movement,,
+POL_548,Political Party,,,,,,, ,Northern Ireland,548.0,Democratic Unionist Party,DUP,
+ENT_549,Entity,,,,,,,NPL,Nepal,549.0,Malagasy,,
+ENT_550,Entity,,,,,,,MMR,Myanmar (Burma),550.0,Wa Special Region,,
+CON_551,Country/State,,,,,,,MMR,Myanmar (Burma),551.0,Myanmar,MYA,Myanmar (Burma) | MYANMAR | Myanmar | Burma | Myanmar (Burma) | Myanmar Union | Republic Union Burma
+ARM_552,Armed Organization,,,,,,,MMR,Myanmar (Burma),552.0,Mongla Armed Group,,
+ARM_553,Armed Organization,,,,,,,MMR,Myanmar (Burma),553.0,Chin National Front,CNF, CNF | Chin National Front |  Chin National
+ARM_554,Armed Organization,,,,,,,MMR,Myanmar (Burma),554.0,Shan State Progressive Party/Shan State Army,SSPP/SSA, SSA |  SSA - S |  SSPP / Shan State Army Sao Khun Hsai |  Shan State Army ( Restoration Council Shan State |  Shan State Progressive Party |  Shan State Progressive Party / Shan State Army | Shan State Army ( Restoration Council Shan State | Shan State Progressive Party | Shan State Progressive Party / Shan State Army
+ARM_555,Armed Organization,,,,,,,MMR,Myanmar (Burma),555.0,New Mon State Party,NMSP, New Mon State Party
+OTH_556,Other,,,,,1.0,,MMR,Myanmar (Burma),556.0,Mon State Level Peace-Making Group,,
+OTH_557,Other,,,,,1.0,,MMR,Myanmar (Burma),557.0,Karen State-Level Peace-Making Team,,
+ARM_558,Armed Organization,,,,,,,MMR,Myanmar (Burma),558.0,Karen National Union/Karen National Liberation Army,KNU/KNLA,Karen National Union | Karen National Union / Karen National Liberation Army | KNLA | KNU | KNU / KNLA | KNU / KNLA ) | KNU / KNLA Peace Council
+POL_559,Political Party,,,,,,,MMR,Myanmar (Burma),559.0,Rakhine State Liberation Party,RSLP,
+OTH_560,Other,,,,,1.0,,MMR,Myanmar (Burma),560.0,Rakhine State Government Peace-Making Group,,
+ENT_561,Entity,,,,,,,SOM,Somalia,561.0,Galmudug,,
+CON_562,Country/State,,,,,,,TUR,Turkey,562.0,Turkey,TUR,Turkey (Ottoman Empire) | TURKEY | Republic Turkey | Republic of Turkey | Turke | Turkey | Republic Türkiye | Türkiye
+CON_563,Country/State,,,,,,,KWT,Kuwait,563.0,Kuwait,KUW,Kuwait | KUWAIT
+ARM_564,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",564.0,M23,M23,March 23 Movement | M-23
+ENT_565,Entity,,,,,,,THA,Thailand,565.0,Southern Border Provinces,,
+OTH_566,Other,,,,,1.0,,SOM,Somalia,566.0,Jubba Interim Administration,,
+ARM_567,Armed Organization,,,,,,,YEM,Yemen,567.0,Southern Movement,, al-Hiraak
+ARM_568,Armed Organization,,,,,,,YEM,Yemen,568.0,Ansar Allah,,Houthi |  ANSAR |  Ansar Allah |  Ansarallah | Houthis | the Houthis | Houthi's | Huthi
+ARM_569,Armed Organization,,,,,,,TCD,Chad,569.0,Popular Front for Recovery,FPR,Front Populaire pour le Redressement
+IGO_570,Intergovernmental Organization,,,1.0,,,UN Mission,,,570.0,MINUSMA,MINUSMA,United Nations Multidimensional Integrated Stabilization Mission in Mali
+ARM_571,Armed Organization,,,,,,,MLI,Mali,571.0,Coordination of Movements and Fronts of Patriotic Resistance,CM-FPR,Coordination des Mouvements et Front Patriotique de RÃ©sistance 
+ARM_572,Armed Organization,,,,,,,CAF,Central African Republic,572.0,anti-Balaka,,"AK Anti-Bullet Resistance Faction of the NdÃ©nga Commune (Bangui axis), Sub-Prefecture
+of Kaga-Bandoro"
+ARM_573,Armed Organization,,,,,,,CAF,Central African Republic,573.0,Movement of Central African Liberators for Justice ,MLCJ,
+ARM_574,Armed Organization,,,,,,,CAF,Central African Republic,574.0,Revolution and Justice,RJ,
+ARM_575,Armed Organization,,,,,,,CAF,Central African Republic,575.0,Union of Republican Forces,UFR,Union Forces Republic  UFR
+UMB_576,Umbrella,,,,,,,CAF,Central African Republic,576.0,Union of Fundamental Republic Forces,,
+ARM_577,Armed Organization,,,,,,,CAF,Central African Republic,577.0,Popular Front for the Renaissance of Central Africa,FPRC,Front populaire pour la renaissance de centrafrique | ex-Seleka
+POL_578,Political Party,,,,,,,ZWE,Zimbabwe,578.0,Zimbabwe African National Union – Patriotic Front,,
+POL_579,Political Party,,,,,,,ZWE,Zimbabwe,579.0,Movement for Democratic Change,,
+ARM_580,Armed Organization,,,,,,,COL,Colombia,580.0,Guevarista Revolutionary Army,ERG,
+POL_581,Political Party,,,,,,,SSD,South Sudan,581.0,All Political Parties Conference,APPC,
+ARM_582,Armed Organization,,,,,,,TGO,Togo,582.0,Rally of the Togolese People,RPT,Gathering of the Togolese People
+ARM_583,Armed Organization,,,,,,,TGO,Togo,583.0,Union of Forces for Change,UFC,
+POL_584,Political Party,,,,,,,TGO,Togo,584.0,Action Committee for Renewal,CAR,Comité d'Action pour le Renouveau
+CON_585,Country/State,,,,,,,CRI,Costa Rica,585.0,Costa Rica,COS,Costa Rica | COSTA RICA | COSTA RICA | Costa Rica | Republic Costa Rica
+IGO_586,Intergovernmental Organization,,,,1.0,,,,,586.0,Shanghai Cooperation Organization,SCO,Shanghai Cooperation Organization || SCO || Shanghai Cooperation Organisation |  SCO  |  Shanghai Cooperation Organisation
+CON_587,Country/State,,,,,,,ALB,Albania,587.0,Albania,ALB,Albania | ALBANIA | Republic Albania | Republic Albania
+CON_588,Country/State,,,,,,,AUT,Austria,588.0,Austria,AUS,Austria | AUSTRIA | Republic Austria | Austria | AUSTRIA | Republic of Austria
+CON_589,Country/State,,,,,,,BGR,Bulgaria,589.0,Bulgaria,BUL,Bulgaria | BULGARIA | Bulgaria | Republic Bulgaria
+CON_590,Country/State,,,,,,,TUN,Tunisia,590.0,Tunisia,TUN,Tunisia | TUNISIA | Republic Tunisia
+CON_591,Country/State,,,,,,,ARE,United Arab Emirates,591.0,United Arab Emirates,UAE,United Arab Emirates | UNITED ARAB EMIRATES | United Arab Emirates | UAE
+CON_592,Country/State,,,,,,,SVK,Slovakia,592.0,Slovakia,SLO,Slovakia | SLOVAKIA | Slovak Republic | Slovakia
+CON_593,Country/State,,,,,,,SWE,Sweden,593.0,Sweden,SWD,Sweden | SWEDEN | Kingdom Sweden | SWEDEN | Sweden
+CON_594,Country/State,,,,,,,URY,Uruguay,594.0,Uruguay,URU,Uruguay | URUGUAY | Oriental Republic Uruguay
+NGO_595,Civil Society,Non-governmental Organization,Other,1.0,,,,,,595.0,Aga Khan Development Network,,
+IGO_596,Intergovernmental Organization,,,,1.0,,,,,596.0,Islamic Development Bank,ISDB,Islamic Development Bank | ISDB | Islamic Development Bank | Islamic Development Bank (IsDB)
+IGO_597,Intergovernmental Organization,,,,1.0,,,,,597.0,Economic Cooperation Organization,ECO,Economic Cooperation Organization || Economic Cooperation Organisation |  Economic Cooperation Organisation | Economic Cooperation Organization | Economic Cooperation Organization (ECO)
+IGO_598,Intergovernmental Organization,,,,1.0,,,,,598.0,Collective Security Treaty Organization,CSTO,Collective Security Treaty Organization || Collective Security Treaty Organisation |  Collective Security Treaty Organisation
+IGO_599,Intergovernmental Organization,,,,1.0,,,,,599.0,Conference on Interaction and Confidence-Building Measures in Asia (CICA),CICA, | Conference on Interaction and Confidence-Building Measures in Asia | Conference on Interaction and Confidence-Building Measures in Asia (CICA)
+IGO_600,Intergovernmental Organization,,,,1.0,,,,,600.0,Asian Development Bank,ADB,ADB || Asian Development Bank | 
+CON_601,Country/State,,,,,,,ISL,Iceland,601.0,Iceland,ICE,Iceland | ICELAND | Iceland | Republic Iceland
+CON_602,Country/State,,,,,,,HUN,Hungary,602.0,Hungary,HUN,Hungary | HUNGARY | Hungary | Republic Hungary
+CON_603,Country/State,,,,,,,POL,Poland,603.0,Poland,POL,Poland | POLAND | POL | Poland | Republic Poland | Republic of Poland 
+CON_604,Country/State,,,,,,,DNK,Denmark,604.0,Denmark,DEN,Denmark | DENMARK | Denmark | DENMARK | Kingdom Denmark
+CON_605,Country/State,,,,,,,EST,Estonia,605.0,Estonia,EST,Estonia | ESTONIA | Estonia | Republic Estonia
+CON_606,Country/State,,,,,,,OMN,Oman,606.0,Oman,OMA,Oman | OMAN
+CON_607,Country/State,,,,,,,MNE,Montenegro,607.0,Montenegro,MNG,Montenegro | MONTENEGRO | Montenegro
+CON_608,Country/State,,,,,,,MNG,Mongolia,608.0,Mongolia,MON,Mongolia | MONGOLIA | Mongolia | People Republic Mongolia
+CON_609,Country/State,,,,,,,CYP,Cyprus,609.0,Cyprus,CYP,Cyprus | CYPRUS | Cyprus
+CON_610,Country/State,,,,,,,MKD,North Macedonia,610.0,North Macedonia,MAC,"Macedonia (Former Yugoslav Republic of) | MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF | Macedonia | Republic Macedonia | Macedonia | FYROM "
+CON_611,Country/State,,,,,,,LUX,Luxembourg,611.0,Luxembourg,LUX,Luxembourg | LUXEMBOURG | Luxembourg
+CON_612,Country/State,,,,,,,LTU,Lithuania,612.0,Lithuania,LIT,Lithuania | LITHUANIA | Lithuania | Republic Lithuania
+CON_613,Country/State,,,,,,,LIE,Liechtenstein,613.0,Liechtenstein,,Liechtenstein | LIECHTENSTEIN
+CON_614,Country/State,,,,,,,MLT,Malta,614.0,Malta,MLT,Malta | MALTA | Malta | Maltese Cross | Republic Malta
+CON_615,Country/State,,,,,,,LVA,Latvia,615.0,Latvia,LAT,Latvia | LATVIA | Republic Latvia | Latvia
+IGO_616,Intergovernmental Organization,,,1.0,,,UN Mission,,,616.0,UNISFA,UNISFA,United Nations Organization Interim Security Force for Abyei
+OTH_617,Other,,,,,1.0,,PHL,Philippines,617.0,Cordillera Bodong Administration,,
+ARM_618,Armed Organization,,,,,,,PHL,Philippines,618.0,Cordillera People's Liberation Army,CPLA,
+ARM_619,Armed Organization,,,,,,,SSD,South Sudan,619.0,South Sudan Democratic Movement/Army,SSDM/A,
+ARM_620,Armed Organization,,,,,,,SDN,Sudan,620.0,Sudan People Liberation Movement/Army - In Opposition,SPLM / SPLA - IO,SPLM-In Opposition: Sudan People's Liberation Movement-In Opposition (Splinter Faction) | SPLM-N-Agar: Sudan People's Liberation Movement (North) (Malik Agar faction) | SPLM-In Opposition-Fertit Lions: Sudan People's Liberation Movement-In Opposition (Fertit Lions Faction) | SPLM-In Opposition-Deng Gai: Sudan People's Liberation Movement-In Opposition (Taban Deng Gai Faction) | SPLM-In Opposition-Welebe: Sudan People's Liberation Movement-In Opposition (Wesley Welebe Faction) | SPLM - Opposition | Sudan People ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s Liberation Movement/ Army Opposition | SPLM / - IO Angelina Jany Teny South Sudan Opposition Alliance | SPLM - IO | SPLM / - IO
+CON_621,Country/State,,,,,,,HND,Honduras,621.0,Honduras,HON,Honduras | HONDURAS | Honduras | Republic Honduras
+ARM_622,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",622.0,Nationalist and Integrationist Front,FNI,Front des Nationalistes et IntÃ©grationnistes
+ARM_623,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",623.0,Front for Patriotic Resistance in Ituri,FRPI,Force de rÃ©sistance patriotique dâ€™Ituri
+IGO_624,Intergovernmental Organization,,,1.0,,,UN Mission,,,624.0,MONUC,MONUC,United Nations Organization Mission in the Democratic Republic of the Congo
+ARM_625,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",625.0,Revolutionary Movement of the Congo,MRC,Mouvement rÃ©volutionnaire du Congo
+ARM_626,Armed Organization,,,,,,,SDN | SSD,,626.0,Former Detainees,SPLM-FD,
+ARM_627,Armed Organization,,,,,,,SDN,Sudan,627.0,Sudan People's Liberation Movement (in Government),SPLM - IG,
+OTH_628,Political Party,,,,,,,,,628.0,Chama Cha Mapinduzi,,
+COA_629,State Coalition,,,1.0,,,,,,629.0,Group of 12,G12,
+ARM_630,Armed Organization,,,,,,,COL,Colombia,630.0,Francisco Garnica Guerrilla Coordination Front,FFGCG,"Frente
+Francisco Garnica de la Coordinadora Guerrilla"
+ARM_631,Armed Organization,,,,,,,NIC,Nicaragua,631.0,Frente Norte 380,,
+MIL_632,Military,,,,,,,AGO,Angola,632.0,Armed Forces of Angola,,
+ENT_633,Civil Society,Communities and tribes,,,,1.0,,PNG,Papua New Guinea,633.0,Baku community,,
+ENT_634,Entity,,,,,,,RUS,Russia,634.0,North Ossetia,,
+ENT_635,Entity,,,,,,,RUS,Russia,635.0,South Ossetia,,
+CON_636,Country/State,,,,,,,GRC,Greece,636.0,Greece,GRC,Greece | GREECE | Greece
+CON_637,Country/State,,,,,,,CZE,Czech Republic,637.0,Czechia,CZR,Czech Republic | CZECH REPUBLIC | Czech Republic
+IGO_638,Intergovernmental Organization,,,,1.0,,,,,638.0,European Bank for Reconstruction and Development,EBRD,European Bank For Reconstruction And Development || EBRD | European Bank for Reconstruction & Development | European Bank for Reconstruction and Development (EBRD)
+IGO_639,Intergovernmental Organization,,,,1.0,,,,,639.0,Council of Europe,COE,Council Of Europe | Council of Europe | Council of Europe
+IGO_640,Intergovernmental Organization,,,1.0,,,United Nations,,,640.0,Office of the United Nations High Commissioner for Human Rights,UNHCHR,Office Of The United Nations High Commissioner For Human Rights || OHCHR || High Commissioner For Human Rights | Office of the United Nations High Commissioner for Human Rights | UNHCHR | Office Of The United Nations High Commissioner For Human Rights  |  OHCHR  |  High Commissioner For Human Rights
+CON_641,Country/State,,,,,,,SYC,Seychelles,641.0,Seychelles,,Seychelles | SEYCHELLES
+OTH_642,Other,,,,,1.0,,LSO,Lesotho,642.0,Interim Political Authority,,
+POL_643,Political Party,,,,,,,DZA,Algeria,643.0,National Liberation Front,FLN,
+POL_644,Political Party,,,,,,,DZA,Algeria,644.0,Socialist Forces Front,FFS,
+POL_645,Political Party,,,,,,,DZA,Algeria,645.0,Movement for Democracy in Algeria,MDA,
+POL_646,Political Party,,,,,,,DZA,Algeria,646.0,Workers Party,PT,
+POL_647,Political Party,,,,,,,BDI,Burundi,647.0,Political Parties,,
+ARM_648,Armed Organization,,,,,,,COG,"Congo, Republic of the",648.0,National Council of Resistance,CNR,
+ARM_649,Armed Organization,,,,,,,IND,India,649.0,Bodo Liberation Tigers,BLT,Bodo Liberation Tiger Force | BLTF
+ARM_650,Armed Organization,,,,,,,IND,India,650.0,National Socialist Council of Nagaland,NSCN,
+ARM_651,Armed Organization,,,,,,,SLE,Sierra Leone,651.0,Civil Defence Forces,CDF,
+IGO_652,Intergovernmental Organization,,,1.0,,,UN Mission,,,652.0,UNAMSIL,UNAMSIL,United Nations Mission in Sierra Leone
+ARM_653,Armed Organization,,,,,,,PHL,Philippines,653.0,Revolutionary Proletarian Army-Alex Boncayao Brigade,RPA-ABB,
+OTH_654,Government/state,,,,,1.0,,PHL,Philippines,654.0,GRP Peace Panel,,
+POL_655,Political Party,,,,,,,SDN,Sudan,655.0,National Democratic Alliance,,
+ARM_656,Armed Organization,,,,,,,SSD,South Sudan,656.0,South Sudan Defence Forces,SSDF, South Sudan Defence Forces
+ARM_657,Armed Organization,,,,,,,SDN,Sudan,657.0,Sudan People's Liberation Army,SPLA,SPLA | SPLA / M Bor Group | SPLA / M Nuba Mountains Central Committee | SPLA Division | Sudan People ’s Liberation Army - North
+ARM_658,Armed Organization,,,,,,,SOM,Somalia,658.0,United Western Somali Liberation Front,UWSLF,
+POL_659,Political Party,,,,,,,COL,Colombia,659.0,Communist Party of Colombia (Marxist–Leninist),,
+POL_661,Political Party,,,,,,,COL,Colombia,661.0,National Salvation Movement,,
+POL_662,Political Party,,,,,,,COL,Colombia,662.0,Colombian Conservative Party,,
+OTH_663,Other,,,,,1.0,,COL,Colombia,663.0,Hope for Peace and Freedom,,
+OTH_664,Other,,,,,1.0,,COL,Colombia,664.0,Peace Facilitation Commission,,
+ARM_665,Armed Organization,,,,,,,COL,Colombia,665.0,Jaime Bateman Cayón Movement,JCB Movement,
+OTH_666,Other,,,,,1.0,,COL,Colombia,666.0,Facilitating and Verification Commission,,
+ARM_667,Armed Organization,,,,,,,COL,Colombia,667.0,MIR-COAR,MIR-COAR,El Movimiento Independiente Revolucionario-Comandos Armados | Revolutionary Independent Movement-Armed Commands
+CON_668,Country/State,,,,,,,TTO,Trinidad and Tobago,668.0,Trinidad and Tobago,TRI,Trinidad and Tobago | TRINIDAD AND TOBAGO | TRINIDAD
+CON_669,Country/State,,,,,,, ,Holy See,669.0,Vatican City,PAP,Papal States | HOLY SEE (VATICAN CITY STATE) | VATICAN CITY | Vatican City | Pope | Holy See
+CON_670,Country/State,,,,,,,PAN,Panama,670.0,Panama,PAN,Panama | PANAMA | PANAMA
+OTH_671,Other,,,,,1.0,,LKA,Sri Lanka,671.0,Central Bank of Sri Lanka,,
+IGO_672,Intergovernmental Organization,,,1.0,,,United Nations,,,672.0,UN Office on Drugs and Crimes,UNODC,UN Office Drugs Crimes ( UNODC | UN Office on Drugs and Crimes | United Nations Office on Drugs and Crime
+IGO_673,Intergovernmental Organization,,,1.0,,,United Nations,,,673.0,World Food Program,WFP,World Food Program | WFP | World Food Programme | World Food Programme | WFP | World Food Program | World Food Program  |  WFP  |  World Food Programme
+IGO_674,Intergovernmental Organization,,,1.0,,,United Nations,,,674.0,United Nations Population Fund,UNFPA,United Nations Population Fund | 
+IGO_675,Intergovernmental Organization,,,1.0,,,United Nations,,,675.0,International Organization for Migration,IOM,International Organisation For Migration | Organización Internacional para las Migraciones | OIM|International Organization For Migration | Organisation Internationale Pour Les Migrations |  International Organization For Migration  |  Organisation Internationale Pour Les Migrations
+IGO_676,Intergovernmental Organization,,,1.0,,,United Nations,,,676.0,Food and Agriculture Organization,FAO,Food And Agriculture Organisation || Organisation Des Nations Unies Pour Lâ€™Alimentation Et Lâ€™Agriculture || Food And Agriculture Organization || ONUAA || FAO |  Organisation Des Nations Unies Pour LÃ¢â‚¬â„¢Alimentation Et LÃ¢â‚¬â„¢Agriculture  |  Food And Agriculture Organization  |  ONUAA  |  FAO | Food & Ag Org
+IGO_677,Intergovernmental Organization,,,1.0,,,United Nations,,,677.0,World Health Organization,WHO,WHO | World Health Organization | World Health Organisation |  World Health Organization  |  World Health Organisation | World Health Org | World Health Organization
+IGO_678,Intergovernmental Organization,,,1.0,,,United Nations,,,678.0,"United Nations Educational, Scientific and Cultural Organization",UNESCO,"UNESCO | United Nations Educational, Scientific And Cultural Organization || United Nations Educational, Scientific And Cultural Organisation |  United Nations Educational, Scientific And Cultural Organization  |  United Nations Educational, Scientific And Cultural Organisation | UN Education, Scientific, & Cultural Org | United Nations Educational, Scientific, and Cultural Organization (UNESCO)"
+IGO_679,Intergovernmental Organization,,,1.0,,,,,,679.0,International Fund for Agricultural Development (IFAD),IFAD,Int Fund for Agriculture & Development | International Fund for Agricultural Development (IFAD)
+IGO_680,Intergovernmental Organization,,,,1.0,,,,,680.0,Asian Productivity Organization,APO,Asian Productivity Organisation | Asian Productivity Organization | Asian Productivity Organisation
+IGO_681,Intergovernmental Organization,,,1.0,,,,,,681.0,Multilateral Investment Guarantee Agency (MIGA),MIGA,Multilateral Investment Guarantee Agency | Multilateral Investment Guarantee Agency (MIGA)
+ENT_682,Entity,,,,,,, ,Czechoslovakia,682.0,Czechoslovakia,,
+NGO_683,Civil Society,Non-governmental Organization,Other,,,1.0,,SSD,South Sudan,683.0,Civil Society,,
+POL_684,Political Party,,,,,,,SSD,South Sudan,684.0,Political Parties,,
+NGO_685,Civil Society,Religious,,,,1.0,,SSD,South Sudan,685.0,Religious Representatives,,
+OTH_686,Other,,,,,1.0,,IDN,Indonesia,686.0,Monitoring Team of Security Modality,,
+ARM_687,Armed Organization,,,,,,,BIH,Bosnia and Herzegovina,687.0,Republic of Serb Krajina,,
+COA_688,State Coalition,,,1.0,,,,,,688.0,Group of Eight,G8,
+POL_689,Political Party,,,,,,,DZA,Algeria,689.0,Political Parties,,
+OTH_690,Other,,,,,1.0,,DZA,Algeria,690.0,National Organizations,,
+NGO_691,Civil Society,Non-governmental Organization,Women,,,1.0,,DZA,Algeria,691.0,Women's Groups,,
+ARM_692,Armed Organization,,,,,,,TGO,Togo,692.0,Convention of the New Forces,CFN,
+POL_693,Political Party,,,,,,,TGO,Togo,693.0,Party of the pure-Action on Development,PAD,
+POL_694,Political Party,,,,,,,TGO,Togo,694.0,Union for the Democracy and Solidarity,UDS,
+POL_695,Political Party,,,,,,,TGO,Togo,695.0,Democratic party pure Unite,PDU,
+POL_696,Political Party,,,,,,,TGO,Togo,696.0,Party for Democracy and Renewal,PDR,
+POL_697,Political Party,,,,,,,TGO,Togo,697.0,Togolese Union for Democracy,UTD,
+POL_698,Political Party,,,,,,,TGO,Togo,698.0,Convention African Peoples Democratic,FDC,
+ARM_699,Armed Organization,,,,,,,IRL,Ireland,699.0,Irish Republican Army,IRA, Irish Republican Army
+UMB_700,Umbrella,,,,,,,GBR,United Kingdom,700.0,Combined Loyalist Military Command,CLMC,
+ARM_701,Armed Organization,,,,,,,LBN,Lebanon,701.0,Free Patriotic Movement,FPM,
+POL_702,Political Party,,,,,,,TGO,Togo,702.0,Panafrican Patriotic Convention,CPP,
+NGO_703,Civil Society,Non-governmental Organization,Other,1.0,,1.0,,TGO,Togo,703.0,African Female Ministers and Parliamentarians Network,,
+NGO_704,Civil Society,Non-governmental Organization,Women,,,1.0,,TGO,Togo,704.0,"Group for Reflexion and Action on Women, Democracy and Development",,
+POL_705,Political Party,,,,,,,TGO,Togo,705.0,Democratic Convention of African People,CDPA,
+POL_706,Political Party,,,,,,,TCD,Chad,706.0,Political Parties,,
+ENT_707,Entity,,,,,,,IND,India,707.0,West Bengal,,
+OTH_708,Other,,,,,1.0,,IND,India,708.0,Darjeeling Gorkha Hill Council,,
+UMB_709,Umbrella,,,,,,,ETH,Ethiopia,709.0,National Liberation Movements,,
+OTH_710,Other,,,,,1.0,,MMR,Myanmar (Burma),710.0,Union Peace Working Committee,,
+NGO_711,Civil Society,Religious,,1.0,,,,,,711.0,Religious Representatives,,
+NGO_712,Civil Society,Religious,,,1.0,,,,,712.0,Episcopal Conference of Angola and Sao Tome,,
+NGO_713,Civil Society,Religious,,,,1.0,,AGO,Angola,713.0,Council of Christian Churches of Angola,,
+NGO_714,Civil Society,Religious,,,,1.0,,AGO,Angola,714.0,Inter-Ecclesiastical Council for Peace in Angol,,
+OTH_715,Other,,,,,1.0,,AGO,Angola,715.0,Cabinda Forum for Dialogue,,
+NGO_716,Civil Society,Non-governmental Organization,Other,,,1.0,,SSD,South Sudan,716.0,Civil Society Representative,,
+NGO_717,Civil Society,Non-governmental Organization,Women,,,1.0,,SSD,South Sudan,717.0,Women's Bloc Representative,,
+UMB_718,Umbrella,,,,,,,SSD,South Sudan,718.0,Other Political Parties,OPP,
+NGO_719,Civil Society,Non-governmental Organization,Other,,,1.0,,SSD,South Sudan,719.0,Eminent Personalities Representative,,
+ENT_720,Entity,,,,,,,UKR,Ukraine,720.0,Luhansk People Republic,,
+ENT_721,Entity,,,,,,,UKR,Ukraine,721.0,Donetsk People Republic,,
+ARM_722,Armed Organization,,,,,,,MLI,Mali,722.0,Coordination of Patriotic Movements and Forces for Resistance,CMFPR,Coordination of Movements and Fronts of Patriotic Resistance | Coordination des Mouvements et Front Patriotique de Résistance
+ARM_723,Armed Organization,,,,,,,MLI,Mali,723.0,Coalition for the Azawad Peoples,CPA,
+ARM_724,Armed Organization,,,,,,,MLI,Mali,724.0,National Movement for the Liberation of Azawad/Coordination of Azawad Movements,MNLA/CMA,Mouvement National pour la Libération de l'Azawad | CMA | Coordination des Mouvements de l'Azawad | Coordination of Azawad Movements | CAM
+OTH_725,Other,,,,,1.0,,LBY,Libya,725.0,General National Congress,,
+OTH_726,Other,,,,,1.0,,LBY,Libya,726.0,National Transitional Council,,
+OTH_727,Other,,,,,1.0,,LBY,Libya,727.0,House of Representatives,,
+NGO_728,Civil Society,Non-governmental Organization,Other,,,1.0,,LBY,Libya,728.0,Civil Society Representative,,
+POL_729,Political Party,,,,,,,LBY,Libya,729.0,Political Parties,,
+OTH_730,Civil Society,Non-governmental Organization,Other,,,1.0,,LBY,Libya,730.0,Tribal Leaders,,
+NGO_731,Civil Society,Non-governmental Organization,Women,,,1.0,,LBY,Libya,731.0,Women's Organizations,,
+UMB_732,Umbrella,,,,,,,YEM,Yemen,732.0,Joint Meeting Parties,JMP,
+COA_733,State Coalition,,,1.0,,,,,,733.0,Friends of Yemen,,
+UMB_734,Umbrella,,,,,,,YEM,Yemen,734.0,National Democratic Alliance,NDA,
+OTH_735,Other,,,,,1.0,,YEM,Yemen,735.0,Preparatory Committee for National Dialogue,,
+POL_736,Political Party,,,,,,,YEM,Yemen,736.0,Yemeni Congregation for Reform,,Al-Islah
+POL_737,Political Party,,,,,,,YEM,Yemen,737.0,Solidarity Council and the Freedom Bloc,,
+POL_738,Political Party,,,,,,,YEM,Yemen,738.0,Al - Haqq,,Truth Party
+ENT_739,Entity,,,,,,,PSE,Palestine,739.0,Palestine,,
+ARM_740,Armed Organization,,,,,,,PSE,Palestine,740.0,Fatah,,Palestinian National Liberation Movement
+ARM_741,Armed Organization,,,,,,,PSE,Palestine,741.0,Hamas,,Islamic Resistance Movement
+NGO_742,Civil Society,Non-governmental Organization,Women,,,1.0,,BHR,Bahrain,742.0,Women's Societies,,
+POL_743,Political Party,,,,,,,BHR,Bahrain,743.0,Political Societies,,
+NGO_744,Civil Society,Non-governmental Organization,Other,,,1.0,,BHR,Bahrain,744.0,Civil Society,,
+OTH_745,Other,,,,,1.0,,BHR,Bahrain,745.0,Media,,
+NGO_746,Civil Society,Non-governmental Organization,Other,,,1.0,,BHR,Bahrain,746.0,Youth Societies,,
+NGO_747,Civil Society,Unions,,,,1.0,,BHR,Bahrain,747.0,Labour Unions,,
+OTH_748,Government/state,,,,,1.0,,IRQ,Iraq,748.0,Governing Council,,
+OTH_749,Other,,,1.0,,1.0,,,,749.0,Coalition Provisional Authority,,
+IGO_750,Intergovernmental Organization,,,1.0,,,UN Mission,,,750.0,UNSMIL,UNSMIL,United Nations Support Mission in Libya | UNSMIL - United Nations | United Nations Support Mission
+ARM_751,Armed Organization,,,,,,,ALB,Albania,751.0,"Liberation Army of Presevo, Medvedja and Bujanovac",UÇPMB,"Ushtria Çlirimtare e Preshevës, Medvegjës dhe Bujanocit | Liberation Army of Preševo, Medveđa, and Bujanovac"
+ENT_752,Entity,,,,,,,ALB,Albania,752.0,"Presevo, Bujanovac and Medvedja",,
+ARM_753,Armed Organization,,,,,,,MMR,Myanmar (Burma),753.0,DKBA-5,,
+ARM_754,Armed Organization,,,,,,,MMR,Myanmar (Burma),754.0,Karen National Union,,
+ARM_755,Armed Organization,,,,,,,MMR,Myanmar (Burma),755.0,Pa-O National Liberation Army,,
+ARM_756,Armed Organization,,,,,,,MMR,Myanmar (Burma),756.0,Restoration Council of Shan State,,
+ARM_757,Armed Organization,,,,,,,MMR,Myanmar (Burma),757.0,Lahu Democratic Union,LDU,
+ARM_758,Armed Organization,,,,,,,MMR,Myanmar (Burma),758.0,Arakan Liberation Party,ALP,
+ARM_759,Armed Organization,,,,,,,MMR,Myanmar (Burma),759.0,All Burma Students Democratic Front,,
+ARM_760,Armed Organization,,,,,,,SYR,Syria,760.0,Division 13,,
+ARM_761,Armed Organization,,,,,,,SYR,Syria,761.0,Jaysh al-Fateheen,,
+ARM_762,Armed Organization,,,,,,,SYR,Syria,762.0,Jaysh al-Mujahideen,,
+ARM_763,Armed Organization,,,,,,,SYR,Syria,763.0,Division 101,,
+ARM_764,Armed Organization,,,,,,,SYR,Syria,764.0,Division 16 Infantry,,
+ARM_765,Armed Organization,,,,,,,SYR,Syria,765.0,Sukur Al-Jabal Brigade,,Liwa Suqour al-Jabal | Mountain Hawks Brigade | لواء صقور الجبل
+ARM_766,Armed Organization,,,,,,,SYR,Syria,766.0,Shuhadaa Al-Islam Brigade,,
+ARM_767,Armed Organization,,,,,,,SYR,Syria,767.0,Liwa Al-Haq,,Truth Brigade
+ARM_768,Armed Organization,,,,,,,SYR,Syria,768.0,Ahrar Al-Sham Movement,AAS,Harakat Ahrar al-Sham al-Islamiyya | Islamic Movement of the Freemen of the Levant
+ARM_769,Armed Organization,,,,,,,SYR,Syria,769.0,Seif Allah Brigade,,
+ARM_770,Armed Organization,,,,,,,SYR,Syria,770.0,Al-Safwa Brigades,,
+ARM_771,Armed Organization,,,,,,,SYR,Syria,771.0,Tawhid Army (Jaysh Al-Tawhid),,Liwa al-Tawhid | Unity Brigade
+ARM_772,Armed Organization,,,,,,,SYR,Syria,772.0,Al-Sultan Murad Division,,
+ARM_773,Armed Organization,,,,,,,SYR,Syria,773.0,Fursan Al-Haqq Brigade,,Knights of Justice Brigade
+ARM_774,Armed Organization,,,,,,,SYR,Syria,774.0,Faylaq Al-Sham,,Faylaq Al-Sham | Sham Legion
+ARM_775,Armed Organization,,,,,,,SYR,Syria,775.0,Fa-Istaqim-Kama-Omert,,
+ARM_776,Armed Organization,,,,,,,SYR,Syria,776.0,The Shami Front,,
+ARM_777,Armed Organization,,,,,,,SYR,Syria,777.0,The Sham Front,,
+ARM_778,Armed Organization,,,,,,,SYR,Syria,778.0,Islam Army (Jaysh Al-Islam),,
+ARM_779,Armed Organization,,,,,,,SYR,Syria,779.0,Al-Arbaeen Brigades,,
+ARM_780,Armed Organization,,,,,,,SYR,Syria,780.0,Faylaq Al-Rahman,FaR,Faylaq Al-Rahman | Rahman Corps
+ARM_781,Armed Organization,,,,,,,SYR,Syria,781.0,Al-Furqan Brigades,,
+ARM_782,Armed Organization,,,,,,,SYR,Syria,782.0,City of Aleppo Brigades,,
+ARM_783,Armed Organization,,,,,,,SYR,Syria,783.0,The Sham Revolutionary Brigades,,
+ARM_784,Armed Organization,,,,,,,SYR,Syria,784.0,Nour El-Deen Zenki Movement,HNDZ,
+ARM_785,Armed Organization,,,,,,,SYR,Syria,785.0,Islamic Union of Ajnad al-Sham,,
+ARM_786,Armed Organization,,,,,,,SYR,Syria,786.0,Authenticity and Development Front,,Asala and Tanmeya Front 
+ARM_787,Armed Organization,,,,,,,SYR,Syria,787.0,Al-Fawj Al-Awwal,,Al-Fawj al-Awl
+ARM_788,Armed Organization,,,,,,,SYR,Syria,788.0,Sukur Al-Ghab,,
+ARM_789,Armed Organization,,,,,,,ESP,Spain,789.0,Basque Nation and Liberty,ETA,Euskadi Ta Askatasuna
+OTH_790,Umbrella,,,,,,,CAF,Central African Republic,790.0,Bangui National Forum,,
+OTH_791,Other,,,1.0,1.0,,,,,791.0,Arbitration Commission of the Conference on Yugoslavia,,
+MIL_792,Military,,,,,,,HRV,Croatia,792.0,Croatian Armed Forces,,Croatian Armed Forces | Croatian Army
+MIL_793,Military,,,,,,, ,Yugoslavia,793.0,Yugoslav People's Army,,JNA | ARMED FORCES OF SFRY | Socialist Federal Republic of Yugoslavia Armed Forces
+OTH_794,Other,,,,,1.0,,SRB,Serbia,794.0,Local Authorities,,
+IGO_795,Intergovernmental Organization,,,1.0,,,UN Mission,,,795.0,UNCRO,UNCRO,United Nations Confidence Restoration Operation in Croatia
+MIL_796,Military,,,,,,,BIH,Bosnia and Herzegovina,796.0,Bosnia and Herzegovina Armed Forces,,Army Bosnia Herzegovina | Army Bosnia Herzegovina ] | BiH | BiH ARMY | BiH Army | BiH ARMY HQ | BiH General
+POL_797,Political Party,,,,,,,TUN,Tunisia,797.0,Political Parties,,
+POL_798,Political Party,,,,,,,MMR,Myanmar (Burma),798.0,National League for Democracy,NLD,
+POL_799,Political Party,,,,,,,MMR,Myanmar (Burma),799.0,Nationalities Brotherhood Federation,NBF,
+POL_800,Political Party,,,,,,,MMR,Myanmar (Burma),800.0,Federal Democracy Alliance,FDA,
+POL_801,Political Party,,,,,,,MMR,Myanmar (Burma),801.0,United Nationalities Alliance,UNA,
+POL_802,Political Party,,,,,,,MMR,Myanmar (Burma),802.0,National Unity Party,NUP,
+POL_803,Political Party,,,,,,,MMR,Myanmar (Burma),803.0,Union Solidarity and Development Party,USDP,
+ARM_804,Armed Organization,,,,,,,MMR,Myanmar (Burma),804.0,Ethnic Armed Organisations Representatives,,
+NGO_805,Civil Society,Non-governmental Organization,Other,,,1.0,,MMR,Myanmar (Burma),805.0,Civil Society Representative,,
+MIL_806,Military,,,,,,,MMR,Myanmar (Burma),806.0,Tatmadaw,,
+ARM_807,Armed Organization,,,,,,,NER,Niger,807.0,Democratic Front for Renewal,FDR,Front Démocratique du Renouveau
+ENT_808,Entity,,,,,,,PAK,Pakistan,808.0,Shakai,,
+ENT_809,Entity,,,,,,,PAK,Pakistan,809.0,South Wazirstan Agency,,
+ENT_810,Entity,,,,,,,PAK,Pakistan,810.0,District Wana,,
+ENT_811,Entity,,,,,,,PAK,Pakistan,811.0,Isperka,,
+ENT_812,Entity,,,,,,,PAK,Pakistan,812.0,Musa Khel,,
+ARM_813,Armed Organization,,,,,,,MMR,Myanmar (Burma),813.0,Democratic Kayin Buddhist Army,DKBA,
+ARM_814,Armed Organization,,,,,,,MMR,Myanmar (Burma),814.0,All Burma Students’ Democratic Front,ABSDF,
+ARM_815,Armed Organization,,,,,,,MMR,Myanmar (Burma),815.0,Pa-Oh National Liberation Organization,PNLO/PNLA,
+ARM_816,Armed Organization,,,,,,,MMR,Myanmar (Burma),816.0,Restoration Council of Shan State/Shan State Army (South),RCSS/SSA (South), Shan State Army - South |  Shan State Restoration Council
+OTH_817,Other,,,,,1.0,,MMR,Myanmar (Burma),817.0,Union Peace-Making Working Committee,,
+ARM_818,Armed Organization,,,,,,,MMR,Myanmar (Burma),818.0,Karenni National Progressive Party,KNPP,Karenni National Progressive | Karenni National Progressive Party | KNPP | KNPP Khu Oo Reh
+ARM_819,Armed Organization,,,,,,,MMR,Myanmar (Burma),819.0,Democratic Karen Benevolent Army,DKBA 5,
+OTH_820,Other,,,,,1.0,,MMR,Myanmar (Burma),820.0,Karen State Peace Making Group,,
+ARM_821,Armed Organization,,,,,,,MMR,Myanmar (Burma),821.0,Myanmar National Democratic Alliance Army,MNDAA,
+ARM_822,Armed Organization,,,,,,,IND,India,822.0,NSCN (K),NSCN (K),
+ARM_823,Armed Organization,,,,,,,MMR,Myanmar (Burma),823.0,United Wa State Army,UWSA,
+ARM_824,Armed Organization,,,,,,,MLI,Mali,824.0,High Council for the Unity of Azawad,HCUA,
+ARM_825,Armed Organization,,,,,,,MLI,Mali,825.0,Coordination of Patriotic Movements and Forces for Resistance 2,CMFPR2,
+OTH_827,Other,,,,,1.0,,MMR,Myanmar (Burma),827.0,Union Peacemaking Working Committee,,
+ARM_828,Armed Organization,,,,,,,MMR,Myanmar (Burma),828.0,Kachin Independence Organisation,KIO, Kachin Independence Organisation |  Kachin Independence Organization
+ARM_829,Armed Organization,,,,,,,MMR,Myanmar (Burma),829.0,National Democratic Alliance Army,,
+ARM_830,Armed Organization,,,,,,,SSD,South Sudan,830.0,South Sudan National Liberation Movement,SSNLM,
+IGO_831,Intergovernmental Organization,,,1.0,,,UN Mission,,,831.0,UNMISS,UNMISS,United Nations Mission in the Republic of South Sudan | United Nations Mission in Republic of South Sudan | United Nations Mission in South Sudan
+UMB_832,Umbrella,,,,,,,YEM,Yemen,832.0,Arab Coalition,,
+POL_833,Political Party,,,,,,,HRV,Croatia,833.0,Croatian Democratic Union,,
+OTH_834,Other,,,,,1.0,,MMR,Myanmar (Burma),834.0,State Central Committee for Drug Abuse Control (CDAC),CDAC,State Central Committee for Drug Abuse Control
+ENT_835,Entity,,,,,,,SOM,Somalia,835.0,Jubbaland,,
+OTH_836,Other,,,,,1.0,,BIH,Bosnia and Herzegovina,836.0,Exchange Comisssion,,
+OTH_837,Other,,,1.0,,,,,,837.0,International Conference on the Former Yugoslavia,,
+NGO_838,Other,,,1.0,,,,,,838.0,Maltease Cross,,
+OTH_839,Other,,,,,1.0,,CAF,Central African Republic,839.0,National Transition Council,,
+POL_840,Political Party,,,,,,,LSO,Lesotho,840.0,National Independent Party,,
+POL_841,Political Party,,,,,,,LSO,Lesotho,841.0,Democratic Congress,,
+POL_842,Political Party,,,,,,,LSO,Lesotho,842.0,Basotho National African Congress,,
+POL_843,Political Party,,,,,,,LSO,Lesotho,843.0,Basotho Congress Party,,
+POL_844,Political Party,,,,,,,LSO,Lesotho,844.0,African Unity Movement,,
+POL_845,Political Party,,,,,,,LSO,Lesotho,845.0,All Democratic Cooperation,,
+POL_846,Political Party,,,,,,,LSO,Lesotho,846.0,Basotho National Party,,
+POL_847,Political Party,,,,,,,LSO,Lesotho,847.0,Lesotho Congress for Democracy,,
+NGO_848,Civil Society,Religious,,,,1.0,,LSO,Lesotho,848.0,Christian Council of Lesotho,,
+NGO_849,Civil Society,Non-governmental Organization,Other,,,1.0,,LSO,Lesotho,849.0,Lesotho Council of NGOs,,
+POL_850,Political Party,,,,,,,LSO,Lesotho,850.0,Basutoland Congress Party,,
+ARM_851,Armed Organization,,,,,,,SLB,Solomon Islands,851.0,Marau Eagle Force,,
+ARM_852,Armed Organization,,,,,,,SLB,Solomon Islands,852.0,Isatabur Freedom Movement,,
+OTH_853,Other,,,,,1.0,,SLB,Solomon Islands,853.0,Guadalcanal Provincial Government,,
+IGO_854,Intergovernmental Organization,,,1.0,,,UN Mission,,,854.0,UNMIS,UNMIS,United Nations Mission in the Sudan | United Nations Mission in Sudan
+ARM_855,Armed Organization,,,,,,,AZE,Azerbaijan,855.0,Army of Nagorno Karabakh,,
+OTH_856,Other,,,,,1.0,,RUS,Russia,856.0,Joint Control Commission (JCC),,
+ENT_857,Entity,,,,,,,SOM,Somalia,857.0,Warsangali ,,
+ENT_858,Entity,,,,,,,SOM,Somalia,858.0,Habr Je'lo,,
+ENT_859,Entity,,,,,,,SOM,Somalia,859.0,Dhulbahante,,
+ENT_860,Entity,,,,,,,SOM,Somalia,860.0,Ogeyslabe,,
+ENT_861,Entity,,,,,,,SOM,Somalia,861.0,Habar Yoonis,,
+ENT_862,Entity,,,,,,,COM,Comoros,862.0,Moheli,,
+ENT_863,Entity,,,,,,,SDN,Sudan,863.0,Blue Nile,,
+ENT_864,Entity,,,,,,,SDN,Sudan,864.0,Abyei,,
+ENT_865,Entity,,,,,,,SDN,Sudan,865.0,Southern Kordofan,,
+POL_866,Political Party,,,,,,,NPL,Nepal,866.0,Terai Madhesh Loktantrik Party,,
+POL_867,Political Party,,,,,,,NPL,Nepal,867.0,Madhesi Janadhikar Forum,,
+POL_868,Political Party,,,,,,,SDN,Sudan,868.0,National Umma Party,,National UMMA Party
+ARM_869,Armed Organization,,,,,,,IND,India,869.0,NSCN (IM),NSCN (IM),National Socialist Council of Nagaland (Isak-Muivah) | National Socialist Council of Nagaland (IM) | NSCN IM |
+ARM_870,Armed Organization,,,,,,,IND,India,870.0,Bru National Liberation Front,BNLF,
+OTH_871,Civil Society,Non-governmental Organization,Youth,,,1.0,,IND,India,871.0,Karbi Students Union,,
+OTH_872,Political Party,,,,,,,IND,India,872.0,ASDC,,
+OTH_873,Civil Society,Non-governmental Organization,Youth,,,1.0,,IND,India,873.0,North Cachatr Hills Student Federation,,
+OTH_874,Civil Society,Non-governmental Organization,Youth,,,1.0,,IND,India,874.0,Dimasa Student's Union,,
+ARM_875,Armed Organization,,,,,,,MMR,Myanmar (Burma),875.0,Arakan Army,AA, Arakan Army
+MIL_876,Military,,,,,,,GBR,United Kingdom,876.0,British Army,,
+POL_877,Political Party,,,,,,,SYR,Syria,877.0,Arab Baath Socialist Party,,
+POL_878,Political Party,,,,,,,YEM,Yemen,878.0,Union of Popular Forces,,
+POL_879,Political Party,,,,,,,YEM,Yemen,879.0,Al-Rashad Union,,
+POL_880,Political Party,,,,,,,YEM,Yemen,880.0,Popular Unificationist Nasserite Organization,,
+POL_881,Political Party,,,,,,,YEM,Yemen,881.0,Unionist Union Party,,
+POL_882,Political Party,,,,,,,YEM,Yemen,882.0,Justice and Construction Party,,
+POL_883,Political Party,,,,,,,IRQ,Iraq,883.0,Patriotic Union of Kurdistan,,
+ARM_884,Armed Organization,,,,,,,IRQ,Iraq,884.0,Kurdistan Democratic Party,KDP,
+NGO_885,Civil Society,Non-governmental Organization,Other,,,1.0,,,,885.0,Coordination des Organizations des Musulmans Centrafricains,,
+POL_886,Political Party,,,,,,,CAF,Central African Republic,886.0,Kwa Na Kwa,KNK,"National Convergence | Kwa Na Kwa | National Convergence ""Kwa Na Kwa"" | Convergence Nationale ""Kwa Na Kwa"""
+POL_887,Political Party,,,,,,,CAF,Central African Republic,887.0,Rally for the Republic,RPR,
+POL_888,Political Party,,,,,,,CAF,Central African Republic,888.0,Union for Central African Renewal,URCA,
+ARM_889,Armed Organization,,,,,,,CAF,Central African Republic,889.0,Union for Peace in the Central African Republic,UPC,
+ARM_890,Armed Organization,,,,,,,CAF,Central African Republic,890.0,Patriotic Rally for Renewal in the CAR or Gathering for Reconciliation among Central Africans ,RPRC,
+ARM_891,Armed Organization,,,,,,,CAF,Central African Republic,891.0,Patriotic Movement for the Central African Republic ,MPC,Mouvement patriotique de Centrafrique
+IGO_892,Intergovernmental Organization,,,1.0,,,UN Mission,,,892.0,MINUSCA,MINUSCA,United Nations Multidimensional Integrated Stabilization Mission in the Central African Republic
+POL_893,Political Party,,,,,,,COD,"Congo, Democratic Republic of the",893.0,Political Opposition,,
+NGO_894,Civil Society,Non-governmental Organization,Other,,,1.0,,COD,"Congo, Democratic Republic of the",894.0,Civil Society,,
+OTH_895,Civil Society,Non-governmental Organization,Other,,,1.0,,COD,"Congo, Democratic Republic of the",895.0,Front for the Respect of the Constitution,,
+OTH_896,Umbrella,,,,,,,COD,"Congo, Democratic Republic of the",896.0,Political and Social Forces,,
+NGO_897,Civil Society,Non-governmental Organization,Other,,,1.0,,GIN,Guinea,897.0,Civil Society,,
+OTH_898,Political Party,,,,,,,GIN,Guinea,898.0,Guinea - Opposition Party,,
+MIL_899,Military,,,,,,,SRB,Serbia,899.0,Serbian Armed Forces,,
+ENT_900,Entity,,,,,,,MDA,Moldova,900.0,Transdniestria,,
+ARM_901,Armed Organization,,,,,,,SSD,South Sudan,901.0,National Salvation Front,NAS,
+ARM_902,Armed Organization,,,,,,,SSD,South Sudan,902.0,South Sudan Patriotic Movement/Army,SSPM/A,
+ARM_903,Armed Organization,,,,,,,SSD,South Sudan,903.0,South Sudan National Movement for Change,SSNMC,
+ARM_904,Armed Organization,,,,,,,SSD,South Sudan,904.0,South Sudan Liberation Movement/Army,SSLM/A, South Sudan National Liberation Movement
+ARM_905,Armed Organization,,,,,,,SSD,South Sudan,905.0,South Sudan United Movement/Army,SSUM,
+ARM_906,Armed Organization,,,,,,,SSD,South Sudan,906.0,National Democratic Movement,NDM,
+ARM_907,Armed Organization,,,,,,,SSD,South Sudan,907.0,South Sudan Armed Forces,SSAF,
+ARM_908,Armed Organization,,,,,,,SSD,South Sudan,908.0,Federal Democratic Party,FDP,
+ARM_909,Armed Organization,,,,,,,SYR,Syria,909.0,Syrian Armed Opposition,,
+ARM_910,Armed Organization,,,,,,,SYR,Syria,910.0,Jaysh al-Ababil,,The Army of al-Ababil
+ARM_911,Armed Organization,,,,,,,SYR,Syria,911.0,Aknaf Bayt al-Muqadis,,Protector of the Holy House
+ARM_912,Armed Organization,,,,,,,LBY,Libya,912.0,Libyan National Army,LNA,
+IGO_913,Intergovernmental Organization,,,,1.0,,,,,913.0,Economic Community of Central African States,ECCAS,Economic Community Of Central African States | ECCAS | ECCAS | Economic Community of Central African States | Economic Community of Central African States (ECCAS) | CEEAC
+OTH_914,Government/state,,,,,1.0,,CAF,Central African Republic,914.0,Transitional Government,,
+ARM_915,Armed Organization,,,,,,,ETH,Ethiopia,915.0,Ogaden National Liberation Front,ONLF,
+POL_916,Political Party,,,,,,,MMR,Myanmar (Burma),916.0,Political Parties Representatives,,
+UMB_917,Umbrella,,,,,,,SSD,South Sudan,917.0,South Sudan Opposition Alliance,SSOA,
+COA_918,State Coalition,,,1.0,,,,,,918.0,Troika Countries,,
+NGO_919,Civil Society,Non-governmental Organization,Youth,,,1.0,,SSD,South Sudan,919.0,Youth Representative,,
+POL_920,Political Party,,,,,,,SSD,South Sudan,920.0,United Democratic Salvation Front,,
+UMB_921,Umbrella,,,,,,,SSD,South Sudan,921.0,National Alliance of Political Parties,,
+POL_922,Political Party,,,,,,,SSD,South Sudan,922.0,United Sudan African Party,,
+POL_923,Political Party,,,,,,,SSD,South Sudan,923.0,United Democratic Party,,
+POL_924,Political Party,,,,,,,SSD,South Sudan,924.0,African National Congress,,
+OTH_925,Other,,,,,1.0,,SYR,Syria,925.0,Congress of Syrian National Dialogue,,
+UMB_926,Umbrella,,,,,,,UKR,Ukraine,926.0,CADLR,CADLR,Certain Areas of Donetsk and Luhansk Regions | Representatives of certain areas of Donetsk and Luhansk
+OTH_927,Other,,,,,1.0,,YEM,Yemen,927.0,National Committee Prisoners Affairs & Missing Persons,,
+OTH_928,Other,,,,,1.0,,YEM,Yemen,928.0,Foundation and Representative Prisoners Affairs & Missing Persons of the Arab Coalition ,,
+OTH_929,Other,,,,,1.0,,LBY,Libya,929.0,High Council of State,,
+CON_930,Country/State,,,,,,,GNQ,Equatorial Guinea,930.0,Equatorial Guinea,EQG,Equatorial Guinea | EQUATORIAL GUINEA | Republic Equatorial Guinea
+ARM_931,Armed Organization,,,,,,,AFG,Afghanistan,931.0,Taliban,,
+OTH_932,Armed Organization,,,,,,,YEM,Yemen,932.0,Southern Transitional Council,,
+OTH_933,Umbrella,,,,,,,SDN,Sudan,933.0,Forces of Freedom and Change,,
+OTH_934,Government/state,,,,,1.0,,SDN,Sudan,934.0,Transitional Military Council,,
+ARM_935,Armed Organization,,,,,,,CAF,Central African Republic,935.0,3R,3R,"Return, Reclamation, Rehabilitation | Retour, Réclamation, Réhabilitation (3R) | Retour, Réclamation, Réhabilitation"
+UMB_936,Umbrella,,,,,,,SSD,South Sudan,936.0,South Sudan Opposition Movements Alliance,SSOMA,
+ARM_937,Armed Organization,,,,,,,SSD,South Sudan,937.0,National Democratic Movement Patriotic Front,NDM/PF,
+ARM_938,Armed Organization,,,,,,,SSD,South Sudan,938.0,Real Sudan People’s Liberation Movement,R-SPLM,
+ARM_939,Armed Organization,,,,,,,SSD,South Sudan,939.0,South Sudan United Front/Army,SSUF,SS-UF/A | South Sudan United Front/Army
+ARM_940,Armed Organization,,,,,,,SSD,South Sudan,940.0,United Democratic Revolutionary Alliance,UDRA,United Democratic Republican Alliance
+MIL_941,Military,,,,,,,LBY,Libya,941.0,Libyan Army,,
+ARM_942,Armed Organization,,,,,,,LBY,Libya,942.0,Libya National Army,,
+ARM_943,Armed Organization,,,,,,,SDN,Sudan,943.0,Sudanese Alliance,,
+ARM_944,Armed Organization,,,,,,,SDN,Sudan,944.0,United Popular Front for Liberation and Justice,,
+ARM_945,Armed Organization,,,,,,,SDN,Sudan,945.0,Beja Congress,,
+ARM_946,Armed Organization,,,,,,,SDN,Sudan,946.0,Sudanese Kush Liberation Movement,,
+ARM_947,Armed Organization,,,,,,,SDN,Sudan,947.0,The Northern Entity,,
+ARM_948,Armed Organization,,,,,,,SDN,Sudan,948.0,Democratic Union Party - Sudan Revolutionary Front,,
+ARM_949,Armed Organization,,,,,,,SDN,Sudan,949.0,Sudan People’s Liberation Movement-North,SPLM -N,SPLM - N | SPLM - N Abu Obaida Khalifa Al Taishi | Sudan People's Liberation Movement-North / Revolutionary | Sudan People ’s Liberation Movement - North ( SPLM – N
+IGO_950,Intergovernmental Organization,,,1.0,,,UN Mission,,,950.0,UNAMID,UNAMID,African Union-United Nations Hybrid Operation in Darfur
+ARM_951,Armed Organization,,,,,,,SDN,Sudan,951.0,The Third Front/Tamazuj,,
+OTH_952,Other,,,,,1.0,,IND,India,952.0,Bodoland Territorial Council,,
+OTH_953,Civil Society,Non-governmental Organization,Other,,,1.0,,IND,India,953.0,United Bodo People's Organization,,
+ARM_954,Armed Organization,,,,,,,IND,India,954.0,National Democratic Front of Boroland,NDFB,
+ARM_955,Armed Organization,,,,,,,YEM,Yemen,955.0,Forces led by Tariq Saleh,,Tariq Saleh
+NGO_956,Civil Society,Non-governmental Organization,Other,,,1.0,,YEM,Yemen,956.0,Medical Professionals,,
+POL_957,Political Party,,,,,,,MMR,Myanmar (Burma),957.0,Political Parties Group,,
+ARM_958,Armed Organization,,,,,,,SDN,Sudan,958.0,Sudan Revolutionary Front,SRF,
+ARM_959,Armed Organization,,,,,,,SDN,Sudan,959.0,Sudan Liberation Forces Alliance,SLFA,
+ARM_960,Armed Organization,,,,,,,SEN,Senegal,960.0,Movement of Democratic Forces of Casamance,MFDC,
+ENT_961,Entity,,,,,,,SRB,Serbia,961.0,Belgrade,,
+ENT_962,Entity,,,,,,, ,Kosovo,962.0,Pristina,,
+ARM_963,Armed Organization,,,,,,,IND,India,963.0,Karbi People's Liberation Tigers,KPLT,
+ARM_964,Armed Organization,,,,,,,IND,India,964.0,People's Democratic Council of Karbi Longri,PDCK,
+ARM_965,Armed Organization,,,,,,,IND,India,965.0,Karbi Longri N.C. Hills Liberation Front,KLNLF,
+ARM_966,Armed Organization,,,,,,,IND,India,966.0,United People's Liberation Army,UPLA,
+ENT_967,Entity,,,,,,,IND,India,967.0,Assam Government,,
+OTH_968,Government/state,,,,,1.0,,SDN,Sudan,968.0,Transitional Sovereignty Council,,
+OTH_969,Other,,,,,1.0,,LBY,Libya,969.0,Libyan Political Dialogue Forum,,
+ENT_970,Entity,,,,,,,COD,"Congo, Democratic Republic of the",970.0,Ituri,,
+IGO_972,Intergovernmental Organization,,,1.0,,,UN Mission,,,972.0,MONUSCO,MONUSCO,United Nations Organization Stabilization Mission in the Democratic Republic of the Congo
+NGO_973,Civil Society,Non-governmental Organization,Other,,,1.0,,COD,"Congo, Democratic Republic of the",973.0,ACIAR,,
+ARM_974,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",974.0,Gutsi Assailants,,
+ARM_975,Armed Organization,,,,,,,COG,"Congo, Republic of the",975.0,Defence Forces Against Balkanisation of the Congo,FDBC,Forces de Défense contre la Balkanisation du Congo (FDBC) | Forces de Défense contre la Balkanisation du Congo
+ARM_976,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",976.0,Popular Patriotic Forces,FPP,
+NGO_977,Civil Society,Non-governmental Organization,Other,,,1.0,,COD,"Congo, Democratic Republic of the",977.0,South Kivu Civil Society,,
+MIL_978,Military,,,,,,,COD,"Congo, Democratic Republic of the",978.0,Armed Forces of the Democratic Republic of the Congo,,
+UMB_979,Umbrella,,,,,,,COD,"Congo, Democratic Republic of the",979.0,South Kivu Armed Groups,,
+ARM_980,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",980.0,National Liberation Council,CNL,CNL/FAP
+OTH_981,Other,,,,,1.0,,COD,"Congo, Democratic Republic of the",981.0,"Commission for Support of the Community Awareness, Disarmament, Demobilisation and Reintegration Process (CIAP-DDRC)",,
+OTH_982,Umbrella,,,,,,,COD,"Congo, Democratic Republic of the",982.0,Initiative for Cohesive Leadership (ILC),,
+OTH_983,Civil Society,Non-governmental Organization,Other,,,1.0,,COD,"Congo, Democratic Republic of the",983.0,Association for Integrated Community Development (ADCI),,
+OTH_984,Civil Society,Non-governmental Organization,Other,1.0,,1.0,,COD,"Congo, Democratic Republic of the",984.0,SFCG – Consortium Maji ya Amani,,
+IGO_985,Intergovernmental Organization,,,,1.0,,,,,985.0,European Free Trade Association,EFTA,EFTA | EFTA countries
+ENT_986,Government/state,,,,,1.0,,PNG,Papua New Guinea,986.0,Autonomous Bougainville Government,,
+OTH_987,Umbrella,,,,,,,LBN,Lebanon,987.0,Salafist Movements,,
+COA_988,State Coalition,,,,1.0,,,,,988.0,Group of Five for the Sahel,G5 Sahel,
+MIL_989,Military,,,,,,,UKR,Ukraine,989.0,Ukrainian Armed Forces,,
+IGO_990,Intergovernmental Organization,,,1.0,,,UN Mission,,,990.0,OSESG-Yemen,OSESG-Yemen,Office of the Special Envoy of the Secretary-General for Yemen
+ARM_991,Armed Organization,,,,,,,IND,India,991.0,National Socialist Council of Nagaland-Reformation,NSCN-R,NSCN/R  | NSCN / R  - Toshi Longkumer | NSCN / R  2 | NSCN / R
+ARM_992,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",992.0,Cooperative for Development of the Congo,CODECO,Union des révolutionnaires pour la défense du peuple congolais | Union of Revolutionaries for the Defense of the Congolese People | Coopérative économique pour le développement du Congo | URDPC | Tazama de l'ALC - CODECO
+ARM_993,Armed Organization,,,,,,,MLI,Mali,993.0,Platform of Algiers of 14 June 2014,,Platform of Self-Defense Movements | Plateforme des mouvements du 14 juin 2014 d'Alger | Plateforme des mouvements d'autodéfense | la Plateforme | Platform of Algiers
+POL_994,Political Party,,,,,,,BIH,Bosnia and Herzegovina,994.0,People and Justice,NiP,Narod i Pravda
+POL_995,Political Party,,,,,,,BIH,Bosnia and Herzegovina,995.0,Socialist Party,SP,Социјалистичка Партија
+POL_996,Political Party,,,,,,,BIH,Bosnia and Herzegovina,996.0,People's European Union of Bosnia and Herzegovina,NES,Narodni evropski savez Bosne i Hercegovine
+POL_997,Political Party,,,,,,,BIH,Bosnia and Herzegovina,997.0,Social Democratic Party of Bosnia and Herzegovina,SDP,Socijaldemokratska partija Bosne i Hercegovine
+POL_998,Political Party,,,,,,,BIH,Bosnia and Herzegovina,998.0,Our Party,NS,Naša stranka
+POL_999,Political Party,,,,,,,BIH,Bosnia and Herzegovina,999.0,Democratic Front,DF,Demokratska fronta
+POL_1000,Political Party,,,,,,,BIH,Bosnia and Herzegovina,1000.0,Movement of Democratic Action,PDA,Pokret demokratske akcije
+POL_1001,Political Party,,,,,,,BIH,Bosnia and Herzegovina,1001.0,United Srpska,US,Уједињена Српска
+POL_1002,Political Party,,,,,,,BIH,Bosnia and Herzegovina,1002.0,Independent Bloc,NB,Nezavisni blok
+POL_1003,Political Party,,,,,,,BIH,Bosnia and Herzegovina,1003.0,Alliance of Independent Social Democrats,SNSD,Savez nezavisnih socijaldemokrata | Milorad Dodik
+POL_1004,Political Party,,,,,,,CAF,Central African Republic,1004.0,African Party for Radical Transformation and Integration of States,PATRIE,Parti africain pour une transformation radicale et l'intégration des États
+POL_1005,Political Party,,,,,,,CAF,Central African Republic,1005.0,National Party for a New Central Africa,PNCN,Parti National pour la Nouvelle Afrique Central
+IGO_1006,Intergovernmental Organization,,,,1.0,,,,,1006.0,European Council,EC,
+POL_1007,Political Party,,,,,,,BIH,Bosnia and Herzegovina,1007.0,Party of Democratic Action,SDA,Stranka demokratske akcije
+OTH_1008,Umbrella,,,,,,,PHL,Philippines,1008.0,GPH-MILF Committee on the Cessation of Hostilities,CCCH,
+OTH_1009,Other,,,,,1.0,,PHL,Philippines,1009.0,Ad Hoc Joint Action Group,AHJAG,
+OTH_1010,Other,,,,,1.0,,PHL,Philippines,1010.0,Philippines National Police,PNP,
+OTH_1011,Other,,,1.0,,,,PHL,Philippines,1011.0,International Monitoring Team,IMT,IMT Team Site 2 | International Monitoring Team - M14 
+NGO_1012,Civil Society,Non-governmental Organization,Other,1.0,,,,ITA,Italy,1012.0,Ara Pacis Initiatives for Peace Onlus,,Ara Pacis Initiatives for Peace | 
+ARM_1013,Armed Organization,,,,,,,SSD,South Sudan,1013.0,Agwelek Forces,,
+ARM_1014,Armed Organization,,,,,,,SSD,South Sudan,1014.0,South Sudan People's Defence Forces,SSPDF,
+OTH_1015,Civil Society,Non-governmental Organization,Women,,,1.0,,SSD,South Sudan,1015.0,Women's Representative,,
+OTH_1016,Civil Society,Communities and tribes,,,,1.0,,SSD,South Sudan,1016.0,Elder/Community Leader,,
+OTH_1018,Other,,,,,1.0,,SSD,South Sudan,1018.0,Committee 7 + 7,,
+NGO_1019,Civil Society,Non-governmental Organization,Other,,,1.0,,COD,"Congo, Democratic Republic of the",1019.0,Civil Society Representative,,
+OTH_1020,Civil Society,Religious,,,,1.0,,COD,"Congo, Democratic Republic of the",1020.0,Cooperative for Development of the Congo Church,,
+OTH_1021,Civil Society,Non-governmental Organization,Other,,,1.0,,COD,"Congo, Democratic Republic of the",1021.0,Group and Village Leaders,,
+NGO_1022,Civil Society,Religious,,,,1.0,,COD,"Congo, Democratic Republic of the",1022.0,Religious Representatives,,
+ARM_1023,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",1023.0,Army of Revolutionaries for the Defense of the Congolese people,ARDPC,
+OTH_1024,Other,,,,,1.0,,PHL,Philippines,1024.0,"Office of the Presidential Adviser on Peace, Reconciliation and Unity",OPAPRU,
+POL_1025,Political Party,,,,,,,CAF,Central African Republic,1025.0,United Hearts Movement,MCU,Mouvement cœurs unis
+POL_1026,Political Party,,,,,,,CAF,Central African Republic,1026.0,Centrafrique pour nous tous,BTK,Central African Republic for all of us | Bêafrika ti é kwè
+POL_1027,Political Party,,,,,,,CAF,Central African Republic,1027.0,Truth and Justice,,Vérité et justice
+NGO_1028,Civil Society,Religious,,,,1.0,,CAF,Central African Republic,1028.0,Muslim Community,,Muslim Community CAR
+NGO_1029,Civil Society,Religious,,,,1.0,,CAF,Central African Republic,1029.0,Islamic Community,,Islamic Committee CAR
+NGO_1030,Civil Society,Religious,,,,1.0,,CAF,Central African Republic,1030.0,Bishops of Central African Republic,,
+NGO_1031,Civil Society,Religious,,,,1.0,,CAF,Central African Republic,1031.0,Alliance of the Evangelicals of CAR,,
+NGO_1032,Civil Society,Non-governmental Organization,Youth,1.0,,1.0,,CAF,Central African Republic,1032.0,Pan-African Union of the Young,,
+NGO_1033,Civil Society,Non-governmental Organization,Other,,,1.0,,CAF,Central African Republic,1033.0,Civil Society,,
+NGO_1034,Civil Society,Non-governmental Organization,Other,,,1.0,,CAF,Central African Republic,1034.0,Ambassadors of Peace,,
+ARM_1035,Armed Organization,,,,,,,TCD,Chad,1035.0,Union of the Forces of Resistance,UFR,
+ARM_1036,Armed Organization,,,,,,,TCD,Chad,1036.0,Military Command Council for the Salvation of the Republic,CCMSR,Conseil de Commandement Militaire pour le Salut de la République | Military Council for the Good of the Republic
+ARM_1037,Armed Organization,,,,,,,TCD,Chad,1037.0,Chad Liberation Movement,MLT,
+ARM_1038,Armed Organization,,,,,,,TCD,Chad,1038.0,National Council for Recovery,CNR,Comité national de redressement | National Council for Recovery | National Settlement Council of Chad | National Council for the Rectification of Chad | National Settlement Council Chad
+ARM_1039,Armed Organization,,,,,,,TCD,Chad,1039.0,National Movement for Settlement,MNR,
+ARM_1040,Armed Organization,,,,,,,TCD,Chad,1040.0,Movement for the Democratic Card in Chad,MCDT,
+ARM_1041,Armed Organization,,,,,,,TCD,Chad,1041.0,National Alliance for the Restoration of the Republic,NARR,National Alliance Restoration Republic  NARR
+ARM_1042,Armed Organization,,,,,,,TCD,Chad,1042.0,Armed Resistance against the Anti-Democratic Forces,RAFAD,
+ARM_1043,Armed Organization,,,,,,,TCD,Chad,1043.0,Movement for the Social Justice in Chad,MJST,
+ARM_1044,Armed Organization,,,,,,,TCD,Chad,1044.0,Alliance of the Resistant Democrats,ADR,
+ARM_1045,Armed Organization,,,,,,,TCD,Chad,1045.0,Assembly of the Forces for the Unity and Democracy,RFUTD,Assembly Forces Unity Democracy  RFUTD
+ARM_1046,Armed Organization,,,,,,,TCD,Chad,1046.0,National Council for Liberation of Chad,CNLT,
+ARM_1047,Armed Organization,,,,,,,TCD,Chad,1047.0,Movement of Chadian Militants,MMT,Chadian Militants  MMT
+ARM_1048,Armed Organization,,,,,,,TCD,Chad,1048.0,Front for the Good of the Republic,FSR,Front for the Salvation of the Republic
+ARM_1049,Armed Organization,,,,,,,TCD,Chad,1049.0,People’s Front for the Chad’s Liberty,FPLT,
+ARM_1050,Armed Organization,,,,,,,TCD,Chad,1050.0,Free Army for the Change,ALC,
+ARM_1051,Armed Organization,,,,,,,TCD,Chad,1051.0,Union of the Forces for Change and Democracy,UFCD,
+MIL_1052,Military,,,,,,,TCD,Chad,1052.0,Air Forces,,
+ARM_1053,Armed Organization,,,,,,,TCD,Chad,1053.0,Movement for Democracy and Justice,MDJT,
+ARM_1054,Armed Organization,,,,,,,TCD,Chad,1054.0,National Union for Change,UNC,
+ARM_1055,Armed Organization,,,,,,,TCD,Chad,1055.0,Union of the Forces for Justice and Change,UFCJ,
+ARM_1056,Armed Organization,,,,,,,TCD,Chad,1056.0,National Movement for the Democratic Reform and Development,MNDRD,
+ARM_1057,Armed Organization,,,,,,,TCD,Chad,1057.0,Front of the National Convention,,
+ARM_1058,Armed Organization,,,,,,,TCD,Chad,1058.0,National Alliance of the Resistance,ANR,National Alliance Resistance
+ARM_1059,Armed Organization,,,,,,,TCD,Chad,1059.0,Movement for the Renaissance of Chad,MRT,
+ARM_1060,Armed Organization,,,,,,,TCD,Chad,1060.0,Chadian Movement for the National Good,MSNT,
+ARM_1061,Armed Organization,,,,,,,TCD,Chad,1061.0,Movement of Action and Renaissance,MAR,
+ARM_1062,Armed Organization,,,,,,,TCD,Chad,1062.0,People’s Army for Liberation of Chad,APLT,
+ARM_1063,Armed Organization,,,,,,,TCD,Chad,1063.0,Chadian Action for Unity and Socialism – Popular and Ecologic Revolution Party,Actus-Prpe,ACTUS_PRPE
+ARM_1064,Armed Organization,,,,,,,TCD,Chad,1064.0,National Alliance for the Unity and Change,ANUC,
+ARM_1065,Armed Organization,,,,,,,TCD,Chad,1065.0,Democratic and Popular National Assembly,RNDP,
+ARM_1066,Armed Organization,,,,,,,TCD,Chad,1066.0,People’s Front for the Liberation of the South of Chad,,
+ARM_1067,Armed Organization,,,,,,,TCD,Chad,1067.0,Political-military Coordination of Revolutionary Democratic Councils,CPM/CDR,CPM / CDR
+ARM_1068,Armed Organization,,,,,,,TCD,Chad,1068.0,National Movement for the Democratic Change,,
+ARM_1069,Armed Organization,,,,,,,TCD,Chad,1069.0,Chadian National Amity,,
+IGO_1070,Intergovernmental Organization,,,,1.0,,,,,1070.0,Lake Chad Basin Commission,CBLT,
+OTH_1071,Other,,,,,1.0,,LBY,Libya,1071.0,Advisory Committee of the Libyan Political Dialogue Forum,LPDF,
+OTH_1072,Other,,,,,1.0,,IND,India,1072.0,Ceasefire Supervisory Board,CFSB,
+ARM_1073,Armed Organization,,,,,,,ETH,Ethiopia,1073.0,Tigray People's Liberation Front,TPLF,Tigray Armed Combatants
+POL_1074,Civil Society,Non-governmental Organization,Women,,,1.0,, ,Northern Ireland,1074.0,NI Women's Coalition,NIWC,Northern Ireland Women's Coalition
+NGO_1075,Civil Society,Non-governmental Organization,Women,,,1.0,,SSD,South Sudan,1075.0,Gender Empowerment for South Sudan Organisation,,
+NGO_1076,Civil Society,Non-governmental Organization,Women,,,1.0,,SSD,South Sudan,1076.0,Representative of Women Group-WES,WES,
+NGO_1077,Civil Society,Non-governmental Organization,Women,,,1.0,,CAF,Central African Republic,1077.0,Women Leaders Advisory Committee,,Comité Consultatif des Femmes Leaders
+NGO_1078,Civil Society,Non-governmental Organization,Women,,,1.0,,BDI,Burundi,1078.0,Women's Association,,
+NGO_1079,Civil Society,Non-governmental Organization,Other,,,1.0,,BDI,Burundi,1079.0,Civil Society,,
+NGO_1080,Civil Society,Non-governmental Organization,Women,,,1.0,,PNG,Papua New Guinea,1080.0,Women's Representative,,
+NGO_1081,Civil Society,Non-governmental Organization,Women,,,1.0,, ,Kurdistan,1081.0,Women's Representative,,
+NGO_1082,Civil Society,Unions,,,,1.0,,LBR,Liberia,1082.0,Press Union of Liberia,PUL,
+NGO_1083,Civil Society,Non-governmental Organization,Other,,,1.0,,LBR,Liberia,1083.0,National Medical and Dental Association of Liberia,NMDAL,
+NGO_1084,Civil Society,Non-governmental Organization,Other,1.0,1.0,,,LBR,Liberia,1084.0,Movement for Justice in Africa,MOJA,
+NGO_1085,Civil Society,Non-governmental Organization,Youth,,,1.0,,LBR,Liberia,1085.0,Federation of Liberia Youth,FLY,
+NGO_1086,Civil Society,Religious,,,,1.0,,LBR,Liberia,1086.0,Liberian Council of Churches,LCC,
+NGO_1087,Civil Society,Religious,,,,1.0,,LBR,Liberia,1087.0,Muslim Council of Liberia,MCL,
+NGO_1088,Civil Society,Non-governmental Organization,Women,,,1.0,,LBR,Liberia,1088.0,Women Development Association of Liberia,WODAL,
+NGO_1089,Civil Society,Non-governmental Organization,Other,,,1.0,,SOM,Somalia,1089.0,Youth Representative,,
+NGO_1090,Civil Society,Non-governmental Organization,Other,,,1.0,,SOM,Somalia,1090.0,Women's Representative,,
+ARM_1091,Armed Organization,,,,,,,HRV,Croatia,1091.0,Croatian Defence Council,HVO,Hrvatsko vijece obrane
+UMB_1092,Umbrella,,,,,,,AFG,Afghanistan,1092.0,Islamic Movement of Afghanistan,,
+UMB_1093,Umbrella,,,,,,,AFG,Afghanistan,1093.0,Tajik,,
+UMB_1094,Umbrella,,,,,,,AFG,Afghanistan,1094.0,Peshawar Group,APUNA,Assembly for Peace and National Unity of Afghanistan
+NGO_1095,Civil Society,Non-governmental Organization,Other,,,1.0,,AFG,Afghanistan,1095.0,Rome Group,,
+ARM_1096,Armed Organization,,,,,,,PSE,Palestine,1096.0,Popular Front for the Liberation of Palestine,PFLP,
+ARM_1097,Armed Organization,,,,,,,PSE,Palestine,1097.0,Democratic Front for the Liberation of Palestine,DFLP,
+ARM_1098,Armed Organization,,,,,,,PSE,Palestine,1098.0,Palestinian Islamic Jihad Movement,PJI,Harakat al-Jihad al-Islami al-Filastini | Palestinian Islamic Jihad | Islamic Jihad | Islamic Holy War
+ENT_1099,Entity,,,,,,,IND,India,1099.0,Nagaland,,
+OTH_1100,Umbrella,,,,,,,IND,India,1100.0,Forum for Naga Reconciliation,,
+ARM_1101,Armed Organization,,,,,,,PAK,Pakistan,1101.0,Tehreek-e-Taliban Pakistan,TTP,
+ENT_1102,Entity,,,,,,,SOM,Somalia,1102.0,South West State,,South-West State of Somalia
+ENT_1103,Entity,,,,,,,SOM,Somalia,1103.0,Hirshabelle,,
+ENT_1104,Entity,,,,,,,SOM,Somalia,1104.0,Banaadir,,
+ARM_1105,Armed Organization,,,,,,,THA,Thailand,1105.0,Patani Malay National Revolutionary Front,BRN,
+ARM_1106,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",1106.0,Alliance of Patriots for a Free and Sovereign Congo,APCLS,
+ARM_1107,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",1107.0,Collective of Movements for Change/Self-Defense Force of Congolese People,CMC-FDP,CMC/FDP | CMCFDP
+ARM_1108,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",1108.0,NDC-R/Guidon,NDC-R,Nduma Defense of Renewed Congo/Guidon
+ARM_1109,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",1109.0,Alliance of Congolese Nationalists for the Defense of Human Rights,ANCDH/AFDP,Alliance des nationalistes congolais pour la d�fense des droits humains
+OTH_1110,Civil Society,Communities and tribes,,,,1.0,,LBY,Libya,1110.0,Arab people of Murzuq,,
+OTH_1111,Civil Society,Communities and tribes,,,,1.0,,LBY,Libya,1111.0,Tebu people of Murzuq,,
+ARM_1113,Armed Organization,,,,,,,SDN,Sudan,1113.0,Sudanese Armed Forces,SAF,
+ARM_1114,Armed Organization,,,,,,,SDN,Sudan,1114.0,Rapid Support Forces,RSF,
+POL_1115,Political Party,,,,,,,SSD,South Sudan,1115.0,People's Democratic Movement,PDM,
+POL_1116,Political Party,,,,,,,SSD,South Sudan,1116.0,United Democratic Party,UDP,
+NGO_1117,Civil Society,Non-governmental Organization,Other,,,1.0,,SSD,South Sudan,1117.0,Academia Representative,,
+IGO_1118,Intergovernmental Organization,,,,1.0,,,,,1118.0,East African Community Regional Force,EACRF,
+POL_1119,Political Party,,,,,,,IND,India,1119.0,Nationalist Socialist Council of Nagalim/Government of the People's Republic of Nagalim,NSCN/GPRN,
+OTH_1120,Other,,,,,1.0,,IND,India,1120.0,Working Committee of National Naga Political Groups,NNPG,
+NGO_1121,Civil Society,Non-governmental Organization,Other,,,1.0,,IND,India,1121.0,Naga Civil Society Organisation,,
+NGO_1122,Civil Society,Religious,,,,1.0,,IND,India,1122.0,Church Forums (Nagaland),,
+NGO_1123,Civil Society,Communities and tribes,,,,1.0,,NER,Niger,1123.0,Zarma Community,,
+NGO_1124,Civil Society,Communities and tribes,,,,1.0,,NER,Niger,1124.0,Fulani Community,,
+NGO_1125,Civil Society,Communities and tribes,,,,1.0,,NER,Niger,1125.0,Arab Community,,
+NGO_1126,Civil Society,Communities and tribes,,,,1.0,,NER,Niger,1126.0,Tuareg Community,,
+NGO_1127,Civil Society,Religious,,,,1.0,,NER,Niger,1127.0,Religious Leader,,
+ENT_1128,Entity,,,,,,,NER,Niger,1128.0,Tondikiwindi,,
+ENT_1129,Entity,,,,,,,NER,Niger,1129.0,Simiri,,
+ENT_1130,Entity,,,,,,,NER,Niger,1130.0,Dingazi,,
+ENT_1131,Entity,,,,,,,NER,Niger,1131.0,Ouallam,,
+ARM_1132,Armed Organization,,,,,,,ETH,Ethiopia,1132.0,Oromo Liberation Front,OLF,Adda Bilisummaa Oromoo/ABO | Adda Bilisummaa Oromoo | ABO
+ENT_1133,Entity,,,,,,,ETH,Ethiopia,1133.0,Oromia region,,
+NGO_1134,Civil Society,Communities and tribes,,,,1.0,,PAK,Pakistan,1134.0,Kurram Shia Tribes,,
+NGO_1135,Civil Society,Communities and tribes,,,,1.0,,PAK,Pakistan,1135.0,Kurram 'Takfiri' Tribes,,
+OTH_1136,Civil Society,Communities and tribes,,,,1.0,,PAK,Pakistan,1136.0,Local tribal council,,Jirga-e-Qaumi
+IGO_1137,Intergovernmental Organization,,,1.0,,,UN Mission,,,1137.0,UNVIC,,United Nations Verification Mission in Colombia
+MIL_1138,Military,,,,,,,COL,Colombia,1138.0,Armed Forces of Colombia,,
+IGO_1139,Intergovernmental Organization,,,,1.0,,,,,1139.0,South Asian Association for Regional Cooperation,SAARC,
+GOV_1140,Government/state,,,,,1.0,,COL,Colombia,1140.0,Medellín,,
+GOV_1141,Government/state,,,,,1.0,,COL,Colombia,1141.0,Antioquia,,
+NGO_1142,Civil Society,Non-governmental Organization,Other,,,1.0,,COL,Colombia,1142.0,Civil Society,,
+OTH_1143,Other,,,,,1.0,,COL,Colombia,1143.0,National Peace Committee,,
+ARM_1144,Armed Organization,,,,,,,COG,"Congo, Republic of the",1144.0,Ninjas,,Ninjas Militia
+ARM_1145,Armed Organization,,,,,,,COG,"Congo, Republic of the",1145.0,Cobras,,Cobras Militia
+MIL_1146,Military,,,,,,,COG,"Congo, Republic of the",1146.0,Armed Forces of the Republic of the Congo,FAC,Military Forces of the Republic of Congo | Forces armées de la République du Congo | Forces armées congolaises 
+ARM_1147,Armed Organization,,,,,,,COG,"Congo, Republic of the",1147.0,National Movement for the Liberation of Congo,MNLC,
+ARM_1148,Armed Organization,,,,,,,COG,"Congo, Republic of the",1148.0,New National Movement for the Liberation of Congo,MNLCR,
+ARM_1149,Armed Organization,,,,,,,COG,"Congo, Republic of the",1149.0,Bana Dol,,
+ARM_1150,Armed Organization,,,,,,,COG,"Congo, Republic of the",1150.0,Résistance Sud Sud,,
+OTH_1151,Other,,,,,1.0,,COG,"Congo, Republic of the",1151.0,Monitoring Commission of the Douala Appeal ,,
+OTH_1152,Other,,,,1.0,,,LIB,,1152.0,Gaddafi International Foundation for Charitable Associations,GIFCA,
+OTH_1153,Other,,,1.0,,,,,,1153.0,High Representative for Bosnia and Herzegovina,,
+OTH_1154,Other,,,1.0,,,,BIH,Bosnia and Herzegovina,1154.0,International Police Task Force,IPTF,
+OTH_1155,Other,,,,,1.0,,PNG,Papua New Guinea,1155.0,Peace Monitoring Group,,
+OTH_1156,Other,,,,,1.0,,PNG,Papua New Guinea,1156.0,Leitana Council of Elders,,
+NGO_1157,Civil Society,Religious,,,,1.0,,IDN,Indonesia,1157.0,Christian delegates,,
+NGO_1158,Civil Society,Religious,,,,1.0,,IDN,Indonesia,1158.0,Muslim delegates,,
+MIL_1159,Military,,,,,,,IDN,Indonesia,1159.0,Sulawesi Military Command,,
+ENT_1160,Entity,,,,,,,COM,Comoros,1160.0,Ngazidja,,
+ENT_1161,Entity,,,,,,,COM,Comoros,1161.0,Mwali,,Mohéli
+UMB_1162,Umbrella,,,,,,,PHL,Philippines,1162.0,Rebolusyonaryong Alyansang Makabansa/Soldiers of the Filipino People/Young Officers' Union,RAM-SFP-You,
+ENT_1163,Entity,,,,,,,PHL,Philippines,1163.0,Maguindanao ,,
+NGO_1164,Civil Society,Unions,,,,1.0,,MDG,Madagascar,1164.0,Trade Unions,,
+POL_1165,Political Party,,,,,,,MDG,Madagascar,1165.0,Political Parties,,
+NGO_1166,Civil Society,Non-governmental Organization,Youth,,,1.0,,MDG,Madagascar,1166.0,Youth Representative,,
+NGO_1167,Civil Society,Non-governmental Organization,Women,,,1.0,,MDG,Madagascar,1167.0,Women's Representative,,
+ARM_1168,Armed Organization,,,,,,,MDG,Madagascar,1168.0,Didier Ratsiraka and supporters,,
+ARM_1169,Armed Organization,,,,,,,MDG,Madagascar,1169.0,Marc Ravalomanana and supporters,,
+ARM_1170,Armed Organization,,,,,,,MDG,Madagascar,1170.0,Albert Zafy and supporters,,
+OTH_1171,Armed Organization,,,,,,,MDG,Madagascar,1171.0,Andry Rajoelina and supporters,,
+CON_1172,Country/State,,,,,,, ,Holy See,1172.0,Holy See,,Vatican City | Pope
+ENT_1173,Entity,,,,,,,AZE,Azerbaijan,1173.0,Nagorno-Karabakh,,Artsakh |  Republic of Artsakh | Republic of Nagorno-Karabakh
+ENT_1174,Entity,,,,,,,,,1174.0,Krajina,,
+OTH_1175,Other,,,1.0,,,,,,1175.0,Euro-Burma Office,EBO,
+OTH_1176,Other,,,,,1.0,,MMR,Myanmar (Burma),1176.0,Peace-Talk Creation Group,PCG,
+ARM_1177,Armed Organization,,,,,,,PHL,Philippines,1177.0,Revolutionary Workers Party – Mindanao,RWP-M,Rebolusyonaryong Partido ng Manggagawa ng Mindanao
+NGO_1178,Civil Society,Non-governmental Organization,Other,,,1.0,,PHL,Philippines,1178.0,Balay Mindanaw Foundation Inc.,,
+POL_1179,Political Party,,,,,,,COM,Comoros,1179.0,National Front for Justice ,FNJ,
+NGO_1180,Civil Society,Religious,,,,1.0,,MOZ,Mozambique,1180.0,Muslim Community Leader,,
+POL_1181,Political Party,,,,,,,BIH,Bosnia and Herzegovina,1181.0,Serbian Democratic Party,,
+NGO_1182,Civil Society,Non-governmental Organization,Other,,,1.0,,COL,Colombia,1182.0,Caucanos for Peace,,
+GOV_1183,Government/state,,,,,1.0,,NGA,Nigeria,1183.0,Jema'a LGA,,Jema'a
+GOV_1184,Government/state,,,,,1.0,,NGA,Nigeria,1184.0,Kachia LGA,,Kachia
+GOV_1185,Government/state,,,,,1.0,,NGA,Nigeria,1185.0,Kaura LGA,,Kaura
+GOV_1186,Government/state,,,,,1.0,,NGA,Nigeria,1186.0,Sanga LGA,,Sanga
+GOV_1187,Government/state,,,,,1.0,,NGA,Nigeria,1187.0,Zangon-Kataf LGA,,Zangon-Kataf
+UMB_1188,Umbrella,,,1.0,,,,,,1188.0,Political Directorate,,
+OTH_1189,Other,,,,,1.0,,PNG,Papua New Guinea,1189.0,Individual,,
+MIL_1190,Military,,,,,,,AZE,Azerbaijan,1190.0,Army of Azerbaijan,,
+IGO_1191,Intergovernmental Organization,,,,,,UN Mission,,,1191.0,United Nations Integrated Peacebuilding Office in the Central African Republic,BINUCA,
+AMR_1192,Armed Organization,,,,,,,COL,Colombia,1192.0,Guerrilla Groups,,
+NGO_1193,Civil Society,Communities and tribes,,,,1.0,,COL,Colombia,1193.0,Indigenous peoples representatives,,
+ARM_1194,Armed Organization,,,,,,,COD,"Congo, Democratic Republic of the",1194.0,Cobra Matata,,
+UMB_1195,Umbrella,,,,,,,IND,India,1195.0,United People's Front,UPF,
+UMB_1196,Umbrella,,,,,,,NPL,Nepal,1196.0,Seven Party Alliance,,
+POL_1197,Political Party,,,,,,,MDG,Madagascar,1197.0,Party of the Independence Congress of Madagascar,AKFM,Parti du Congrès de l'indépendence de Madagascar | Antokon'ny Kongresin'ny Fahaleovantenan'i Madagasikara
+POL_1198,Political Party,,,,,,,MDG,Madagascar,1198.0,LEADER-Fanilo,,Economic Liberalism and Democratic Action for National Recovery | Libéralisme Économique et Action Démocratique pour la Reconstruction Nationale
+POL_1199,Political Party,,,,,,,MDG,Madagascar,1199.0,Malagasy Tonga Saina,MTS,
+NGO_1200,Civil Society,Non-governmental Organization,Other,,,1.0,,MDG,Madagascar,1200.0,Acces Zon'olombelona,,
+POL_1201,Political Party,,,,,,,MDG,Madagascar,1201.0,Congress Party for Malagasy Independence – Renewal,AKFM-Fanavoazana ,
+POL_1202,Political Party,,,,,,,MDG,Madagascar,1202.0,Antoko Miombona Ezaka ,AME,
+OTH_1203,Other,,,,,,,MDG,Madagascar,1203.0,Télévision Malagasy,TVM,
+POL_1204,Political Party,,,,,,,MDG,Madagascar,1204.0,Asa Vita no Ifampitsarana,AVI,
+NGO_1205,Civil Society,Non-governmental Organization,Other,,,1.0,,MDG,Madagascar,1205.0,Colectif des Citoyens et des Organisations Citoyennes,CCOC,
+NGO_1206,Civil Society,Non-governmental Organization,Other,,,1.0,,MDG,Madagascar,1206.0,Club Developpement et Ethique ,CDE,
+OTH_1207,Other ,,,,,,,MDG,Madagascar,1207.0,Congres Malgache de la Route et des Transports ,CMRT,
+NGO_1208,Civil Society,Non-governmental Organization,Other,,,1.0,,MDG,Madagascar,1208.0,Consortium National pour la participation Citoyenne,CNPC,
+POL_1209,Political Party,,,,,,,MDG,Madagascar,1209.0,MAVANA/Forces pour le Changement,MAVANA,
+POL_1210,Political Party,,,,,,,MDG,Madagascar,1210.0,MONIMA/Forces pour le Changement,MONIMA,
+POL_1211,Political Party,,,,,,,MDG,Madagascar,1211.0,Parti du Congres de l'Independance de Madagascar,AKFM,
+POL_1212,Political Party,,,,,,,MDG,Madagascar,1212.0,Parti FANARENANA,,
+POL_1213,Political Party,,,,,,,MDG,Madagascar,1213.0,Malagasy Tonga Saina,MTS,
+POL_1214,Political Party,,,,,,,MDG,Madagascar,1214.0,Parti fort Democratique de Madagascar,PFDM,
+NGO_1215,Civil Society,Non-governmental Organization,Other,,,1.0,,MDG,Madagascar,1215.0,Plateforme Nationale des Organisations de la Société Civile de Madagascar,PFNOSCM,
+POL_1216,Political Party,,,,,,,MDG,Madagascar,1216.0,Democratic Party for Union in Madagascar ,PSDUM,
+POL_1217,Political Party,,,,,,,MDG,Madagascar,1217.0,Renewal of the Social Democratic Party,RPSD,
+POL_1218,Political Party,,,,,,,MDG,Madagascar,1218.0,Rassemblement des démocrates musulmans de Madagascar Renouveau,RDMMR,
+IGO_1219,Intergovernmental organisation,,,,,,,MDG,Madagascar,1219.0,Reseau des femmes Africaines Ministres et Parlementaires section Madagascar,REFAMP,
+NGO_1220,Civil Society,Non-governmental Organization,Women,,,1.0,,MDG,Madagascar,1220.0,Réseau pour l’éradication de la violence ,REV ,
+POL_1221,Political Party,,,,,,,MDG,Madagascar,1221.0,Solidarité des Fédéralistes de Madagascar,sofema,
+POL_1222,Political Party,,,,,,,MDG,Madagascar,1222.0,Droits Humains et Démocratie,DHD,
+POL_1223,Political Party,,,,,,,MDG,Madagascar,1223.0,Forces pour le Changement,,
+NGO_1224,Civil Society,Non-governmental Organization,Other,,,1.0,,MDG,Madagascar,1224.0,Fédération Minière de Madagasca,FEDMINES/EMIR,
+POL_1225,Political Party,,,,,,,MDG,Madagascar,1225.0,Femmes legalistes de la mouvance Ravalomanana,,
+NGO_1226,Civil Society,Non-governmental Organization,Other,,,1.0,,MDG,Madagascar,1226.0,Groupement des Entités de la Société Civile pour la défense de la démocratie et des valeurs républicaines,GESCI,
+POL_1227,Political Party,,,,,,,MDG,Madagascar,1227.0,Groupement Liberal de Madagascar,GLM,
+NGO_1228,Civil Society,Non-governmental Organization,Other,,,1.0,,MDG,Madagascar,1228.0,KMF/CNOE-Education des citoyens,,
+POL_1229,Political Party,,,,,,,MDG,Madagascar,1229.0,Malagsy Miara-Mandroso Aron'ny Demokrasia,MAMIMAD,
+NGO_1230,Civil Society,Non-governmental Organization,Other,,,1.0,,MDG,Madagascar,1230.0,MAMPAFI/Malagsy mpandala Fihavanana,MAMPAFI,
+POL_1231,Political Party,,,,,,,MDG,Madagascar,1231.0,Komity Miaro ny Demokrasia,KMD,
+NGO_1232,Civil Society,Non-governmental Organization,Women,1.0,,,,,,1232.0,Forum for African Women Educationalists,FAWE,
+NGP_1233,Civil Society,Non-governmental Organization,Women,,,1.0,,MDG,Madagascar,1233.0,SOS Aux Victimes de Non Droit,,
+NGO_1234,Civil Society,Unions,,,,1.0,,MDG,Madagascar,1234.0,Syndicat des fonctionnaires,,
+POL_1235,Political Party,,,,,,,MDG,Madagascar,1235.0,Vonjy Iray Tsy Mivaky,VITM,
+NGO_1236,Civil Society,Non-governmental Organization,Women,,,1.0,,MDG,Madagascar,1236.0,Vondrona Miralenta ho an'ny fampandrosoana,VMLF,
+NGO_1237,Civil Society,Non-governmental Organization,Other,,,1.0,,MDG,Madagascar,1237.0,Acces Zon'olombelona,,
+NGO_1238,Civil Society,Non-governmental Organization,Youth,,,1.0,,MDG,Madagascar,1238.0,Jeune Patronat de Madagascar,,
+NGO_1239,Civil Society,Non-governmental Organization,Youth,,,1.0,,MDG,Madagascar,1239.0,Plateforme Nationale des Jeunes pour les Developpement,,
+NGO_1240,Civil Society,Unions,,,,1.0,,MDG,Madagascar,1240.0,Conference des Travailleurs de Madagascar,CTM,
+NGO_1241,Civil Society,Unions,,,,1.0,,MDG,Madagascar,1241.0,Sendika Revolisakonera Malagasy,SEREMA,
+NGO_1242,Civil Society,Unions,,,,1.0,,MDG,Madagascar,1242.0,Fédération des Syndicats de Travailleurs de Madagascar,FISEMARE,
+NGO_1243,Civil Society,Non-governmental Organization,Other,,,1.0,,MDG,Madagascar,1243.0,Groupements des Entreprises de Madagascar,GEM,
+NGO_1244,Civil Society,Non-governmental Organization,Other,,,1.0,,MDG,Madagascar,1244.0,Fivondronan’ny Mpandraharaha Malagasy,FIV.MPA.MA,
+NGO_1245,Civil Society,Non-governmental Organization,Other,,,1.0,,MDG,Madagascar,1245.0,Federation de Hoteliers et Restaurateurs de Madagascar,FHORM,
+OTH_1246,Other ,,,,,,,MDG,Madagascar,1246.0,Malagasy Political Stakeholders,,
+ENT_1247,Entity,,,,,,,MMR,Myanmar (Burma),1247.0,Chin State,,
+POL_1248,Political Party,,,,,,,COL,Colombia,1248.0,Sí Colombia,,
+POL_1249,Political Party,,,,,,,COL,Colombia,1249.0,Colombian Liberal Party,PLC,Partido Liberal Colombiano
+ARM_1250,Armed Organization,,,,,,,MLI,Mali,1250.0,Democratic Alliance of 23rd May for Change,ADC,
+NGO_1251,Civil Society,Communities and tribes,,,,1.0,,PAK,Pakistan,1251.0,Elders of North Waziristan of Utmanzai,,
+OTH_1252,Other ,,,,,,,COL,Colombia,1252.0,Other,,
+OTH_1253,Other ,,,,,,,COL,Colombia,1253.0,Constituent Assembly of Colombia,,
+NGO_1254,Civil Society,Non-governmental Organization,Other,,,1.0,,COL,Colombia,1254.0,FENALCO National Merchants/Traders federation,,
+POL_1255,Political Party,,,,,,,MOZ,Mozambique,1255.0,FRELIMO,,
+NGO_1256,Civil Society,Religious,,,1.0,,,MOZ,Mozambique,1256.0,Anglican Church of Southern Africa,,
+NGO_1257,Civil Society,Religious,,1.0,,,,MOZ,Mozambique,1257.0,United Methodist Church,,
+OTH_1258,Other ,,,,,,,,,1258.0,Independent,,
+NGO_1259,Civil Society,Unions,,,,1.0,,SDN,Sudan,1259.0,Trade Union and Professional Assoications Representatives,,
+OTH_1260,Other ,,,,,,,,,1260.0,Joint Peacekeeping Force,JPKF,
+MIL_1261,Military,,,,,,,PAK,Pakistan,1261.0,Pakistani Army,,
